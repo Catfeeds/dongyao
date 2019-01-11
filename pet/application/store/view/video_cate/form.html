@@ -1,0 +1,259 @@
+{extend name='admin@public/content'}
+
+{block name="content"}
+<form autocomplete="off" class="layui-form layui-box modal-form-box" action="{:request()->url()}" data-auto="true" method="post" id="ProductForm">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">上级分类</label>
+        <div class="layui-input-block">
+            <select name='pid' class='layui-select full-width' lay-ignore>
+                <!--{foreach $menus as $menu}-->
+                <!--{eq name='menu.id' value='$vo.pid|default=0'}-->
+                <option selected value='{$menu.id}'>{$menu.spl|raw}{$menu.title}</option>
+                <!--{else}-->
+                <option value='{$menu.id}'>{$menu.spl|raw}{$menu.title}</option>
+                <!--{/eq}-->
+                <!--{/foreach}-->
+            </select>
+            <p class="help-block color-desc"><b>必填</b>，请选择上级分类或顶级分类（目前最多支持三级分类）</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">分类名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="title" value='{$vo.title|default=""}' required="required" title="请输入分类名称" placeholder="请输入分类名称" class="layui-input">
+            <p class="help-block color-desc"><b>必填</b>，请填写分类名称（如：系统管理），建议字符不要太长，一般4-6个汉字</p>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">分类链接</label>
+        <div class="layui-input-block">
+            <input type="text" onblur="(this.value === '') && (this.value = '#')" name="url" autocomplete="off" required="required" title="请输入分类链接" placeholder="请输入分类链接" value="{$vo.url|default='#'}" class="layui-input typeahead">
+            <p class="help-block color-desc">
+                <b>必填</b><br>小图列表 链接填写：zreview
+                <br>大图列表 链接填写：uncover
+                 <br>讲师列表 链接填写：lecturer
+                 
+                  
+               
+            </p>
+        </div>
+    </div>
+<!--     <div class="layui-form-item">
+        <label class="layui-form-label">链接参数</label>
+        <div class="layui-input-block">
+            <input type="text" name="params" autocomplete="off" title="请输入链接参数" placeholder="请输入链接参数" value="{$vo.params|default=''}" class="layui-input">
+            <p class="help-block color-desc"><b>可选</b>，设置分类链接的GET访问参数（如：name=1&age=3）</p>
+        </div>
+    </div> -->
+    <div class="layui-form-item">
+        <label class="layui-form-label">分类描述</label>
+        <div class='col-sm-8'>
+            <textarea class="layui-textarea" name="art_desc" placeholder="请输入展示描述">{$vo.art_desc|default=''}</textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">商品图片</label>
+        <div class="layui-input-block">
+            <table class="layui-table background-item margin-none" lay-size="sm" lay-skin="nob">
+                <thead>
+
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="text-top" style="width:100px">
+                        <input type="hidden" name="icon" value="{$vo.icon|default=''}">
+                    </td>
+                    <!--<td class="text-top">-->
+                    <!--<input type="hidden" name="goods_image" value="{$vo.goods_image|default=''}">-->
+                    <!--</td>-->
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">是否付费</label>
+        <div class="layui-input-block">
+            <label class="think-radio">
+                {empty name="vo.is_free"} <input type="radio" name="is_free" value="1" title="免费" checked lay-ignore >免费
+                <input type="radio" name="is_free" value="2" title="付费" lay-ignore >付费{else /} <input type="radio" name="is_free" value="1" title="免费" lay-ignore {eq
+                                                                                                      name="vo.is_free" value="1" }checked{/eq}>免费
+                <input type="radio" name="is_free" value="2" title="付费" lay-ignore {eq name="vo.is_free" value="2"
+                       }checked{/eq}>付费{/empty}
+
+
+            </label>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">是否置顶</label>
+        <div class="layui-input-block">
+            <label class="think-radio">
+                {empty name="vo.is_top"} <input type="radio" name="is_top" value="1" title="置顶" checked lay-ignore >置顶
+                <input type="radio" name="is_top" value="2" title="不置顶" lay-ignore >不置顶{else /} <input type="radio" name="is_top" value="1" title="置顶" lay-ignore {eq
+                                                                                                      name="vo.is_top" value="1" }checked{/eq}>置顶
+                <input type="radio" name="is_top" value="2" title="不置顶" lay-ignore {eq name="vo.is_top" value="2"
+                       }checked{/eq}>不置顶{/empty}
+
+
+            </label>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">是否可删</label>
+        <div class="layui-input-block">
+            <label class="think-radio">
+                {empty name="vo.is_important"} <input type="radio" name="is_important" value="1" title="可删" checked lay-ignore >可删
+                <input type="radio" name="is_important" value="2" title="不可删" lay-ignore >不可删{else /} <input type="radio" name="is_important" value="1" title="可删" lay-ignore {eq
+                                                                                                      name="vo.is_important" value="1" }checked{/eq}>可删
+                <input type="radio" name="is_important" value="2" title="不可删" lay-ignore {eq name="vo.is_important" value="2"
+                       }checked{/eq}>不可删{/empty}
+
+
+            </label>
+        </div>
+    </div>
+    <div class="hr-line-dashed"></div>
+
+    <div class="layui-form-item text-center">
+        {if isset($vo['id'])}<input type='hidden' value='{$vo.id}' name='id'>{/if}
+        <button class="layui-btn" type='submit'>保存数据</button>
+        <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消编辑吗？" data-close>取消编辑</button>
+    </div>
+    <script>
+        require(['bootstrap.typeahead'], function () {
+            var subjects = JSON.parse('{$nodes|raw|json_encode}');
+            $('.typeahead').typeahead({source: subjects, items: 5});
+        });
+    </script>
+    <script>
+        require(['jquery', 'ckeditor', 'angular'], function () {
+            window.form.render();
+            var app = angular.module("ProductForm", []).run(callback);
+            angular.bootstrap(document.getElementById(app.name), [app.name]);
+
+            function callback($rootScope) {
+                // 绑定规格列表
+                $rootScope.specs = [];
+                // 规格默认数据
+                var specdata = JSON.parse('{$vo.list|default=[]|json_encode=###,256|raw}');
+                // 单图片上传处理
+                $('#ProductForm [name="icon"]').uploadOneImage();
+                // 多图片上传处理
+               // $('#ProductForm [name="alogo"]').uploadMultipleImage();
+                // 规格显示切换
+                $('#ProductForm').on('click', '[data-spec]', applySpecData);
+                // 商品规格切换
+                $('#ProductForm').on('change', '[name="spec_id"]', function () {
+                    var specs = eval(this.options[this.selectedIndex].getAttribute('data-param'));
+                    for (var i in specs) {
+                        specs[i].param = [];
+                        var values = specs[i].value.split(' ');
+                        for (var j in values) {
+                            specs[i].param.push({
+                                name: specs[i].name, value: values[j],
+                                checked: getSpecStatus(specs[i].name, values[j])
+                            });
+                        }
+                    }
+                    $rootScope.$apply(function () {
+                        $rootScope.specs = specs;
+                        setTimeout(applySpecData, 10);
+                    });
+                }).find('[name="spec_id"]').trigger('change');
+
+                // 规格属性切换
+                function applySpecData() {
+                    var params = {};
+                    for (var i in $rootScope.specs) {
+                        var isChecked = false;
+                        for (var j in $rootScope.specs[i].param) {
+                            if ($rootScope.specs[i].param[j].checked) {
+                                isChecked = true;
+                                var name = $rootScope.specs[i].param[j].name;
+                                var value = $rootScope.specs[i].param[j].value;
+                                (params[name] || (params[name] = [])).push({name: name, value: value});
+                            }
+                        }
+                        if (!isChecked) {
+                            $rootScope.specs[i].param[0].checked = true;
+                            var name = $rootScope.specs[i].param[0].name;
+                            var value = $rootScope.specs[i].param[0].value;
+                            (params[name] || (params[name] = [])).push({name: name, value: value});
+                        }
+                    }
+                    $rootScope.$apply(function () {
+                        $rootScope.specdata = DataArray.render(params);
+                    });
+                }
+
+                // 获取规格选择状态
+                function getSpecStatus(name, spec) {
+                    for (var i in specdata) {
+                        if (specdata[i].goods_spec.indexOf(name + ':' + spec) > -1) {
+                            return true;
+                        }
+                    }
+                    return false;
+                }
+
+                // 数据处理
+                var DataArray = new function () {
+                    // 编译生成规格数据
+                    this.render = function (data) {
+                        var specs = [], list = [];
+                        for (var i in data) {
+                            specs = this.joinArray(data[i], specs, i);
+                        }
+                        (specs.length < 1) && (specs = ['default:default']);
+                        for (var i in specs) {
+                            var specName = specs[i];
+                            var specTitle = (specName === 'default:default') ? '默认规格' : specName.replace(/,/ig, ';').replace(/:/ig, ':');
+                            var specAttrs = [], lines = specTitle.split(';');
+                            for (var j in lines) {
+                                var line = lines[j].split(':');
+                                specAttrs.push({name: line[0], value: (line[1] || '').split(',')});
+                            }
+                            list.push({
+                                spec_name: specName, spec_title: specTitle, spec_attrs: specAttrs,
+                                market_price: parseFloat(this.getData(specs[i], 'market_price') || '0').toFixed(2),
+                                selling_price: parseFloat(this.getData(specs[i], 'selling_price') || '0').toFixed(2),
+                                status: this.getData(specName, 'status') !== '0'
+                            });
+                        }
+                        return list;
+                    };
+                    // 读取规格默认数据
+                    this.getData = function (spec, field) {
+                        for (var i in specdata) {
+                            if (specdata[i].goods_spec === spec) {
+                                return specdata[i][field] || '0';
+                            }
+                        }
+                        return '1';
+                    };
+                    // 数组交叉计算
+                    this.joinArray = function (item, list, pk) {
+                        var _list = [];
+                        for (var i in item) {
+                            if (list.length > 0) {
+                                for (var j in list) {
+                                    _list.push(list[j] + ',' + pk + ':' + item[i].value);
+                                }
+                            } else {
+                                _list.push(pk + ':' + item[i].value);
+                            }
+                        }
+                        return _list;
+                    }
+                };
+            }
+        });
+    </script>
+</form>
+{/block}
