@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>充值记录</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="__STATIC__/foot/css/mui.min.css">
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<style>
+			.mui-bar-nav {
+				background-color: #DD001A;
+				letter-spacing: 2px;
+			}
+			
+			.mui-title {
+				color: #fff;
+			}
+			
+			.mui-icon-back:before,
+			.mui-icon-left-nav:before {
+				color: #fff;
+			}
+			.mui-table-view li{color: #5C5C5C;}
+			body{background-color: #fff;}
+			.mui-content{background-color: #fff;padding-top: 30px !important;}
+			.mui-table-view .mui-media-object{max-width: none;}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="javascript:history.back(-1)"></a>
+			<h1 class="mui-title">充值记录</h1>
+		</header>
+		<div class="mui-content">
+			<ul class="mui-table-view">
+				{volist name="log" id="l"}
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<div class="mui-media-object mui-pull-right">
+							+{$l.price}元
+						</div>
+						<div class="mui-media-body">
+							充值成功
+							<p class='mui-ellipsis'>{$l.create_at}</p>
+						</div>
+					</a>
+				</li>
+				{/volist}
+
+			</ul>
+		</div>
+	</body>
+
+</html>

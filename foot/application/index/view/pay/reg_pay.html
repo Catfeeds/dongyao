@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购买VIP</title>
+    <link rel="stylesheet" href="__STATIC__/foot/css/zq.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="__STATIC__/layer/mobile/layer.js"></script>
+    <script src='//res.wx.qq.com/open/js/jweixin-1.2.0.js'></script>
+
+</head>
+<body>
+<ul class="goumai">
+    <li>产品：{$order.title}</li>
+    <li>价格：{$order.price}</li>
+    <input type="button" value="购买" class="but" data-rid="{$order.id}" id="paytest">
+</ul>
+
+</body>
+</html>
+<script>
+    var status = "{$order.status}";
+    var a = null;
+    if ("{:is_weixin()}" == "1") {
+        console.log($configJSON);
+        wx.config($configJSON);
+        document.getElementById('paytest').onclick = function () {
+            var options = $optionJSON;
+            options.success = function () {
+                alert('支付成功');
+
+            }
+            wx.chooseWXPay(options);
+        }
+    }
+    $(function () {
+        $(".but").click(function () {
+            $.post("/pay_do", {"oid": "{$order.id}", "ajax": "reg"}, function (data) {
+                var t = data;
+                switch (t.code) {
+                    case 1:
+                        layer.open({
+                            content: t.msg
+                            , skin: 'msg'
+                            , time: 2 //2秒后自动关闭
+                        });
+                        setTimeout(function () {
+                            window.location.href = t.url;
+                        }, 666);
+                        break;
+                    case 2:
+                        layer.open({
+                            content: t.error
+                            , skin: 'msg'
+                            , time: 2 //2秒后自动关闭
+                        });
+                        break;
+                    case 3:
+                        layer.open({
+                            content: t.msg
+                            , skin: 'msg'
+                            , time: 2 //2秒后自动关闭
+                        });
+                        break;
+                    case 4:
+                        layer.open({
+                            content: t.msg
+                            , skin: 'msg'
+                            , time: 2 //2秒后自动关闭
+                        });
+                        break;
+                    default:
+
+
+                }
+            });
+        });
+
+    });
+    if (status == "1") {
+
+        a = setInterval(function () {
+            check_status("{$order.id}");
+        }, 666);
+    }
+
+    function check_status(oid) {
+        $.post("{:url('Pay/check_status')}", {"order_id": oid, "ajax": "reg"}, function (data) {
+            if (data.code == 1) {
+                clearInterval(a);
+                layer.open({
+                    content: data.msg
+                    , skin: 'msg'
+                    , time: 2 //2秒后自动关闭
+                });
+                layer.open({
+                    content: '会员充值成功'
+                    , btn: ['知道了']
+                    , yes: function (index) {
+                        location.href = data.url;
+                        layer.close(index);
+                    }
+                });
+
+            }
+
+
+        });
+    }
+
+
+</script>

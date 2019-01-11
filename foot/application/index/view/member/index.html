@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>我的</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="/static/foot/css/mui.min.css">
+    <link rel="stylesheet" href="/static/foot/css/zq.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="__STATIC__/layer/mobile/layer.js"></script>
+    <script type="text/javascript" src="__STATIC__/foot/js/modal.js"></script>
+    <style>
+        .mui-bar .mui-title {
+            left: 0;
+            right: 220px;
+            top: 20px;
+        }
+
+        #code {
+            border-radius: 10px;
+            background-color: #fff;
+            position: absolute;
+            display: none;
+            left: 45%;
+            z-index: 1002;
+            width: 86%;
+            height: 250px;
+        }
+
+        .close1 {
+            width: 100%;
+            height: 10px;
+        }
+
+        #closebt {
+            float: right;
+        }
+
+        #closebt img {
+            width: 16px;
+            margin-right: 8px;
+            margin-top: 5px;
+        }
+
+        .goodtxt p {
+            height: 48px;
+            line-height: 48px;
+            font-size: 16px;
+            text-align: center;
+            color: #fff;
+            font-weight: 600;
+            background: linear-gradient(to right, #EC4E49, #F36F70);
+        }
+
+        .code-img {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .code-img img {
+            width: 180px;
+        }
+    </style>
+</head>
+
+<body>
+<header class="mui-bar mui-bar-nav" style="height: 150px;">
+    <h1 class="mui-title">足球彩票</h1>
+</header>
+<div class="menber-div">
+    <img src="/static/foot/img/c_03.jpg" width="70" height="70" style="float: left;margin-right: 10px;" alt="登陆注册"/>
+    {empty name="Think.session.member"}
+    <div>
+        <a href="/login"><span style="float: left;line-height: 80px;">登录/注册</span></a>
+    </div>
+    {else /}
+    <div style="overflow: hidden;width: 48%;float: left;">
+        <span style="float: left;line-height: 30px;width: 100%;">{$mem.tel}</span>
+        <div style="overflow: hidden;width: 100%;">
+        <span style="float: left;color: #DD001A;font-size: 14px;margin-right: 2%;">{eq name="mem.is_vip" value="1"}非会员{else /}会员{/eq}</span>
+        <span style="float: left;color: #666666;font-size: 14px;">已购买{$count}条</span>
+        </div>
+        {eq name="mem.is_vip" value="2"}<span style="float: left;color: #666666;font-size: 14px;width: 100%;">剩余{$tim}天</span>{/eq}
+    </div>
+    <div style="width: 20%;float: right;margin-top: 20px;">
+    	<span style="line-height: 42px;background: linear-gradient(to right,  #FF7A97 0%,#FF5755 100%);padding: 9% 23%;color: #fff;font-size: 14px;border-radius: 6px;box-shadow: 1px 1px 1px #FF7A97;"
+              onclick="log_out()">
+    	退出</span>
+    </div>
+    {/empty}
+
+</div>
+<div class="posiullidiv">
+    <ul>
+        <li>
+            <a href="/recharge_log">
+                <div class="pali">
+                    <img src="/static/foot/img/c_07.jpg" alt=""/>
+                    <div class="libotom">充值记录</div>
+                </div>
+            </a>
+            <a href="/recharge">
+                <div class="pali">
+                    <img src="/static/foot/img/c_10.jpg" alt=""/>
+                    <div class="libotom">购买VIP</div>
+                </div>
+            </a>
+            <!--<a href="">
+        <div class="pali">
+            <img src="/static/foot/img/c_12.jpg" alt=""/>
+            <div class="libotom">兑换VIP</div>
+        </div>
+    </a>-->
+            <!--<a href="">
+                <div class="pali">
+                    <img src="/static/foot/img/c_14.jpg" alt=""/>
+                    <div class="libotom">分享</div>
+                </div>
+            </a>-->
+            <a href="">
+                <div class="pali">
+                    <img src="/static/foot/img/c_16.jpg" alt=""/>
+                    <div class="libotom lxkf">联系客服</div>
+                </div>
+            </a>
+            <a href="">
+                <div class="pali">
+                    <img src="/static/foot/img/c_19.jpg" alt=""/>
+                    <div class="libotom yj">意见反馈</div>
+                </div>
+            </a>
+            <!--<a href="">
+                <div class="pali">
+                    <img src="/static/foot/img/c_21.jpg" alt="" />
+                    <div class="libotom">更多</div>
+                </div>
+            </a>-->
+        </li>
+    </ul>
+
+</div>
+<nav class="mui-bar mui-bar-tab">
+    <a class="mui-tab-item" href="/">
+        <span class="mui-icon"><img src="/static/foot/img/saishi.jpg" width="26" height="26" alt=""/></span>
+        <span class="mui-tab-label">赛事</span>
+    </a>
+    <a class="mui-tab-item" href="{:url('Experts/index')}">
+        <span class="mui-icon"><img src="/static/foot/img/a_09.jpg" width="26" height="26" alt=""/></span>
+        <span class="mui-tab-label">专家</span>
+    </a>
+    <a class="mui-tab-item mui-active" href="/member">
+        <span class="mui-icon"><img src="/static/foot/img/wode.jpg" width="26" height="26" alt=""/></span>
+        <span class="mui-tab-label">我的</span>
+    </a>
+</nav>
+<div id="goodcover" style="display: none;"></div>
+<div id="code" class="codekf" style="display: none;">
+    <div class="close">
+        <a href="javascript:void(0)" id="closebt"></a>
+    </div>
+    <div class="goodtxt">
+        <p>加微信添加客服</p>
+    </div>
+    <div class="code-img">
+        客服1：<br>13675169907（同微信）
+    </div>
+</div>
+<div id="code" class="codeyj" style="display: none;">
+    <div class="close">
+        <a href="javascript:void(0)" id="closebt"></a>
+    </div>
+    <div class="goodtxt">
+        <p>意见反馈</p>
+    </div>
+    <div class="code-img">
+		<textarea placeholder="填写意见反馈" id="c_content">
+			
+		</textarea>
+        <div style="background-color: #DD001A;padding: 5%;color: #fff;font-size: 14px;border-radius: 6px;margin: 10px auto;width: 90%;text-align: center;"
+             onclick="comment()">提交
+        </div>
+    </div>
+</div>
+<script>
+    //弹窗
+    $(function () {
+        $(".libotom.lxkf").modal({
+            trigger: ".libotom.lxkf",
+            modals: ".codekf",
+            animationEffect: "fadeIn",
+            popPosition: {
+                top: "Content",
+                left: "Content"
+            },
+            olayBe: true,
+            close: ".close_"
+        })
+        $(".libotom.yj").modal({
+            trigger: ".libotom.yj",
+            modals: ".codeyj",
+            animationEffect: "fadeIn",
+            popPosition: {
+                top: "Content",
+                left: "Content"
+            },
+            olayBe: true,
+            close: ".close_"
+        })
+    })
+</script>
+</body>
+
+</html>
+<script>
+    function log_out() {
+        $.get("/log_out", {
+            "log_out": "yes"
+        }, function (data) {
+            var t = data;
+            var url = "/login";
+            layer.open({
+                content: t.msg,
+                skin: 'msg',
+                time: 2 //2秒后自动关闭
+            });
+            setTimeout(function () {
+                window.location.href = url;
+            }, 666);
+        });
+    }
+
+    function comment() {
+        $.post("{:url('Member/comment')}", {"c_content": $("#c_content").val(), "ajax": "comment"}, function (data) {
+            console.log(data);
+            switch (data.code) {
+                case 1:
+                    layer.open({
+                        content: data.msg,
+                        skin: 'msg',
+                        time: 2 //2秒后自动关闭
+
+                    });
+                    setTimeout(function () {
+                        window.location.reload();
+                    }, 666);
+                    break;
+                case 2:
+                    layer.open({
+                        content: data.msg,
+                        skin: 'msg',
+                        time: 2 //2秒后自动关闭
+
+                    });
+                    break;
+                case 3:
+                    layer.open({
+                        content: data.msg,
+                        skin: 'msg',
+                        time: 2 //2秒后自动关闭
+
+                    });
+                    setTimeout(function () {
+                        window.location.href=data.url;
+                    }, 666);
+                    break;
+                default:
+
+            }
+        });
+    }
+</script>

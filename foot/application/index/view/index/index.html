@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>比赛赔率</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!--标准mui.css-->
+    <link rel="stylesheet" href="/static/foot/css/mui.min.css">
+    <link rel="stylesheet" href="/static/foot/css/zq.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="__STATIC__/layer/layer.js"></script>
+    <style type="text/css">
+        .mui-slider {
+            margin-bottom: 106px !important;
+        }
+
+        .is_red {
+            border: solid 1px #DD001A;
+            height: 46px;
+        }
+    </style>
+</head>
+
+<body>
+<header class="mui-bar mui-bar-nav">
+    <h1 class="mui-title">足球彩票</h1>
+</header>
+<div class="mui-content">
+    <div class="tc"></div>
+    <div id="slider" class="mui-slider">
+        <div id="sliderSegmentedControl"
+             class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+            <a class="mui-control-item {eq name='lid' value='1'}mui-active{/eq}" href="/game_list/1">
+                昨天
+            </a>
+            <a class="mui-control-item {eq name='lid' value='2'}mui-active{/eq}" href="/game_list/2">
+                今天
+            </a>
+            <a class="mui-control-item {eq name='lid' value='3'}mui-active{/eq}" href="/game_list/3">
+                明天
+            </a>
+        </div>
+
+        <div class="mui-slider-group ll">
+            <div id="item1mobile" class="mui-slider-item mui-control-content mui-active"
+                 style="display: block; height: auto !important;">
+                <div id="rs"></div>
+                <div id="scroll1" class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        {empty name="game"} <p style="text-align: center;line-height: 38px;letter-spacing:2px;font-size: 16px;content: attr(text); background: linear-gradient(to right, #DFB0C0, #E93E3C);
+        -webkit-background-clip: text;
+        color: transparent;border: 1px solid #EB88A0;width: 50%;margin: 10% auto;border-radius: 5px;">无匹配比赛</p> {else /}
+                        <ul class="mui-table-view">
+                            {volist name="game" id="g"}
+                            <li>
+                                <div class="title-vs"><em>主</em><span>{$g.main}</span><em>vs</em><span>{$g.visit}</span><em>客</em>
+                                </div>
+                                <div class="mui-table-view-cell">
+                                    <div class="vstit-fl"><span>{$g.chang}<br/>
+                                    	<div style="background: {$g.color};color: #fff;border-radius: 2px;text-align: center;width: 50px !important;">{$g.abb}</div>
+                                    	{$g.tim}<br>截止分析</span>
+                                    </div>
+                                    <div class="vstit-fr">
+                                        <div class="topa">
+                                            <b class="brq">非让球</b> {php} $main_let=explode(",",$g['main_let']);{/php}
+                                            <div class="fr {eq name='g.is_red' value='2'}is_red{/eq}">
+                                                <div>胜<em>{$main_let[0]}</em></div>
+                                                <div>平<em>{$main_let[1]}</em></div>
+                                                <div>负<em>{$main_let[2]}</em></div>
+                                            </div>
+                                        </div>
+                                        <div class="topa">
+                                            <b class="zhu">主</br>{$g.let}</b>
+                                            <div class="fr {eq name='g.is_red' value='3'}is_red{/eq}">
+                                                {php} $visit_let=explode(",",$g['visit_let']);{/php}
+                                                <div>胜<em>{$visit_let[0]}</em></div>
+                                                <div>平<em>{$visit_let[1]}</em></div>
+                                                <div>负<em>{$visit_let[2]}</em></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vstit-frc" onclick="open_video('{$g.id}')">全部</br>选项</div>
+                                </div>
+                            </li>
+                            {/volist}
+                        </ul>
+                        {/empty}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footpposi">
+        <div class="cont">
+            <div class="zuqiu-qingkong" onclick="qingkong()">
+                <img src="/static/foot/img/a_03.jpg" width="26" height="26" alt=""/>
+                <span>清空</span>
+            </div>
+            <div class="hejidiv">
+                <span class="hj">合计:</span>
+                <div class="fl" style="color: #DD041D;">&yen;<span>0</span>元<br/>
+                    <p>中奖后约<em>0</em>元</p>
+                </div>
+                <!--<div class="heji">结算</div>-->
+            </div>
+        </div>
+    </div>
+    <nav class="mui-bar mui-bar-tab">
+        <a class="mui-tab-item mui-active" href="#tabbar">
+            <span class="mui-icon"><img src="/static/foot/img/a_07.jpg" width="28" height="28" alt=""/></span>
+            <span class="mui-tab-label">赛事</span>
+        </a>
+        <a class="mui-tab-item" href="{:url('Experts/index')}">
+            <span class="mui-icon"><img src="/static/foot/img/a_09.jpg" width="28" height="28" alt=""/></span>
+            <span class="mui-tab-label">专家</span>
+        </a>
+        <a class="mui-tab-item" href="/member">
+            <span class="mui-icon"><img src="/static/foot/img/a_11.jpg" width="28" height="28" alt=""/></span>
+            <span class="mui-tab-label">我的</span>
+        </a>
+    </nav>
+
+</div>
+<!--<script>
+/*全部选项*/
+$(".vstit-frc").click(function() {
+$(".code").addClass("blo");
+$("#goodcover").addClass("blo");
+});
+</script>-->
+<script>
+    //		$(function () {
+    //			var a=0;
+    //			var b=0;
+    //			$(".fr div").each(function () {
+    //				$(this).click(function () {
+    //					$(this).toggleClass("act");
+    //					var fg=parseFloat($(this).find("em").html());
+    //					var truee=$(this).hasClass("act");
+    //					console.log(truee);
+    //					if(truee==false){
+    //						a-=fg*2;
+    //						$(".fl p").find("em").html(a.toFixed(2));
+    //						if($(".act").length<1){
+    //							$(".fl").find("span").html(0);
+    //						}
+    //					}else{
+    //						a+=fg*2;
+    //						b=2.00;
+    //						console.log(fg);
+    //						$(".fl").find("span").html(b.toFixed(2));
+    //						$(".fl p").find("em").html(a.toFixed(2));
+    //					}
+    //				});
+    //			});
+    //		});
+    function setCookie(name, value, time) {
+        var date = new Date();
+        date.setDate(date.getDate() + time);
+        document.cookie = name + "=" + value + ";expires=" + date;
+    }
+
+    function getCookie(name) {
+        var arr = document.cookie.split(";");
+        for (var i = 0; i < arr.length; i++) {
+            var arr2 = arr[i].split("=");
+            if (arr2[0] == name) {
+                return arr2[1];
+            }
+        }
+        return null;
+    }
+
+    /*选择*/
+    $(function () {
+        var sum = 0;
+        var bs = 0;
+        $(".mui-content").each(function () {
+            $(this).delegate(".fr>div", "click", function () {
+                $(this).toggleClass("act");
+                var xzhi = parseFloat($(this).find("em").html());
+                var truees = $(this).hasClass("act");
+                console.log(truees);
+
+                if (truees == false) {
+                    sum -= xzhi * 2;
+                    $(".fl p").find("em").html(sum.toFixed(2));
+                    if ($(".act").length < 1) {
+                        $(".fl").find("span").html(0);
+                    }
+                } else {
+                    sum += xzhi * 2;
+                    bs = 2.00;
+                    console.log(xzhi);
+                    $(".fl span").text(bs.toFixed(2));
+                    $(".fl p em").text(sum.toFixed(2));
+
+//				 			var str="act";
+//				 			var classname=$(this).html();
+//						    var ls=localStorage.setItem(name,classname);
+//						    console.log(classname);
+                }
+
+            });
+
+        });
+    });
+    //			$(function () {
+    //				$(".tc").delegate(".butqd", "click", function() {
+    //					alert("QD");
+    //					var obj = document.getElementById("goodcover");
+    //			  		obj.style.display= "none";
+    //
+    //			  		var no = document.getElementById("discode");
+    //			  		no.style.display= "none";
+    //				});
+    //			});
+    //			/*取消*/
+    //			$(".butqx").click(function() {
+    //				alert("取消");
+    //				$(".code,#goodcover").removeClass("blo");
+    //				$(".code,#goodcover").CSS("display", "none");
+    //			});
+    //			/*确定*/
+    //			$('.butqd').on('click', function() {
+    //				alert("确定");
+    //				$(".code,#goodcover").removeClass("blo");
+    //			});
+</script>
+<!--高度自适应-->
+<script>
+    /*	$(document).ready(function(){
+            var ua = window.navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+                var h = window.screen.height
+                var bf=h/2.64;
+                //$("#rs").text(bf);
+                var c = h - bf
+                var cc = h - 299;
+                var url = window.location.href;
+                if(url=='http://foot.dongyaods.com/game_list/1'||url=='http://foot.dongyaods.com/game_list/2'||url=='http://foot.dongyaods.com/game_list/3'){
+                    $(function () {
+                        $('#item1mobile').css("height", cc);
+                        //$("#rs").text(url);
+                    });
+                }else{
+                    $(function () {
+                        $('#item1mobile').css("height", c);
+                    });
+                }
+            } else {
+                //$("#rs").text("不是微信浏览器");
+                var h = window.screen.height
+                var c = h - 299;
+                $(function () {
+                    $('#item1mobile').css("height", c);
+                });
+            }
+        });*/
+</script>
+
+<!--<script src="/static/foot/js/mui.min.js"></script>-->
+
+</body>
+
+</html>
+<script>
+    function open_video(vid) {
+        $(".tc").show();
+        $.post("/get_detail", {
+            "iid": vid
+        }, function (data) {
+            $(".tc").append(data);
+        });
+    }
+
+    function close1() {
+        window.location.href = window.location.href + "?id=" + 10000 * Math.random();
+        //window.location.reload();
+        //$(".tc").empty();
+    }
+
+    function en() {
+        $(".tc").hide();
+    }
+
+    function qingkong() {
+        window.location.href = window.location.href + "?id=" + 10000 * Math.random();
+    }
+</script>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>计划详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="__STATIC__/foot/css/mui.min.css">
+    <link rel="stylesheet" href="__STATIC__/foot/css/zq.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+<header class="mui-bar mui-bar-nav">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="javascript:history.back(-1)"></a>
+    <h1 class="mui-title">预测详情</h1>
+</header>
+<div class="mui-content">
+    <div class="zhuye">
+        <div class="contzy">
+            <div class="detail-head">
+                <p>{$one.title}</p>
+                <span>{$one.create_at|date="Y-m-d H:i:s"}发布</span>
+            </div>
+            <div class="head">
+                <img src="{$one.ex_logo}" width="50" height="50"/>
+                <div class="yhfl">
+                    <div class="name">{$one.ex_name}</div>
+                    <div class="ccnum"><span>近期{:sysconf('lian')}中{$one.lian}</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="zhuye marg">
+        <div class="contzy">
+            <div class="detail-cont">
+                <span>[足]{$one.chang}|{$one.abb}|00:30截至</span>
+                <div class="vsdiv">
+                    <div class="vs"><em>{$one.main}</em>&nbsp;&nbsp;vs&nbsp;&nbsp;<em>{$one.visit}</em></div>
+                    {switch one.is_bid}
+                    {case 1}
+                    <div class="wz">未中</div>
+                    {/case}
+                    {case 2}
+                    <div class="yz">已中</div>
+                    {/case}
+                    {default /}
+                    <div class="jx">进行中</div>
+                    {/switch}
+                </div>
+                <div class="Forecast">
+                    <p>{$one.title}</p>
+                    <p>玩法：{$one.p_title}选择：{$one.fre}</p>
+                </div>
+                <div class="tjlydiv">
+                    <div class="tit">
+                        <div class="heng"></div>
+                        <span>推荐理由</span>
+                        <div class="heng"></div>
+                    </div>
+                    <div class="liyoucon" style="margin-left: 25px;">
+                        {$one.content|raw}
+                    </div>
+                    <div class="xieyi">购买即代表您已阅读并同意《用户服务协议》</div>
+                    <div class="tzgm">本方案已停止购买</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

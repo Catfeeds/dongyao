@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>密码修改</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link href="__STATIC__/foot/css/zq.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="__STATIC__/layer/mobile/layer.js"></script>
+    <script type="text/javascript" src="__STATIC__/foot/js/time.js"></script>
+
+
+</head>
+
+<body>
+
+<section class="aui-flexView">
+    <header class="aui-navBar aui-navBar-fixed">
+        <a href="javascript:history.back(-1)" class="aui-navBar-item">
+            <i class="icon icon-return"></i>
+        </a>
+        <div class="aui-center">
+            <span class="aui-center-title">密码修改</span>
+        </div>
+        <a href="javascript:;" class="aui-navBar-item">
+            <i class="icon icon-news"></i>
+        </a>
+    </header>
+    <section class="aui-scrollView">
+        <div class="aui-code-box">
+            <form action="">
+                <p class="aui-code-line">
+                    <input type="text" class="aui-code-line-input" name="search" value="{$member['tel']}" id="phone1" autocomplete="off"
+                           placeholder="请输入手机号"/>
+                </p>
+                <p class="aui-code-line">
+                    <input type="text" class="aui-code-line-input" name="search" value="" id="pwd" autocomplete="off"
+                           placeholder="请输入8-16位数字与字母组成的密码"/>
+                </p>
+                <input type="button" value="修改" class="register but" style="width: 90%;height: 30px;margin-top: 20px;">
+            </form>
+        </div>
+    </section>
+</section>
+
+<script type="text/javascript" charset="utf-8">
+    $(function () {
+        $(".aui-code-line-input").addClear();
+        $(".register").click(function () {
+            var phone1 = $("#phone1").val();
+            var pwd = $("#pwd").val();
+            $.post("{:url('Mlogin/edit_do')}", {"tel": phone1, "pwd": pwd,"mid":"{$member['id']}"}, function (data) {
+                console.log(data);
+                var t = data;
+                switch (t.code) {
+                    case 1:
+                        layer.open({
+                            content: t.msg
+                            , skin: 'msg'
+                            , time: 2 //2秒后自动关闭
+                        });
+                        setTimeout(function () {
+                            window.location.href = "/login";
+                        }, 666);
+                        break;
+                    case 2:
+                        layer.open({
+                            content: t.msg
+                            , skin: 'msg'
+                            , time: 2 //2秒后自动关闭
+                        });
+                        break;
+                    case 3:
+                        layer.open({
+                            content: t.msg
+                            , skin: 'msg'
+                            , time: 2 //2秒后自动关闭
+                        });
+                        break;
+                    case 4:
+                        layer.open({
+                            content: t.msg
+                            , skin: 'msg'
+                            , time: 2 //2秒后自动关闭
+                        });
+                        break;
+                    default:
+                }
+            });
+        });
+        $("#btnSendCode1").click(function () {
+            send();
+        });
+    });
+
+    function send() {
+        var InterValObj; //timer变量，控制时间
+        var count = 30; //间隔函数，1秒执行
+        var curCount;//当前剩余秒数
+        $.post("/send_msg", {"tel": $("#phone1").val(), "ajax": "send"}, function (data) {
+            console.log(data);
+            switch (data.code) {
+                case 1:
+                    layer.open({
+                        content: data.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    curCount = count;
+                    //设置button效果，开始计时
+                    $("#btnSendCode1").attr("disabled", "true");
+                    $("#btnSendCode1").val(curCount + "秒后可重新发送");
+                    InterValObj = window.setInterval(SetRemainTime, 1000); //启动计时器，1秒执行一次
+
+                    break;
+                case 2:
+                    layer.open({
+                        content: data.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    window.clearInterval(InterValObj);//停止计时器
+                    $("#btnSendCode1").removeAttr("disabled");//启用按钮
+                    $("#btnSendCode1").val("重新发送验证码");
+                    break;
+                default:
+            }
+        });
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>专家预测之计划</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="__STATIC__/foot/css/mui.min.css">
+    <link rel="stylesheet" href="__STATIC__/foot/css/zq.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="__STATIC__/layer/mobile/layer.js"></script>
+</head>
+
+<body>
+<header class="mui-bar mui-bar-nav">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="javascript:history.back(-1)"></a>
+    <h1 class="mui-title">专家预测</h1>
+</header>
+<div class="mui-content">
+    <div class="zhuye">
+        <div class="contzy">
+            <div class="head">
+                <img src="{$expert.ex_logo}" width="50" height="50" alt=""/>
+                <div class="yhfl">
+                    <div class="name">{$expert.ex_name}</div>
+                    <div class="jsfs"><span>{$expert.ex_tag}</span><span>2698粉丝</span></div>
+                </div>
+            </div>
+            <p>{$expert.ex_content|raw}</p>
+            <ul class="ccjsdiv">
+                <li>
+                    <b>{$expert.pro|default=0}%</b><br/>
+                    近期{:sysconf('lian')}中{$expert.lian}
+                </li>
+                <li>
+                    <b>{$expert.quadruple_kill|default=0}</b><br/>
+                    近期连红
+                </li>
+                <li>
+                    <b>{$max|default=0}</b><br/>
+                    最高连红
+                </li>
+            </ul>
+            <ul class="saislist">
+                {volist name="art" id="a"}
+                <li onclick="jump('{$a.id}')">
+                    <p>{$a.title}</p>
+                    <div class="ssspan">
+                        <span>[足]{$a.chang}</span><span>{$a.abb}</span><span>{$a.main|mb_substr=0,5,'utf-8'}vs{$a.visit|mb_substr=0,5,'utf-8'}</span>
+                        {switch a.is_bid}
+                        {case 1}<span class="black">黑</span>{/case}
+                        {case 2}<span class="red">红</span>{/case}
+                        {default /}<span class="orange">未开奖</span>
+                        {/switch}
+                    </div>
+                    <div class="jssjfb">
+                        <div class="fl">
+                            {eq name="a.p_status" value="1"}<span style="color: green">[正进行]</span>{else /}<span
+                                style="color: red">[已结束]</span>{/eq}
+                            <span>查看</span>
+                        </div>
+                        <div class="fr">{$a.create_at|date="Y-m-d H:i:s"}发布</div>
+                    </div>
+                </li>
+                {/volist}
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    function jump(id) {
+        $.post("/check_vip", {"pid": id}, function (data) {
+            // $.post("{:url('Plan/check_vip')}", {"pid": id}, function (data) {
+            var t = data;
+            console.log(t);
+            switch (t.code) {
+                case 1:
+                    var url = "/detail/" + t.pid;
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    setTimeout(function () {
+                        window.location.href = url;
+                    }, 666);
+                    break;
+                case 2:
+                    alert();
+                    layer.open({
+                        content: '该信息需要收费，是否购买？'
+                        , btn: ['购买', '取消']
+                        , yes: function (index) {
+                            $.post("/add_order", {"pid": t.pid}, function (df) {
+                                console.log(df);
+                                var t1 = df;
+                                switch (t1.code) {
+                                    case 1:
+                                        layer.open({
+                                            content: t1.msg
+                                            , skin: 'msg'
+                                            , time: 2 //2秒后自动关闭
+                                        });
+                                        setTimeout(function () {
+                                            window.location.href = t1.url;
+                                        }, 666);
+                                        break;
+                                    case 2:
+                                        layer.open({
+                                            content: t1.msg
+                                            , skin: 'msg'
+                                            , time: 2 //2秒后自动关闭
+                                        });
+                                        break;
+                                    case 3:
+                                        layer.open({
+                                            content: t1.msg
+                                            , skin: 'msg'
+                                            , time: 2 //2秒后自动关闭
+                                        });
+                                        break;
+                                    default:
+                                        layer.open({
+                                            content: t1.msg
+                                            , skin: 'msg'
+                                            , time: 2 //2秒后自动关闭
+                                        });
+                                        break;
+
+                                }
+                            });
+                            layer.close(index);
+                        }
+                    });
+                    break;
+                case 3:
+                    var url = "/detail/" + t.pid;
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    setTimeout(function () {
+                        window.location.href = url;
+                    }, 666);
+                    break;
+                case 4:
+                    var url = "/detail/" + t.pid;
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    setTimeout(function () {
+                        window.location.href = url;
+                    }, 666);
+                    break;
+                case 5:
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    setTimeout(function () {
+                        window.location.href = "/login";
+                    }, 666);
+                    break;
+                case 6:
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    var url = "/detail/" + t.pid;
+                    setTimeout(function () {
+                        window.location.href = url;
+                    }, 666);
+                    break;
+                default:
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    var url = "/detail/" + t.pid;
+                    setTimeout(function () {
+                        window.location.href = url;
+                    }, 666);
+
+            }
+        });
+    }
+</script>

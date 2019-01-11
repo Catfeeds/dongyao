@@ -1,0 +1,77 @@
+<html>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,
+      minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<body>
+<ul style='padding: 0'>
+    <li style='padding: 10px;font-size: 20px;list-style: none;border-bottom: 1px dashed #ddd;'>订单号：
+        {$order['order_id']}
+    </li>
+    <li style='padding: 10px;font-size: 20px;list-style: none;border-bottom: 1px dashed #ddd;'>类型： {$order['title']}
+
+    </li>
+    <li style='padding: 10px;font-size: 20px;list-style: none;border-bottom: 1px dashed #ddd;'>金额： {$order['price']}
+
+    </li>
+    <li style='padding: 10px;font-size: 20px;list-style: none;border-bottom: 1px dashed #ddd;'>支付方式：{$pay}</li>
+</ul>
+<button id='paytest' type='button' style='background-color: #29CC6D;
+    width: 80%;
+    color: #fff;
+    border: 1px solid #29CC6D;
+    line-height: 40px;
+    left: 10%;
+    bottom: 10%;
+    position: fixed;
+    font-size: 18px;
+    height: 40px;'>微信支付
+</button>
+</body>
+</html>
+<script src='//res.wx.qq.com/open/js/jweixin-1.2.0.js'></script>
+<script>
+    wx.config({$configJSON|raw});
+    document.getElementById('paytest').onclick = function () {
+        var options = {$optionJSON|raw};
+        options.success = function () {
+            alert('支付成功');
+            window.location.href = '{$url}';
+        }
+        wx.chooseWXPay(options);
+    }
+    if (status == "1") {
+
+        a = setInterval(function () {
+            check_status("{$order.id}");
+        }, 666);
+    }
+
+    function check_status(oid) {
+        if ("{$ty}" == "1") {
+            var ar = "reg";
+        } else {
+            var ar = "buy";
+        }
+        $.post("{:url('Pay/check_status')}", {"order_id": oid, "ajax": ar}, function (data) {
+            if (data.code == 1) {
+                clearInterval(a);
+                layer.open({
+                    content: data.msg
+                    , skin: 'msg'
+                    , time: 2 //2秒后自动关闭
+                });
+                layer.open({
+                    content: '会员充值成功'
+                    , btn: ['知道了']
+                    , yes: function (index) {
+                        location.href = data.url;
+                        layer.close(index);
+                    }
+                });
+
+            }
+
+
+        });
+    }
+</script>

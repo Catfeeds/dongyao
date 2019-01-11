@@ -1,0 +1,105 @@
+<!--<!DOCTYPE html>-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>会员充值</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!--标准mui.css-->
+    <link rel="stylesheet" href="__STATIC__/foot/css/mui.min.css">
+    <link rel="stylesheet" href="__STATIC__/foot/css/zq.css">
+    <link rel="stylesheet" href="__STATIC__/foot/css/swiper.min.css">
+    <script src="__STATIC__/foot/js/swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/layer/mobile/layer.js"></script>
+    <style>
+        .chk {
+            position: relative;
+        }
+        .swiper-wrapper{height: auto;}
+        .swiper-slide{height: auto;}
+    </style>
+</head>
+
+<body>
+<header class="mui-bar mui-bar-nav">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="javascript:history.back(-1)"></a>
+    <h1 class="mui-title">购买VIP</h1>
+</header>
+<div class="mui-content">
+    {include file="public/slider" /}
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            autoplay: 3000, //自动轮播
+            autoplayDisableOnInteraction: false, //滑动后继续滚动
+            loop: true, //循环
+            pagination: '.swiper-pagination', //分页
+            paginationClickable: true, //小圆点点击
+            spaceBetween: 30, //图片间隙
+            direction: "horizontal" //默认横向  vertical垂直
+        })
+    </script>
+    <div class="vipcont">
+        <div class="vip chk">
+            {volist name="reg" id="r"}
+            <div class="vipdiv {eq name='$i' value='1'}actives{/eq}" data-rid="{$r.id}">
+                <div class="ptvip">{$r.title}</div>
+                <div class="moneyvip">&yen;{$r.money}</div>
+                <img src="__STATIC__/foot/img/dh.png" class="blockimgvip vop" alt=""/>
+            </div>
+            {/volist}
+        </div>
+        <div class="butvip">成为VIP</div>
+    </div>
+</div>
+<script>
+    $(".vipdiv").each(function () {
+        $(this).click(function () {
+            $(".vipdiv").removeClass("actives");
+            $(".blockimgvip").hide();
+            $(this).addClass("actives");
+            $(this).find(".blockimgvip").show();
+        });
+    });
+    $(".butvip").click(function () {
+        var rid = $(".actives").data("rid");
+        $.post("/reg_do", {"rid": rid}, function (data) {
+            console.log(data);
+           var t = data;
+            switch (t.code) {
+                case 1:
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    setTimeout(function () {
+                        window.location.href = t.url
+                    }, 666);
+                    break;
+                case 2:
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    break;
+                case 3:
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    break;
+                default:
+
+            }
+        });
+    });
+</script>
+</body>
+
+</html>

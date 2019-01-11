@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>专家预测</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="/static/foot/css/mui.min.css">
+    <link rel="stylesheet" href="/static/foot/css/zq.css">
+    <link rel="stylesheet" href="__STATIC__/foot/css/swiper.min.css">
+    <script src="__STATIC__/foot/js/swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+<header class="mui-bar mui-bar-nav">
+    <h1 class="mui-title">足球彩票</h1>
+</header>
+<div class="mui-content zq-content">
+
+    {include file="public/slider" /}
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            autoplay: 3000, //自动轮播
+            autoplayDisableOnInteraction: false, //滑动后继续滚动
+            loop: true, //循环
+            pagination: '.swiper-pagination', //分页
+            paginationClickable: true, //小圆点点击
+            spaceBetween: 30, //图片间隙
+            direction: "horizontal" //默认横向  vertical垂直
+        })
+    </script>
+
+    <!--<img src="/static/foot/img/b_02.jpg" style="width: 100%;height: 30%;"/>-->
+    <div class="uldiv">
+        <ul>
+            {volist name="experts" id="e"}
+            <li>
+                <a href="{:url('Plan/plan_list')}?eid={$e.id}">
+                    <div class="diva">
+                        <div class="diva-a">
+                            <div style="float: left;"><img src="{$e.ex_logo}" style="width: 50px;height: 50px;" alt=""/>
+                            </div>
+                            <div style="float: left;margin-left: 10px;">
+                                <p style="color: #DC2E2E;font-size: 18px;margin-bottom: 5px;">{$e.ex_name}</p>
+                                <div class="jsczsc">近10场中{$e.zhong}场</div>
+                                {gt name="e.quadruple_kill" value="2"}
+                                <div class="slh">{$e.quadruple_kill}连红</div>
+                                {/gt}
+                            </div>
+                        </div>
+                        <div class="mzl">
+                            <span>{$e.pro}<em style="color: #DC2E2E;margin-left: 0;">%</em></span><br/><em>命中率</em>
+                        </div>
+                    </div>
+                    <div style="padding: 10px;border-bottom: 1px solid #B1B1B1;margin: 0 20px;">
+                        <div class="divb">
+                            <div class="divb-a">{$e.ex_tag}</div>
+                            <!--<div class="divb-b">
+               VIP特权
+            </div>-->
+                            <div>
+                                <img src="/static/foot/img/tq.jpg" width="30%" height="30%" style="float: right;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="overflow: hidden;padding: 6px;">
+                        <div style="float: left;"></div>
+                        <div style="float: right;color: #373737;margin-right: 26px;overflow: hidden;">
+                            <img src="/static/foot/img/b_17.jpg" width="25" height="16" alt=""
+                                 style="float: left;margin-right: 6px;"/>
+                            <div style="float: left;line-height: 16px;font-size: 15px;">146</div>
+                        </div>
+                    </div>
+                    <div class="ll"><img src="/static/foot/img/b_09.jpg" width="16" height="40" alt=""/></div>
+                </a>
+            </li>
+            {/volist}
+        </ul>
+
+    </div>
+</div>
+<nav class="mui-bar mui-bar-tab">
+    <a class="mui-tab-item" href="/">
+        <span class="mui-icon"><img src="/static/foot/img/saishi.jpg" width="26" height="26" alt=""/></span>
+        <span class="mui-tab-label">赛事</span>
+    </a>
+    <a class="mui-tab-item mui-active" href="{:url('Experts/index')}">
+        <span class="mui-icon"><img src="/static/foot/img/zhuanjia.jpg" width="26" height="26" alt=""/></span>
+        <span class="mui-tab-label">专家</span>
+    </a>
+    <a class="mui-tab-item" href="/member">
+        <span class="mui-icon"><img src="/static/foot/img/a_11.jpg" width="26" height="26" alt=""/></span>
+        <span class="mui-tab-label">我的</span>
+    </a>
+</nav>
+<!--高度自适应-->
+<script>
+    var h = window.screen.height;
+    var c = h - 52;
+    $(function () {
+        $('.mui-content').css("height", c);
+    });
+</script>
+</body>
+
+</html>

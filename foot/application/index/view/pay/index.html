@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>支付</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/layer/mobile/layer.js"></script>
+    <link rel="stylesheet" href="__STATIC__/foot/css/zq.css">
+</head>
+<body>
+<ul>
+    <li>产品：{$one.title}</li>
+    <li>价格：{$one.price}</li>
+</ul>
+<input type="button" value="支付" onclick="jump('{$one.id}')" class="but">
+</body>
+</html>
+<script>
+    var status = "{$one.status}";
+    var a = null;
+    if (status == "1") {
+        a = setInterval(function () {
+            check_status("{$one.id}");
+        }, 666);
+
+    }
+
+    function check_status(oid) {
+        $.post("{:url('Pay/check_status')}", {"order_id": oid, "ajax": "buy"}, function (data) {
+            if (data.code == 1) {
+                clearInterval(a);
+                layer.open({
+                    content: data.msg
+                    , skin: 'msg'
+                    , time: 2 //2秒后自动关闭
+                });
+                layer.open({
+                    content: '购买计划成功'
+                    , btn: ['知道了']
+                    , yes: function (index) {
+                        location.href = data.url;
+                        layer.close(index);
+                    }
+                });
+            }
+
+
+        });
+    }
+
+    $(".but").click(function () {
+        $.post("/pay_do", {"oid": "{$one.id}", "ajax": "buy"}, function (data) {
+            var t = data;
+            switch (t.code) {
+                case 1:
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    setTimeout(function () {
+                        window.location.href = t.url;
+                    }, 666);
+                    break;
+                case 2:
+                    layer.open({
+                        content: t.error
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    break;
+                case 3:
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    break;
+                case 4:
+                    layer.open({
+                        content: t.msg
+                        , skin: 'msg'
+                        , time: 2 //2秒后自动关闭
+                    });
+                    break;
+                default:
+
+
+            }
+        });
+    });
+
+
+</script>
