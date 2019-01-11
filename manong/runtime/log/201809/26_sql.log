@@ -1,0 +1,389 @@
+---------------------------------------------------------------
+[ 2018-09-26T18:04:29+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.299269s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.006368s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/list' LIMIT 1 [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_config` [ RunTime:0.008092s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_config` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.005441s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` ORDER BY `votes` DESC [ RunTime:0.012567s ]
+---------------------------------------------------------------
+[ 2018-09-26T18:04:29+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/list
+[ sql ] [ DB ] CONNECT:[ UseTime:0.299284s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002639s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/list' LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_config` [ RunTime:0.003343s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_config` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002864s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` ORDER BY `votes` DESC [ RunTime:0.014581s ]
+---------------------------------------------------------------
+[ 2018-09-26T18:04:33+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003701s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002229s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2018-09-26T18:04:36+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/index?rcode=2w3838341m1b1b3833391a2s33322v3d2p332s371a2r33311b2w33312t1b21322s2t3c1b2x322s2t3c&code=011Lr55m1ovz2k0bCh1m16C65m1Lr55I&state=wxfabb6142860596f0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003771s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002307s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.007380s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] UPDATE `wechat_fans`  SET `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' , `nickname` = 'A \\ud83d\\udca5     ༄ཉི拼命三郎ཉྀ࿐' , `sex` = 1 , `language` = 'zh_CN' , `city` = '大同' , `province` = '山西' , `country` = '中国' , `headimgurl` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLzMxclt5bicHhLhtmZf4gSa75cTDA2Ic19rfx1jicicQHkWTt4CzOBMFgmmqFo6epm0cLFS9yCIdB2A/132' , `appid` = 'wxfabb6142860596f0'  WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' [ RunTime:0.020122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002186s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `openid` IS NULL LIMIT 1 [ RunTime:0.012621s ]
+---------------------------------------------------------------
+[ 2018-09-26T18:04:36+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000317s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003091s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002322s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.002315s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] UPDATE `wechat_fans`  SET `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' , `nickname` = 'A \\ud83d\\udca5     ༄ཉི拼命三郎ཉྀ࿐' , `sex` = 1 , `language` = 'zh_CN' , `city` = '大同' , `province` = '山西' , `country` = '中国' , `headimgurl` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLzMxclt5bicHhLhtmZf4gSa75cTDA2Ic19rfx1jicicQHkWTt4CzOBMFgmmqFo6epm0cLFS9yCIdB2A/132' , `appid` = 'wxfabb6142860596f0'  WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' [ RunTime:0.007929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002192s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002226s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `addtime` DESC [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_video` [ RunTime:0.002187s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_video` WHERE  `status` = '2' [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_config` [ RunTime:0.002182s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_config` [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000168s ]
+---------------------------------------------------------------
+[ 2018-09-26T18:04:37+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/xiandaopian.mp4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000328s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004211s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/xiandaopian.mp4' LIMIT 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2018-09-26T18:04:42+08:00 ] 39.82.175.119 POST tou.dongyaods.com/home/index/winning.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000324s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003756s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/winning' LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_config` [ RunTime:0.002224s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_config` [ RunTime:0.000155s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:22:28+08:00 ] 111.30.142.78 GET tou.dongyaods.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016477s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.006128s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002764s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.003342s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.011891s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000178s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:22:28+08:00 ] 103.7.30.71 POST tou.dongyaods.com/wechat/api.push/notify.html?signature=0c7bb793dabb41dced9694255fc9d108785bc960&timestamp=1537960947&nonce=1927016380&openid=opg9D1u8BWqmgd4AimzxYtm_42rE
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015251s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002980s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.push/notify' LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.003584s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.001664s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:22:28+08:00 ] 223.104.2.12 GET tou.dongyaods.com/home
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020421s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003079s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.003277s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000688s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:22:28+08:00 ] 125.39.46.46 GET tou.dongyaods.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003675s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002165s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000185s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:22:29+08:00 ] 223.104.2.12 GET tou.dongyaods.com/home?rcode=2w3838341m1b1b3833391a2s33322v3d2p332s371a2r33311b2w33312t&code=0219SJYz0Lhmkf1xGe0A0ocRYz09SJYB&state=wxfabb6142860596f0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003395s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002130s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.003792s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] UPDATE `wechat_fans`  SET `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' , `nickname` = 'A \\ud83d\\udca5     ༄ཉི拼命三郎ཉྀ࿐' , `sex` = 1 , `language` = 'zh_CN' , `city` = '大同' , `province` = '山西' , `country` = '中国' , `headimgurl` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLzMxclt5bicHhLhtmZf4gSa75cTDA2Ic19rfx1jicicQHkWTt4CzOBMFgmmqFo6epm0cLFS9yCIdB2A/132' , `appid` = 'wxfabb6142860596f0'  WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' [ RunTime:0.006018s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002119s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `openid` IS NULL LIMIT 1 [ RunTime:0.017505s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:22:29+08:00 ] 223.104.2.12 GET tou.dongyaods.com/home
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000324s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003623s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002107s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.002215s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] UPDATE `wechat_fans`  SET `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' , `nickname` = 'A \\ud83d\\udca5     ༄ཉི拼命三郎ཉྀ࿐' , `sex` = 1 , `language` = 'zh_CN' , `city` = '大同' , `province` = '山西' , `country` = '中国' , `headimgurl` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLzMxclt5bicHhLhtmZf4gSa75cTDA2Ic19rfx1jicicQHkWTt4CzOBMFgmmqFo6epm0cLFS9yCIdB2A/132' , `appid` = 'wxfabb6142860596f0'  WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' [ RunTime:0.005554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002093s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `openid` = 'opg9D1u8BWqmgd4AimzxYtm_42rE' LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002256s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `addtime` DESC [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_video` [ RunTime:0.002121s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_video` WHERE  `status` = '2' [ RunTime:0.009111s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_config` [ RunTime:0.002100s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_config` [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000140s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:34:59+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000364s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003721s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.003987s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.003902s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:35:00+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003791s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.002299s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002337s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000153s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:35:03+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003808s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.002269s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002364s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000161s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:35:04+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003720s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.002333s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002197s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000152s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:35:30+08:00 ] 117.136.62.19 GET tou.dongyaods.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003714s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002167s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000206s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:18+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003872s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.002310s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002558s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000172s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:19+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000348s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003638s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002224s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000159s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:23+08:00 ] 117.136.62.19 GET tou.dongyaods.com/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001837s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003743s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.002241s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.002224s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.002234s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.002268s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.002212s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002237s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:25+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003641s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002136s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000153s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:32+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003719s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.002246s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002259s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000152s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:35+08:00 ] 117.136.62.19 GET tou.dongyaods.com/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003647s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.002189s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.002118s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.002129s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.002179s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.002152s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002253s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:37+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.006843s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002258s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000150s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:37:04+08:00 ] 103.7.30.68 POST tou.dongyaods.com/wechat/api.push/notify.html?signature=683ceb108bbad5c918a2ad3ee1c731524d352672&timestamp=1537961823&nonce=907715845&openid=opg9D1oOZqOPakBkv0NBaAk6Jzqs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000302s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003761s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.push/notify' LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002281s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000154s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:37:04+08:00 ] 117.136.62.19 GET tou.dongyaods.com/home
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000290s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003548s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002107s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000167s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:37:05+08:00 ] 117.136.62.19 GET tou.dongyaods.com/home?rcode=2w3838341m1b1b3833391a2s33322v3d2p332s371a2r33311b2w33312t&code=021tA94s1zFaOn0GTF4s1Vbd4s1tA94G&state=wxfabb6142860596f0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000330s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003588s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002183s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.003838s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] UPDATE `wechat_fans`  SET `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' , `nickname` = '卓伊凡' , `sex` = 1 , `language` = 'zh_CN' , `city` = '' , `province` = '阿杜' , `country` = '马尔代夫' , `headimgurl` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI34wGCsR2gplVUF5EwkkxibAem6JGoicniattwQKcKfcQTXQLp0Qn43jd3ibToicsS66YtlqYZnI9UpsQ/132' , `appid` = 'wxfabb6142860596f0'  WHERE  `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' [ RunTime:0.013502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002139s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `openid` IS NULL LIMIT 1 [ RunTime:0.000225s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:37:05+08:00 ] 117.136.62.19 GET tou.dongyaods.com/home
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000299s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003645s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002108s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.002223s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] UPDATE `wechat_fans`  SET `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' , `nickname` = '卓伊凡' , `sex` = 1 , `language` = 'zh_CN' , `city` = '' , `province` = '阿杜' , `country` = '马尔代夫' , `headimgurl` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI34wGCsR2gplVUF5EwkkxibAem6JGoicniattwQKcKfcQTXQLp0Qn43jd3ibToicsS66YtlqYZnI9UpsQ/132' , `appid` = 'wxfabb6142860596f0'  WHERE  `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' [ RunTime:0.007913s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002104s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002178s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `addtime` DESC [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_video` [ RunTime:0.002114s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_video` WHERE  `status` = '2' [ RunTime:0.013070s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_config` [ RunTime:0.002085s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_config` [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000134s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:38:25+08:00 ] 103.7.30.68 POST tou.dongyaods.com/wechat/api.push/notify.html?signature=494c260a05dc93250028ed029b8e960a90f3c7d9&timestamp=1537961905&nonce=2035818868&openid=opg9D1oOZqOPakBkv0NBaAk6Jzqs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003795s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.push/notify' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002228s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000164s ]
+---------------------------------------------------------------
+[ 2018-09-26T19:38:25+08:00 ] 117.136.62.19 GET tou.dongyaods.com/home
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000302s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003324s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002254s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_fans` [ RunTime:0.002351s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_fans` WHERE  `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] UPDATE `wechat_fans`  SET `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' , `nickname` = '卓伊凡' , `sex` = 1 , `language` = 'zh_CN' , `city` = '' , `province` = '阿杜' , `country` = '马尔代夫' , `headimgurl` = 'http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI34wGCsR2gplVUF5EwkkxibAem6JGoicniattwQKcKfcQTXQLp0Qn43jd3ibToicsS66YtlqYZnI9UpsQ/132' , `appid` = 'wxfabb6142860596f0'  WHERE  `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' [ RunTime:0.008550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002277s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `openid` = 'opg9D1oOZqOPakBkv0NBaAk6Jzqs' LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002260s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `addtime` DESC [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_video` [ RunTime:0.002243s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_video` WHERE  `status` = '2' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_config` [ RunTime:0.002222s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_config` [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000126s ]
+---------------------------------------------------------------
+[ 2018-09-26T20:23:14+08:00 ] 112.47.17.119 GET tou.dongyaods.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.006039s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002354s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.015704s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000188s ]
+---------------------------------------------------------------
+[ 2018-09-26T20:23:24+08:00 ] 112.47.17.119 GET tou.dongyaods.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003693s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002270s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000140s ]
+---------------------------------------------------------------
+[ 2018-09-26T20:23:24+08:00 ] 112.47.17.119 GET tou.dongyaods.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000349s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003639s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002250s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000141s ]
+---------------------------------------------------------------
+[ 2018-09-26T20:23:42+08:00 ] 112.47.17.119 GET toupiao.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003693s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002178s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000133s ]
+---------------------------------------------------------------
+[ 2018-09-26T20:23:53+08:00 ] 112.47.17.119 GET toupiao.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000336s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003643s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002164s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000146s ]
+---------------------------------------------------------------
+[ 2018-09-26T20:24:04+08:00 ] 112.47.17.119 GET toupiao.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003594s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.002280s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.000132s ]

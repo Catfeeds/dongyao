@@ -1,0 +1,64 @@
+﻿  {:widget("Last/header")}
+</div><div class="page-wb page-topic layui-clear">
+    <div class="article-list">
+        <div class="layui-tab">
+            <ul class="layui-tab-title">
+            	 <li><a href="/index/technology/all">全部教程</a></li>
+                  {foreach $cate as $value}
+            	 <li ><a href="{$value['url']}?id={$value['id']}">{$value['cate_title']}</a></li>
+                {/foreach}
+            	            	<!-- <li><a href="/course/web">网页制作</a></li>
+            	            	<li><a href="/course/bc">编程开发</a></li>
+            	            	<li><a href="/course/ui">平面设计</a></li>
+            	            	<li><a href="/course/os">操作系统</a></li>
+            	            	<li><a href="/course/sql">数据库类</a></li>
+            	            	<li><a href="/course/news">源码资讯</a></li>
+            	            	<li><a href="/course/qita">其他文章</a></li> -->
+            	            </ul>
+        </div>
+        <div class="layui-article">
+           
+
+     {foreach $list as $value}
+        
+            <div class="artlist layui-clear">
+                <div class="artlist-pic">
+                    <a title="{$value['goods_title']}" href="/index/technology/detail?id={$value['id']}" target="_blank"><img lay-src="{$value['goods_logo']}" alt="{$value['goods_title']}"/></a>
+                </div>
+                <div class="artlist-info">
+                    <h4 class="layui-elip"><a title="{$value['goods_title']}" href="/index/technology/detail?id={$value['id']}" target="_blank">{$value['goods_title']}</a></h4>
+                    <p>{$value['goods_desc']}</p>
+                   
+                </div>
+            </div>
+        {/foreach}
+         
+
+
+
+                    </div>
+      {if isset($page)}<p>{$page|raw}</p>{/if}
+       
+    </div>
+  <div class="page-more">
+        <div class="right-list" id="startTop">
+            <h2><span>推荐文章</span></h2>
+            <ul>
+                                {foreach $tui as $key=>$value}
+                                <li><em class="hoticon hot7">{$i++}</em><a class="layui-elip" href="/index/technology/detail?id={$value['id']}">{$value['goods_title']}</a></li>
+                                {/foreach}
+                             
+                               
+                            </ul>
+        </div>
+        <div class="right-list layui-mt20">
+            <h2><span>推荐标签</span></h2>
+            <div class="tag-list">
+                            {foreach $cloud as $value}
+                                <a href="/index/lists/label?label={$value['label']}" target="_blank" title="模板商城" >{$value['label']}</a>
+                              {/foreach}
+                            </div>
+        </div>
+    </div>
+</div>
+{:widget("Last/footer")}

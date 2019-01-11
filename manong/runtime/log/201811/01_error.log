@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-11-01T14:45:24+08:00 ] ::1 GET bd.toupiao.com/
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'toupiao_yaho_cc'@'localhost' (using password: YES)[C:\Users\Administrator\Desktop\toupiao\thinkphp\library\think\db\Connection.php:526]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:04+08:00 ] ::1 GET bd.toupiao.com/
+[ error ] [0]模板文件不存在:C:\Users\Administrator\Desktop\toupiao\application\index\view\index\index.html[C:\Users\Administrator\Desktop\toupiao\thinkphp\library\think\view\driver\Think.php:86]

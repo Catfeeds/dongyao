@@ -1,0 +1,884 @@
+---------------------------------------------------------------
+[ 2018-09-26T18:04:29+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/list
+[运行时间：0.640829s] [吞吐率：1.56req/s] [内存消耗：3,095.25kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's958cf5c7=a1qcbnc5lgh6ir5adhbjslvd70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1808101 MicroMessenger/6.5.7 Language/zh_CN webview/15379227631426932 webdebugger port/26899',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home/Index/list' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/home/view/index/list.html [ array (
+  0 => 'classuri',
+  1 => 'one',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T18:04:29+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/list
+[运行时间：0.551224s] [吞吐率：1.81req/s] [内存消耗：3,095.23kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's958cf5c7=a1qcbnc5lgh6ir5adhbjslvd70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1808101 MicroMessenger/6.5.7 Language/zh_CN webview/15379227631426932 webdebugger port/26899',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home/Index/list' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/home/view/index/list.html [ array (
+  0 => 'classuri',
+  1 => 'one',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T18:04:33+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/index
+[运行时间：0.107911s] [吞吐率：9.27req/s] [内存消耗：3,040.71kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's958cf5c7=a1qcbnc5lgh6ir5adhbjslvd70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1808101 MicroMessenger/6.5.7 Language/zh_CN webview/15379227631426932 webdebugger port/26899',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home/Index/index' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T18:04:36+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/index?rcode=2w3838341m1b1b3833391a2s33322v3d2p332s371a2r33311b2w33312t1b21322s2t3c1b2x322s2t3c&code=011Lr55m1ovz2k0bCh1m16C65m1Lr55I&state=wxfabb6142860596f0
+[运行时间：0.445789s] [吞吐率：2.24req/s] [内存消耗：3,279.00kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's958cf5c7=a1qcbnc5lgh6ir5adhbjslvd70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1808101 MicroMessenger/6.5.7 Language/zh_CN webview/15379227631426932 webdebugger port/26899',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home/Index/index' => '',
+  'rcode' => '2w3838341m1b1b3833391a2s33322v3d2p332s371a2r33311b2w33312t1b21322s2t3c1b2x322s2t3c',
+  'code' => '011Lr55m1ovz2k0bCh1m16C65m1Lr55I',
+  'state' => 'wxfabb6142860596f0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T18:04:36+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/index
+[运行时间：0.082043s] [吞吐率：12.19req/s] [内存消耗：3,343.33kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's958cf5c7=a1qcbnc5lgh6ir5adhbjslvd70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1808101 MicroMessenger/6.5.7 Language/zh_CN webview/15379227631426932 webdebugger port/26899',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home/Index/index' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/home/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'username',
+  2 => 'counts',
+  3 => 'i',
+  4 => 's',
+  5 => 'list',
+  6 => 'list1',
+  7 => 'video',
+  8 => 'config',
+  9 => 'arr',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T18:04:37+08:00 ] 39.82.175.119 GET tou.dongyaods.com/static/home/css/__STATIC__/home/picture/home_bg.png
+[运行时间：0.019057s] [吞吐率：52.47req/s] [内存消耗：1,600.10kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-09-26T18:04:37+08:00 ] 39.82.175.119 GET tou.dongyaods.com/home/Index/xiandaopian.mp4
+[运行时间：0.039827s] [吞吐率：25.11req/s] [内存消耗：3,003.63kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'range' => 'bytes=0-',
+  'cookie' => 's958cf5c7=a1qcbnc5lgh6ir5adhbjslvd70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'referer' => 'http://tou.dongyaods.com/home/Index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1808101 MicroMessenger/6.5.7 Language/zh_CN webview/15379227631426932 webdebugger port/26899',
+  'accept-encoding' => 'identity;q=1, *;q=0',
+  'connection' => 'keep-alive',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home/Index/xiandaopian_mp4' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T18:04:42+08:00 ] 39.82.175.119 POST tou.dongyaods.com/home/index/winning.html
+[运行时间：0.039133s] [吞吐率：25.55req/s] [内存消耗：2,937.53kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's958cf5c7=a1qcbnc5lgh6ir5adhbjslvd70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tou.dongyaods.com/home/Index/index',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1808101 MicroMessenger/6.5.7 Language/zh_CN webview/15379227631426932 webdebugger port/26899',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tou.dongyaods.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'tou.dongyaods.com',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/winning_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:22:28+08:00 ] 103.7.30.71 POST tou.dongyaods.com/wechat/api.push/notify.html?signature=0c7bb793dabb41dced9694255fc9d108785bc960&timestamp=1537960947&nonce=1927016380&openid=opg9D1u8BWqmgd4AimzxYtm_42rE
+[运行时间：0.660645s] [吞吐率：1.51req/s] [内存消耗：3,041.78kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'pragma' => 'no-cache',
+  'host' => 'tou.dongyaods.com',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-type' => 'text/xml',
+  'content-length' => '329',
+)
+[ info ] [ PARAM ] array (
+  '/wechat/api_push/notify_html' => '',
+  'signature' => '0c7bb793dabb41dced9694255fc9d108785bc960',
+  'timestamp' => '1537960947',
+  'nonce' => '1927016380',
+  'openid' => 'opg9D1u8BWqmgd4AimzxYtm_42rE',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:22:28+08:00 ] 223.104.2.12 GET tou.dongyaods.com/home
+[运行时间：0.352382s] [吞吐率：2.84req/s] [内存消耗：3,040.34kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's958cf5c7=pjcjfe3973sj36sk8q4igbvvmb',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MX6 Build/NMF26O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044304 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x2607023A) NetType/4G Language/zh_CN',
+  'connection' => 'keep-alive',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:22:28+08:00 ] 111.30.142.78 GET tou.dongyaods.com/
+[运行时间：0.450575s] [吞吐率：2.22req/s] [内存消耗：2,964.45kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'tou.dongyaods.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:22:28+08:00 ] 125.39.46.46 GET tou.dongyaods.com/
+[运行时间：0.042169s] [吞吐率：23.71req/s] [内存消耗：2,964.45kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'tou.dongyaods.com',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:22:29+08:00 ] 223.104.2.12 GET tou.dongyaods.com/home?rcode=2w3838341m1b1b3833391a2s33322v3d2p332s371a2r33311b2w33312t&code=0219SJYz0Lhmkf1xGe0A0ocRYz09SJYB&state=wxfabb6142860596f0
+[运行时间：0.482401s] [吞吐率：2.07req/s] [内存消耗：3,279.13kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '223.104.2.12',
+  'x-forwarded-for' => '223.104.2.12',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MX6 Build/NMF26O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044304 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x2607023A) NetType/4G Language/zh_CN',
+  'host' => 'tou.dongyaods.com',
+  'cookie' => 's958cf5c7=pjcjfe3973sj36sk8q4igbvvmb',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/home' => '',
+  'rcode' => '2w3838341m1b1b3833391a2s33322v3d2p332s371a2r33311b2w33312t',
+  'code' => '0219SJYz0Lhmkf1xGe0A0ocRYz09SJYB',
+  'state' => 'wxfabb6142860596f0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:22:29+08:00 ] 223.104.2.12 GET tou.dongyaods.com/home
+[运行时间：0.092170s] [吞吐率：10.85req/s] [内存消耗：3,156.44kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's958cf5c7=pjcjfe3973sj36sk8q4igbvvmb',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MX6 Build/NMF26O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044304 Mobile Safari/537.36 MicroMessenger/6.7.2.1340(0x2607023A) NetType/4G Language/zh_CN',
+  'connection' => 'keep-alive',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/home/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'username',
+  2 => 'counts',
+  3 => 'i',
+  4 => 's',
+  5 => 'list',
+  6 => 'list1',
+  7 => 'video',
+  8 => 'config',
+  9 => 'arr',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:22:31+08:00 ] 223.104.2.12 GET tou.dongyaods.com/static/home/css/__STATIC__/home/picture/home_bg.png
+[运行时间：0.033530s] [吞吐率：29.82req/s] [内存消耗：1,600.10kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-09-26T19:22:33+08:00 ] 223.104.2.12 GET tou.dongyaods.com/favicon.ico
+[运行时间：0.018901s] [吞吐率：52.91req/s] [内存消耗：1,599.61kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-09-26T19:34:59+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[运行时间：0.557318s] [吞吐率：1.79req/s] [内存消耗：4,013.13kb] [文件加载：111]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/admin/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:35:00+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[运行时间：0.067455s] [吞吐率：14.82req/s] [内存消耗：3,852.24kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/admin/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:35:03+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[运行时间：0.067445s] [吞吐率：14.83req/s] [内存消耗：3,852.24kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/admin/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:35:04+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[运行时间：0.066330s] [吞吐率：15.08req/s] [内存消耗：3,852.24kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/admin/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:35:30+08:00 ] 117.136.62.19 GET tou.dongyaods.com/
+[运行时间：0.041376s] [吞吐率：24.17req/s] [内存消耗：2,964.63kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:36:18+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[运行时间：0.066575s] [吞吐率：15.02req/s] [内存消耗：3,852.24kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/admin/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:19+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin/index/main.html?spm=m-7
+[运行时间：0.135327s] [吞吐率：7.39req/s] [内存消耗：3,107.92kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tou.dongyaods.com/admin',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+  'spm' => 'm-7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/admin/view/index/main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:23+08:00 ] 117.136.62.19 GET tou.dongyaods.com/vote/goods/add.html?spm=m-43-44-49
+[运行时间：0.079375s] [吞吐率：12.60req/s] [内存消耗：3,312.43kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tou.dongyaods.com/admin',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/add_html' => '',
+  'spm' => 'm-43-44-49',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/vote/view/goods/form.html [ array (
+  0 => 'classuri',
+  1 => 'specs',
+  2 => 'cates',
+  3 => 'brands',
+  4 => 'all',
+  5 => 'title',
+  6 => 'vo',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:25+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin/index/main.html?spm=m-7
+[运行时间：0.040094s] [吞吐率：24.94req/s] [内存消耗：2,960.21kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tou.dongyaods.com/admin',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+  'spm' => 'm-7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/admin/view/index/main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:32+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin
+[运行时间：0.066720s] [吞吐率：14.99req/s] [内存消耗：3,852.24kb] [文件加载：109]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/admin/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:35+08:00 ] 117.136.62.19 GET tou.dongyaods.com/vote/goods/add.html?spm=m-43-44-49
+[运行时间：0.052442s] [吞吐率：19.07req/s] [内存消耗：3,129.63kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tou.dongyaods.com/admin',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/add_html' => '',
+  'spm' => 'm-43-44-49',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/vote/view/goods/form.html [ array (
+  0 => 'classuri',
+  1 => 'specs',
+  2 => 'cates',
+  3 => 'brands',
+  4 => 'all',
+  5 => 'title',
+  6 => 'vo',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:36:37+08:00 ] 117.136.62.19 GET tou.dongyaods.com/admin/index/main.html?spm=m-7
+[运行时间：0.041638s] [吞吐率：24.02req/s] [内存消耗：2,960.21kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://tou.dongyaods.com/admin',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+  'spm' => 'm-7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/admin/view/index/main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:37:04+08:00 ] 103.7.30.68 POST tou.dongyaods.com/wechat/api.push/notify.html?signature=683ceb108bbad5c918a2ad3ee1c731524d352672&timestamp=1537961823&nonce=907715845&openid=opg9D1oOZqOPakBkv0NBaAk6Jzqs
+[运行时间：0.071872s] [吞吐率：13.91req/s] [内存消耗：3,041.78kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'pragma' => 'no-cache',
+  'host' => 'tou.dongyaods.com',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-type' => 'text/xml',
+  'content-length' => '329',
+)
+[ info ] [ PARAM ] array (
+  '/wechat/api_push/notify_html' => '',
+  'signature' => '683ceb108bbad5c918a2ad3ee1c731524d352672',
+  'timestamp' => '1537961823',
+  'nonce' => '907715845',
+  'openid' => 'opg9D1oOZqOPakBkv0NBaAk6Jzqs',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:37:04+08:00 ] 117.136.62.19 GET tou.dongyaods.com/home
+[运行时间：0.039177s] [吞吐率：25.53req/s] [内存消耗：3,040.02kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:37:05+08:00 ] 117.136.62.19 GET tou.dongyaods.com/home?rcode=2w3838341m1b1b3833391a2s33322v3d2p332s371a2r33311b2w33312t&code=021tA94s1zFaOn0GTF4s1Vbd4s1tA94G&state=wxfabb6142860596f0
+[运行时间：0.377723s] [吞吐率：2.65req/s] [内存消耗：3,277.97kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home' => '',
+  'rcode' => '2w3838341m1b1b3833391a2s33322v3d2p332s371a2r33311b2w33312t',
+  'code' => '021tA94s1zFaOn0GTF4s1Vbd4s1tA94G',
+  'state' => 'wxfabb6142860596f0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:37:05+08:00 ] 117.136.62.19 GET tou.dongyaods.com/home
+[运行时间：0.081434s] [吞吐率：12.28req/s] [内存消耗：3,155.74kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/home/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'username',
+  2 => 'counts',
+  3 => 'i',
+  4 => 's',
+  5 => 'list',
+  6 => 'list1',
+  7 => 'video',
+  8 => 'config',
+  9 => 'arr',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:37:09+08:00 ] 117.136.62.19 GET tou.dongyaods.com/static/home/css/__STATIC__/home/picture/home_bg.png
+[运行时间：0.018903s] [吞吐率：52.90req/s] [内存消耗：1,600.10kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-09-26T19:38:25+08:00 ] 103.7.30.68 POST tou.dongyaods.com/wechat/api.push/notify.html?signature=494c260a05dc93250028ed029b8e960a90f3c7d9&timestamp=1537961905&nonce=2035818868&openid=opg9D1oOZqOPakBkv0NBaAk6Jzqs
+[运行时间：0.038493s] [吞吐率：25.98req/s] [内存消耗：3,041.78kb] [文件加载：77]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'pragma' => 'no-cache',
+  'host' => 'tou.dongyaods.com',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-type' => 'text/xml',
+  'content-length' => '329',
+)
+[ info ] [ PARAM ] array (
+  '/wechat/api_push/notify_html' => '',
+  'signature' => '494c260a05dc93250028ed029b8e960a90f3c7d9',
+  'timestamp' => '1537961905',
+  'nonce' => '2035818868',
+  'openid' => 'opg9D1oOZqOPakBkv0NBaAk6Jzqs',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T19:38:25+08:00 ] 117.136.62.19 GET tou.dongyaods.com/home
+[运行时间：0.065170s] [吞吐率：15.34req/s] [内存消耗：3,156.43kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 MicroMessenger/6.7.2 NetType/4G Language/zh_CN',
+  'cookie' => 's958cf5c7=88h6q4eo5nn8dh5103bgv2t3k0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'tou.dongyaods.com',
+)
+[ info ] [ PARAM ] array (
+  '/home' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/toupiao.yaho.cc/application/home/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'username',
+  2 => 'counts',
+  3 => 'i',
+  4 => 's',
+  5 => 'list',
+  6 => 'list1',
+  7 => 'video',
+  8 => 'config',
+  9 => 'arr',
+) ]
+---------------------------------------------------------------
+[ 2018-09-26T19:38:26+08:00 ] 117.136.62.19 GET tou.dongyaods.com/static/home/css/__STATIC__/home/picture/home_bg.png
+[运行时间：0.019415s] [吞吐率：51.51req/s] [内存消耗：1,600.10kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-09-26T20:23:14+08:00 ] 112.47.17.119 GET tou.dongyaods.com/
+[运行时间：0.545645s] [吞吐率：1.83req/s] [内存消耗：2,963.68kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tou.dongyaods.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'cookie' => '__cloudCache__=1; qh[360]=1;',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T20:23:24+08:00 ] 112.47.17.119 GET tou.dongyaods.com/
+[运行时间：0.041858s] [吞吐率：23.89req/s] [内存消耗：2,963.68kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tou.dongyaods.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'cookie' => '__cloudCache__=1; qh[360]=1;',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T20:23:24+08:00 ] 112.47.17.119 GET tou.dongyaods.com/
+[运行时间：0.041008s] [吞吐率：24.39req/s] [内存消耗：2,963.68kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tou.dongyaods.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'cookie' => '__cloudCache__=1; qh[360]=1;',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T20:23:42+08:00 ] 112.47.17.119 GET toupiao.yaho.cc/
+[运行时间：0.040576s] [吞吐率：24.65req/s] [内存消耗：2,963.68kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'toupiao.yaho.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'cookie' => '__cloudCache__=1; qh[360]=1;',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T20:23:53+08:00 ] 112.47.17.119 GET toupiao.yaho.cc/
+[运行时间：0.039680s] [吞吐率：25.20req/s] [内存消耗：2,963.68kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'toupiao.yaho.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'cookie' => '__cloudCache__=1; qh[360]=1;',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-26T20:24:04+08:00 ] 112.47.17.119 GET toupiao.yaho.cc/
+[运行时间：0.040301s] [吞吐率：24.81req/s] [内存消耗：2,963.68kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/toupiao.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'toupiao.yaho.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'cookie' => '__cloudCache__=1; qh[360]=1;',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql

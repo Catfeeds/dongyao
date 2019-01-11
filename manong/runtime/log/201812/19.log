@@ -1,0 +1,992 @@
+---------------------------------------------------------------
+[ 2018-12-19T09:38:51+08:00 ] ::1 GET bd.manong.cc/
+[运行时间：0.112786s] [吞吐率：8.87req/s] [内存消耗：2,616.25kb] [文件加载：76]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\index\index.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:38:51+08:00 ] ::1 GET bd.manong.cc/static/index/statics/skin/images/vip.png
+[运行时间：0.070250s] [吞吐率：14.23req/s] [内存消耗：1,265.84kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:51+08:00 ] ::1 GET bd.manong.cc/static/index/Images/logo.png
+[运行时间：0.039745s] [吞吐率：25.16req/s] [内存消耗：1,265.66kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:51+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.042455s] [吞吐率：23.55req/s] [内存消耗：1,266.10kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.066814s] [吞吐率：14.97req/s] [内存消耗：1,265.76kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/
+[运行时间：0.109470s] [吞吐率：9.13req/s] [内存消耗：2,616.29kb] [文件加载：76]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\index\index.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/static/index/statics/skin/images/vip.png
+[运行时间：0.045259s] [吞吐率：22.10req/s] [内存消耗：1,265.88kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.050545s] [吞吐率：19.78req/s] [内存消耗：1,266.01kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.073390s] [吞吐率：13.63req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery11110052533953548247414_1545183532210&_=1545183532211
+[运行时间：0.094602s] [吞吐率：10.57req/s] [内存消耗：2,646.38kb] [文件加载：77]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183532',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'api',
+  'm' => 'html',
+  'name' => 'user',
+  'format' => 'jsonp',
+  'callback' => 'jQuery11110052533953548247414_1545183532210',
+  '_' => '1545183532211',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\index\index.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.054381s] [吞吐率：18.39req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/static/index/font/dami.woff?t=1498141030265
+[运行时间：0.076572s] [吞吐率：13.06req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.054464s] [吞吐率：18.36req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:53+08:00 ] ::1 GET bd.manong.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111105836394253224138_1545183531195&_=1545183531196
+[运行时间：0.162454s] [吞吐率：6.16req/s] [内存消耗：2,645.90kb] [文件加载：77]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'api',
+  'm' => 'html',
+  'name' => 'user',
+  'format' => 'jsonp',
+  'callback' => 'jQuery111105836394253224138_1545183531195',
+  '_' => '1545183531196',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\index\index.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:38:53+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.053453s] [吞吐率：18.71req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:53+08:00 ] ::1 GET bd.manong.cc/static/index/font/dami.woff?t=1498141030265
+[运行时间：0.049357s] [吞吐率：20.26req/s] [内存消耗：1,265.52kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:53+08:00 ] ::1 GET bd.manong.cc/static/index/Images/logo.png
+[运行时间：0.095057s] [吞吐率：10.52req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:53+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.062340s] [吞吐率：16.04req/s] [内存消耗：1,265.70kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:53+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.058811s] [吞吐率：17.00req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:54+08:00 ] ::1 GET bd.manong.cc/index/member/index
+[运行时间：0.187105s] [吞吐率：5.34req/s] [内存消耗：2,406.90kb] [文件加载：79]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183532',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/index' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\index.html [ array (
+  0 => 'classuri',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:38:54+08:00 ] ::1 GET bd.manong.cc/static/index/font/dami.ttf?t=1498141030265
+[运行时间：0.056513s] [吞吐率：17.70req/s] [内存消耗：1,265.53kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:54+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.045881s] [吞吐率：21.80req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:54+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.117863s] [吞吐率：8.48req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:54+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.088841s] [吞吐率：11.26req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:54+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.072905s] [吞吐率：13.72req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:38:55+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.073239s] [吞吐率：13.65req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:03+08:00 ] ::1 GET bd.manong.cc/index/member/mindex
+[运行时间：0.145293s] [吞吐率：6.88req/s] [内存消耗：2,407.13kb] [文件加载：79]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183535',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/mindex' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\mindex.html [ array (
+  0 => 'classuri',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:39:03+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.047246s] [吞吐率：21.17req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:03+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.150414s] [吞吐率：6.65req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:03+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.122088s] [吞吐率：8.19req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:03+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.050080s] [吞吐率：19.97req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:04+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.075471s] [吞吐率：13.25req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:05+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[运行时间：0.165092s] [吞吐率：6.06req/s] [内存消耗：2,496.45kb] [文件加载：81]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/mindex',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/add' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\add.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:39:05+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.065056s] [吞吐率：15.37req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:05+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.042555s] [吞吐率：23.50req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:05+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.055051s] [吞吐率：18.16req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:06+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.076770s] [吞吐率：13.03req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:39:06+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.071368s] [吞吐率：14.01req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:38+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[运行时间：0.153409s] [吞吐率：6.52req/s] [内存消耗：2,496.55kb] [文件加载：81]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/mindex',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/add' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\add.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:47:39+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.072000s] [吞吐率：13.89req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:39+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.061745s] [吞吐率：16.20req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:39+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.091388s] [吞吐率：10.94req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:39+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.085903s] [吞吐率：11.64req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:40+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.046162s] [吞吐率：21.66req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:53+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[运行时间：0.140346s] [吞吐率：7.13req/s] [内存消耗：2,614.95kb] [文件加载：83]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/mindex',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/add' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\add.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:47:53+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.051822s] [吞吐率：19.30req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:53+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.074335s] [吞吐率：13.45req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:53+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.072671s] [吞吐率：13.76req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:54+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.051259s] [吞吐率：19.51req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:47:54+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.046488s] [吞吐率：21.51req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:01+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[运行时间：0.289231s] [吞吐率：3.46req/s] [内存消耗：2,617.18kb] [文件加载：83]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/mindex',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/add' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\add.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:02+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.066895s] [吞吐率：14.95req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:02+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.057582s] [吞吐率：17.37req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:03+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.083248s] [吞吐率：12.01req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:03+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.063202s] [吞吐率：15.82req/s] [内存消耗：1,266.09kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:03+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.069842s] [吞吐率：14.32req/s] [内存消耗：1,265.53kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:07+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[运行时间：0.176238s] [吞吐率：5.67req/s] [内存消耗：2,617.16kb] [文件加载：83]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/mindex',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/add' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\add.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:07+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.049343s] [吞吐率：20.27req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:07+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.041897s] [吞吐率：23.87req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:07+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.048303s] [吞吐率：20.70req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:07+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.073582s] [吞吐率：13.59req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:07+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.063824s] [吞吐率：15.67req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:17+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[运行时间：0.156080s] [吞吐率：6.41req/s] [内存消耗：2,615.48kb] [文件加载：83]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/mindex',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/add' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\add.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:17+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.042526s] [吞吐率：23.52req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:17+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.058460s] [吞吐率：17.11req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:17+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.049772s] [吞吐率：20.09req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:17+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.089373s] [吞吐率：11.19req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:17+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.056548s] [吞吐率：17.68req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:22+08:00 ] ::1 POST bd.manong.cc/Admin/Address/file_upload.html
+[运行时间：0.105770s] [吞吐率：9.45req/s] [内存消耗：2,377.88kb] [文件加载：76]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/add',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryB7KIwHaiOoGkOKFA',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://bd.manong.cc',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '31998',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/Admin/Address/file_upload_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-12-19T09:48:22+08:00 ] ::1 GET bd.manong.cc/static/index/Css/icon.png
+[运行时间：0.039630s] [吞吐率：25.23req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:29+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[运行时间：0.157227s] [吞吐率：6.36req/s] [内存消耗：2,615.32kb] [文件加载：83]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/mindex',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/add' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\add.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:29+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.039768s] [吞吐率：25.15req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:29+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.047999s] [吞吐率：20.83req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:29+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.173911s] [吞吐率：5.75req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:29+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.095741s] [吞吐率：10.44req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:29+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.062723s] [吞吐率：15.94req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:45+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[运行时间：0.181725s] [吞吐率：5.50req/s] [内存消耗：2,614.95kb] [文件加载：83]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/mindex',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/add' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\add.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:45+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.084435s] [吞吐率：11.84req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:45+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.036235s] [吞吐率：27.60req/s] [内存消耗：1,266.05kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:45+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.167635s] [吞吐率：5.97req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:45+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.038997s] [吞吐率：25.64req/s] [内存消耗：1,265.89kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:45+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.041948s] [吞吐率：23.84req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:57+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[运行时间：0.151809s] [吞吐率：6.59req/s] [内存消耗：2,614.84kb] [文件加载：83]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/mindex',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/index/member/add' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\member\add.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\header.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\left.html [ array (
+  0 => 'classuri',
+  1 => 'cates',
+  2 => 'brand',
+  3 => 'language',
+  4 => 'database',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:57+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.044123s] [吞吐率：22.66req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:57+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.070025s] [吞吐率：14.28req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T09:48:59+08:00 ] ::1 POST bd.manong.cc/Admin/Address/file_upload.html
+[运行时间：0.129755s] [吞吐率：7.71req/s] [内存消耗：2,377.88kb] [文件加载：76]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/add',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary74CDVrKILby2N0q9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://bd.manong.cc',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '31998',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  '/Admin/Address/file_upload_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-12-19T10:04:52+08:00 ] ::1 GET bd.manong.cc/
+[运行时间：0.097492s] [吞吐率：10.26req/s] [内存消耗：2,616.58kb] [文件加载：76]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/index/member/add',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\index\index.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T10:04:52+08:00 ] ::1 GET bd.manong.cc/static/index/statics/skin/images/vip.png
+[运行时间：0.044921s] [吞吐率：22.26req/s] [内存消耗：1,265.88kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T10:04:52+08:00 ] ::1 GET bd.manong.cc/static/index/font/dami.woff?t=1498141030265
+[运行时间：0.046370s] [吞吐率：21.57req/s] [内存消耗：1,265.52kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T10:04:52+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.090753s] [吞吐率：11.02req/s] [内存消耗：1,266.11kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T10:04:52+08:00 ] ::1 GET bd.manong.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111109285353873462336_1545185092224&_=1545185092225
+[运行时间：0.106050s] [吞吐率：9.43req/s] [内存消耗：2,646.26kb] [文件加载：77]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545183544',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.manong.cc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'api',
+  'm' => 'html',
+  'name' => 'user',
+  'format' => 'jsonp',
+  'callback' => 'jQuery111109285353873462336_1545185092224',
+  '_' => '1545185092225',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\index\index.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T10:04:53+08:00 ] ::1 GET bd.manong.cc/static/index/Images/logo.png
+[运行时间：0.083323s] [吞吐率：12.00req/s] [内存消耗：1,265.57kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T10:04:53+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.043581s] [吞吐率：22.95req/s] [内存消耗：1,266.01kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T10:04:53+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.woff?v=213
+[运行时间：0.085413s] [吞吐率：11.71req/s] [内存消耗：1,265.52kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T10:04:53+08:00 ] ::1 GET bd.manong.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.074207s] [吞吐率：13.48req/s] [内存消耗：1,265.70kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T10:04:53+08:00 ] ::1 GET bd.manong.cc/static/index/font/dami.ttf?t=1498141030265
+[运行时间：0.049604s] [吞吐率：20.16req/s] [内存消耗：1,265.53kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T10:04:54+08:00 ] ::1 GET bd.manong.cc/static/index/font/iconfont.ttf?v=213
+[运行时间：0.062347s] [吞吐率：16.04req/s] [内存消耗：1,265.59kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T10:04:54+08:00 ] ::1 GET bd.manong.cc/statics/skin/images/favicon.ico
+[运行时间：0.066939s] [吞吐率：14.94req/s] [内存消耗：1,265.51kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-19T11:24:49+08:00 ] ::1 GET bd.manong.cc/
+[运行时间：0.110440s] [吞吐率：9.05req/s] [内存消耗：2,616.22kb] [文件加载：76]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545097417,1545097544,1545121150,1545183532; Hm_lpvt_ab05efc706718e3c3c1a66d1a3b0d70f=1545185093',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bd.manong.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Dongyao001\Desktop\manong\application\index\view\index\index.html [ array (
+  0 => 'classuri',
+) ]
+---------------------------------------------------------------
+[ 2018-12-19T11:24:49+08:00 ] ::1 GET bd.manong.cc/static/index/statics/skin/images/vip.png
+[运行时间：0.037210s] [吞吐率：26.87req/s] [内存消耗：1,265.88kb] [文件加载：59]
+[ info ] [ LANG ] C:\Users\Dongyao001\Desktop\manong\thinkphp\lang\zh-cn.php

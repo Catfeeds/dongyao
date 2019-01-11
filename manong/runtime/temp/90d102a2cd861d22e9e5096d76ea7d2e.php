@@ -1,0 +1,60 @@
+<?php /*a:1:{s:69:"/www/wwwroot/manong.yaho.cc/application/index/view/member/avatar.html";i:1547169209;}*/ ?>
+﻿  <?php echo widget("Last/header"); ?>
+   <?php echo widget("Last/left"); ?>
+<div class="site-tree-mobile layui-hide"><i class="layui-icon">&#xe602;</i></div>
+<div class="site-mobile-shade"></div>	<div class="fly-panel fly-panel-user" pad20>
+		<div class="layui-tab layui-tab-brief" lay-filter="user">
+      	<ul class="layui-tab-title" id="LAY_mine">
+       	        	<li class=""><a href="/index/member/account">基本资料</a></li>
+                	<li class=""><a href="/index/member/password">修改密码</a></li>
+                	<li class="layui-this"><a href="/index/member/avatar">上传头像</a></li>
+              	</ul>
+      	<div class="layui-tab-content" style="padding: 20px 0;">
+        	<div class="layui-form layui-form-pane">
+				<div class="layui-form-item">
+					<div class="avatar-add" id="mytx">
+						<p>建议尺寸180*180，支持jpg、png、gif</p>
+						<div class="upload-img">
+							<!--  <button type="button" class="layui-btn" id="test3" style="width: 127px;"><i class="layui-icon"></i>上传封面</button> -->
+               <button type="button" class="layui-btn" id="test3" style="width: 127px;"><i class="layui-icon"></i>上传封面</button>
+              
+               <!-- <input type="hidden" id="files"> -->
+               <!-- <input type="hidden" id="id" value="<?php echo htmlentities($user['id']); ?>"> -->
+						</div>
+             <?php if($user['userpic']==""): ?>
+						  <img src="/static/index/Picture/avatar_90.png"> <span class="loading"></span>
+					   <?php else: ?>
+              <img src="<?php echo htmlentities($user['userpic']); ?>"> <span class="loading"></span>
+             <?php endif; ?>
+          </div>
+				</div>
+			</div>
+      	</div>
+    	</div>
+  	</div>
+</div>
+<script type="text/javascript" src="/static/index/Scripts/layui.all.js"></script>
+<!--图片上传-->
+<script>
+      layui.use('upload', function(){
+        var $ = layui.jquery
+        ,upload = layui.upload;
+        //指定允许上传的文件类型
+        upload.render({ //允许上传的文件后缀
+          elem: '#test3'
+          ,url: "<?php echo url('/index/Member/file_upload2'); ?>"
+          ,accept: 'file' //普通文件
+          ,exts: 'gif|png|jpg' //只允许上传压缩文件
+          ,done: function(res){
+            // alert(res);
+            if(res.code){
+                  // $('#files').val(res.file);
+                  // layer.msg('修改成功');
+                  window.location.reload();
+             }else{
+                   layer.msg('修改失败,请重新上传');
+             }
+         }
+      });
+      });
+</script><?php echo widget("Last/mfooter"); ?>

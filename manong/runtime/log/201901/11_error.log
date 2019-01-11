@@ -1,0 +1,138 @@
+---------------------------------------------------------------
+[ 2019-01-11T08:50:19+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [2]Illegal string offset 'label'[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:112]
+---------------------------------------------------------------
+[ 2019-01-11T08:51:34+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail?id=19
+[ error ] [8]未定义变量: label[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:24]
+---------------------------------------------------------------
+[ 2019-01-11T08:52:32+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail?id=19
+[ error ] [8]未定义数组索引: label[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:120]
+---------------------------------------------------------------
+[ 2019-01-11T08:54:08+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail?id=19
+[ error ] [8]未定义数组索引: label[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:120]
+---------------------------------------------------------------
+[ 2019-01-11T08:55:15+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail?id=19
+[ error ] [8]未定义变量: list[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:9]
+---------------------------------------------------------------
+[ 2019-01-11T09:58:17+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=10
+[ error ] [0]致命错误: Array callback has to contain indices 0 and 1[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:43]
+---------------------------------------------------------------
+[ 2019-01-11T10:23:36+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:43]
+---------------------------------------------------------------
+[ 2019-01-11T10:23:40+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:43]
+---------------------------------------------------------------
+[ 2019-01-11T10:23:44+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:43]
+---------------------------------------------------------------
+[ 2019-01-11T10:23:47+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:43]
+---------------------------------------------------------------
+[ 2019-01-11T10:24:02+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:43]
+---------------------------------------------------------------
+[ 2019-01-11T10:25:43+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:25:45+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:25:54+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:08+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:09+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:09+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:09+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:09+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:09+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:10+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:10+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:10+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:10+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:10+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:10+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:11+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:11+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:11+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:11+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:12+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:12+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:12+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:12+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:12+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:13+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:13+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:13+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:13+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:14+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:14+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:15+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T10:26:15+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: goods_logo[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:45]
+---------------------------------------------------------------
+[ 2019-01-11T11:15:44+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: brand_title[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:30]
+---------------------------------------------------------------
+[ 2019-01-11T11:16:34+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: brand_title[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:30]
+---------------------------------------------------------------
+[ 2019-01-11T11:16:36+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index?cateid=7
+[ error ] [8]未定义数组索引: brand_title[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:30]

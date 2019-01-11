@@ -1,0 +1,21 @@
+<?php /*a:1:{s:66:"/www/wwwroot/manong.yaho.cc/application/index/view/index/down.html";i:1547001730;}*/ ?>
+﻿  <?php echo widget("Last/header"); ?>
+
+<div class="page-banner"><div class="page-wb"><h2>帮助中心</h2></div></div>
+<div class="page-about">
+    <div class="page-menu">
+        <ul>
+                  <li><a href="/index/index/vip">会员相关</a></li>
+        	         <li ><a href="/index/index/about">关于我们</a></li>
+                    <li ><a href="/index/index/copyright">免责声明</a></li>
+                    <li ><a href="/index/index/contact">联系我们</a></li>
+                    <li ><a href="/index/index/ad">广告合作</a></li>
+                    <li class="on"><a href="/index/index/down">本站程序</a></li>
+        	        </ul>
+    </div>
+  <div class="page-body">
+        <div class="layui-about">
+            <p style="white-space: normal;">今年很多人问本站程序卖不卖，之前都回绝了，只卖给朋友一份。也发现百度统计里很多站在仿制本站。。</p><p style="white-space: normal;">欢迎各位站长仿制<img src="http://img.baidu.com/hi/face/i_f01.gif"> ，这几天又有几个人问，再三考虑后决定出售10套<span style="color: rgb(192, 80, 77);">【已售3套】</span></p><p style="white-space: normal;"><span style="color: rgb(192, 80, 77);"><br></span></p><p style="white-space: normal;"><strong>价格：5000元 整站系统【无数据】+免签支付系统【已对接好】 支持各种功能定制/价格另议</strong></p><p style="white-space: normal;"><br></p><p style="white-space: normal;">简单介绍系统功能：支持文章、论坛、下载、图片、小说、视频、商城、专题等等模块，所有模块都支持自定义字段，你想到的网站功能都能实现。</p><p style="white-space: normal;">会 员 组 ：会员组价格+时间+权限，会员等级以及图标。</p><p style="white-space: normal;">支付接口：微信 支付宝 以及本站对接的免签支付整套系统。</p><p style="white-space: normal;">插件介绍：签到 打赏 百度推送 文章内链</p><p style="white-space: normal;">远程附件：腾讯云 百度云 阿里云</p><p style="white-space: normal;">系统缓存：&nbsp;文件缓存、Memcached缓存、Redis缓存、WinCache缓存、APC缓存</p><p style="white-space: normal;">其他功能：自定义伪静态规则、生成静态页、自定义页面、上传投稿、评论、会员打折、短信邮件、多语言。</p><p style="white-space: normal;"><br></p><p style="white-space: normal;">只支持付款发程序，或当面交易，其他方式讲价勿扰！</p><p><br></p>        </div>
+    </div>
+    </div>
+  <?php echo widget("Last/footer"); ?>

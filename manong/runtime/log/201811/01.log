@@ -1,0 +1,494 @@
+---------------------------------------------------------------
+[ 2018-11-01T14:45:24+08:00 ] ::1 GET bd.toupiao.com/
+[运行时间：0.294017s] [吞吐率：3.40req/s] [内存消耗：2,177.80kb] [文件加载：73]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-11-01T14:46:04+08:00 ] ::1 GET bd.toupiao.com/
+[运行时间：0.395023s] [吞吐率：2.53req/s] [内存消耗：2,351.43kb] [文件加载：78]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-11-01T14:46:08+08:00 ] ::1 GET bd.toupiao.com/admin
+[运行时间：0.506029s] [吞吐率：1.98req/s] [内存消耗：3,086.77kb] [文件加载：111]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\admin\view\index\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:10+08:00 ] ::1 GET bd.toupiao.com/admin/index/main.html?spm=m-7
+[运行时间：0.331019s] [吞吐率：3.02req/s] [内存消耗：2,486.42kb] [文件加载：79]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+  'spm' => 'm-7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\admin\view\index\main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:12+08:00 ] ::1 GET bd.toupiao.com/vote/goods/add.html?spm=m-43-44-49
+[运行时间：0.645037s] [吞吐率：1.55req/s] [内存消耗：2,661.45kb] [文件加载：82]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/add_html' => '',
+  'spm' => 'm-43-44-49',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\vote\view\goods\form.html [ array (
+  0 => 'classuri',
+  1 => 'specs',
+  2 => 'cates',
+  3 => 'brands',
+  4 => 'all',
+  5 => 'title',
+  6 => 'vo',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:17+08:00 ] ::1 GET bd.toupiao.com/vote/goods/setupthe.html?spm=m-43-44-51
+[运行时间：0.357020s] [吞吐率：2.80req/s] [内存消耗：2,611.46kb] [文件加载：81]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/setupthe_html' => '',
+  'spm' => 'm-43-44-51',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\vote\view\goods\setupthe.html [ array (
+  0 => 'classuri',
+  1 => 'info',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:17+08:00 ] ::1 GET bd.toupiao.com/vote/goods/nolist.html?spm=m-43-44-46
+[运行时间：0.190010s] [吞吐率：5.26req/s] [内存消耗：2,261.70kb] [文件加载：74]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/nolist_html' => '',
+  'spm' => 'm-43-44-46',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-11-01T14:46:21+08:00 ] ::1 GET bd.toupiao.com/admin/login.html
+[运行时间：0.282016s] [吞吐率：3.55req/s] [内存消耗：2,491.11kb] [文件加载：79]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\admin\view\login\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:25+08:00 ] ::1 POST bd.toupiao.com/admin/login.html?spm=
+[运行时间：0.214012s] [吞吐率：4.67req/s] [内存消耗：2,362.86kb] [文件加载：78]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://bd.toupiao.com',
+  'accept' => '*/*',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login_html' => '',
+  'spm' => '',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-11-01T14:46:31+08:00 ] ::1 POST bd.toupiao.com/admin/login.html?spm=
+[运行时间：0.342019s] [吞吐率：2.92req/s] [内存消耗：2,381.18kb] [文件加载：82]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://bd.toupiao.com',
+  'accept' => '*/*',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login_html' => '',
+  'spm' => '',
+  'username' => 'admin',
+  'password' => '123123',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-11-01T14:46:31+08:00 ] ::1 GET bd.toupiao.com/admin/login/admin.html
+[运行时间：0.176010s] [吞吐率：5.68req/s] [内存消耗：2,406.55kb] [文件加载：79]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/admin_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-11-01T14:46:32+08:00 ] ::1 GET bd.toupiao.com/admin.html
+[运行时间：0.377021s] [吞吐率：2.65req/s] [内存消耗：2,986.99kb] [文件加载：109]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\admin\view\index\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:32+08:00 ] ::1 GET bd.toupiao.com/vote/goods/index?spm=m-43-44-45
+[运行时间：0.256014s] [吞吐率：3.91req/s] [内存消耗：2,692.87kb] [文件加载：86]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/index' => '',
+  'spm' => 'm-43-44-45',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\vote\view\goods\index.html [ array (
+  0 => 'classuri',
+  1 => 'total',
+  2 => 'list',
+  3 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:36+08:00 ] ::1 GET bd.toupiao.com/vote/goods/nolist.html?spm=m-43-44-46
+[运行时间：0.357020s] [吞吐率：2.80req/s] [内存消耗：2,709.41kb] [文件加载：86]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/nolist_html' => '',
+  'spm' => 'm-43-44-46',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\vote\view\goods\nolist.html [ array (
+  0 => 'classuri',
+  1 => 'total',
+  2 => 'list',
+  3 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:38+08:00 ] ::1 GET bd.toupiao.com/vote/user/index.html?spm=m-43-47-48
+[运行时间：0.299017s] [吞吐率：3.34req/s] [内存消耗：2,688.72kb] [文件加载：85]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/user/index_html' => '',
+  'spm' => 'm-43-47-48',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\vote\view\user\index.html [ array (
+  0 => 'classuri',
+  1 => 'total',
+  2 => 'list',
+  3 => 'page',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:41+08:00 ] ::1 GET bd.toupiao.com/vote/goods/setupthe.html?spm=m-43-44-51
+[运行时间：0.283016s] [吞吐率：3.53req/s] [内存消耗：2,460.83kb] [文件加载：79]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/setupthe_html' => '',
+  'spm' => 'm-43-44-51',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\vote\view\goods\setupthe.html [ array (
+  0 => 'classuri',
+  1 => 'info',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:42+08:00 ] ::1 GET bd.toupiao.com/vote/goods/add.html?spm=m-43-44-49
+[运行时间：0.389022s] [吞吐率：2.57req/s] [内存消耗：2,508.37kb] [文件加载：80]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/add_html' => '',
+  'spm' => 'm-43-44-49',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\vote\view\goods\form.html [ array (
+  0 => 'classuri',
+  1 => 'specs',
+  2 => 'cates',
+  3 => 'brands',
+  4 => 'all',
+  5 => 'title',
+  6 => 'vo',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:15:27+08:00 ] ::1 GET bd.toupiao.com/admin.html
+[运行时间：0.500028s] [吞吐率：2.00req/s] [内存消耗：2,961.12kb] [文件加载：109]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\admin\view\index\index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:15:28+08:00 ] ::1 GET bd.toupiao.com/vote/goods/add.html?spm=m-43-44-49
+[运行时间：0.445026s] [吞吐率：2.25req/s] [内存消耗：2,508.37kb] [文件加载：80]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\toupiao\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 's574d1ec2=ndrqakuag3lecur9qvk1ujqevc; page-rows=20',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bd.toupiao.com/admin.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bd.toupiao.com',
+)
+[ info ] [ PARAM ] array (
+  '/vote/goods/add_html' => '',
+  'spm' => 'm-43-44-49',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\toupiao\application\vote\view\goods\form.html [ array (
+  0 => 'classuri',
+  1 => 'specs',
+  2 => 'cates',
+  3 => 'brands',
+  4 => 'all',
+  5 => 'title',
+  6 => 'vo',
+) ]

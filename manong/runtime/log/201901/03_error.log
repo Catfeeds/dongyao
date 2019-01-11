@@ -1,0 +1,93 @@
+---------------------------------------------------------------
+[ 2019-01-03T09:29:57+08:00 ] 123.232.66.89 GET manong.yaho.cc/admin.html
+[ error ] [64]Cannot declare class app\store\controller\GoodsLanguage, because the name is already in use[/www/wwwroot/manong.yaho.cc/application/store/controller/Link.php:157]
+---------------------------------------------------------------
+[ 2019-01-03T09:35:35+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/link/index.html?spm=m-32-57-58
+[ error ] [8]未定义数组索引: title[/www/wwwroot/manong.yaho.cc/runtime/temp/54b2a47cb8abf044cc11d30294ea0c5b.php:81]
+---------------------------------------------------------------
+[ 2019-01-03T09:35:40+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/link/index.html?spm=m-32-57-58
+[ error ] [8]未定义数组索引: title[/www/wwwroot/manong.yaho.cc/runtime/temp/54b2a47cb8abf044cc11d30294ea0c5b.php:81]
+---------------------------------------------------------------
+[ 2019-01-03T10:31:41+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index
+[ error ] [0]语法解析错误: syntax error, unexpected '?>'[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:23]
+---------------------------------------------------------------
+[ 2019-01-03T10:31:59+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index
+[ error ] [0]语法解析错误: syntax error, unexpected '?>'[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:23]
+---------------------------------------------------------------
+[ 2019-01-03T10:50:37+08:00 ] 123.232.66.89 POST manong.yaho.cc/store/goods/resume.html?spm=m-32-33-54
+[ error ] [8]未定义变量: id[/www/wwwroot/manong.yaho.cc/application/store/controller/Goods.php:374]
+---------------------------------------------------------------
+[ 2019-01-03T11:00:08+08:00 ] 123.232.66.89 POST manong.yaho.cc/store/goods/resume.html?spm=m-32-33-54
+[ error ] [8]未定义数组索引: userid[/www/wwwroot/manong.yaho.cc/application/store/controller/Goods.php:380]
+---------------------------------------------------------------
+[ 2019-01-03T11:00:53+08:00 ] 123.232.66.89 POST manong.yaho.cc/store/goods/resume.html?spm=m-32-33-54
+[ error ] [0]数据表字段不存在:[addtime][/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Builder.php:135]
+---------------------------------------------------------------
+[ 2019-01-03T11:01:22+08:00 ] 123.232.66.89 POST manong.yaho.cc/store/goods/resume.html?spm=m-32-33-54
+[ error ] [0]数据表字段不存在:[userpic][/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Builder.php:135]
+---------------------------------------------------------------
+[ 2019-01-03T11:15:51+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/audit/index.html?spm=m-32-59-60
+[ error ] [8]未定义数组索引: url[/www/wwwroot/manong.yaho.cc/runtime/temp/923b4032f85dbe4be9666097e66260a8.php:82]
+---------------------------------------------------------------
+[ 2019-01-03T11:17:37+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/audit/index.html?spm=m-32-59-60
+[ error ] [8]未定义数组索引: url[/www/wwwroot/manong.yaho.cc/runtime/temp/923b4032f85dbe4be9666097e66260a8.php:82]
+---------------------------------------------------------------
+[ 2019-01-03T11:21:04+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/audit/index.html?spm=m-32-59-60
+[ error ] [8]未定义数组索引: url[/www/wwwroot/manong.yaho.cc/runtime/temp/923b4032f85dbe4be9666097e66260a8.php:86]
+---------------------------------------------------------------
+[ 2019-01-03T11:52:00+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:24]
+---------------------------------------------------------------
+[ 2019-01-03T11:52:16+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [8]未定义变量: value[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:24]
+---------------------------------------------------------------
+[ 2019-01-03T11:55:33+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=57
+[ error ] [8]未定义数组索引: brand_id[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:165]
+---------------------------------------------------------------
+[ 2019-01-03T11:55:38+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=52
+[ error ] [8]未定义数组索引: brand_id[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:165]
+---------------------------------------------------------------
+[ 2019-01-03T11:55:41+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=57
+[ error ] [8]未定义数组索引: brand_id[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:165]
+---------------------------------------------------------------
+[ 2019-01-03T11:55:44+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=56
+[ error ] [8]未定义数组索引: brand_id[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:165]
+---------------------------------------------------------------
+[ 2019-01-03T13:38:46+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=60
+[ error ] [8]未定义数组索引: brand_id[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:165]
+---------------------------------------------------------------
+[ 2019-01-03T13:46:14+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail?id=68
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:307]
+---------------------------------------------------------------
+[ 2019-01-03T13:46:57+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=73
+[ error ] [8]未定义数组索引: brand_id[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:165]
+---------------------------------------------------------------
+[ 2019-01-03T13:59:43+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index
+[ error ] [8]未定义变量: cate_title[/www/wwwroot/manong.yaho.cc/runtime/temp/cbe23b45b1eca68d35f22de27812d509.php:10]
+---------------------------------------------------------------
+[ 2019-01-03T14:37:24+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/aaa
+[ error ] [0]致命错误: Using $this when not in object context[/www/wwwroot/manong.yaho.cc/application/common.php:117]
+---------------------------------------------------------------
+[ 2019-01-03T14:38:40+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/aaa
+[ error ] [8]未定义变量: db[/www/wwwroot/manong.yaho.cc/application/common.php:117]
+---------------------------------------------------------------
+[ 2019-01-03T14:38:47+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/aaa
+[ error ] [0]致命错误: Using $this when not in object context[/www/wwwroot/manong.yaho.cc/application/common.php:117]
+---------------------------------------------------------------
+[ 2019-01-03T16:11:54+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/announ/index.html?spm=m-32-61-62
+[ error ] [0]模板文件不存在:/www/wwwroot/manong.yaho.cc/application/store/view/announ/index.html[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+[ 2019-01-03T16:14:20+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/announ/index.html?spm=m-32-61-62
+[ error ] [8]未定义数组索引: addtime[/www/wwwroot/manong.yaho.cc/runtime/temp/c694b38e00312bcc7bea06dd72f4dd69.php:83]
+---------------------------------------------------------------
+[ 2019-01-03T16:14:26+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/announ/index.html?spm=m-32-61-62
+[ error ] [8]未定义数组索引: addtime[/www/wwwroot/manong.yaho.cc/runtime/temp/c694b38e00312bcc7bea06dd72f4dd69.php:83]
+---------------------------------------------------------------
+[ 2019-01-03T16:18:21+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/announ/add.html?spm=m-32-61-62&open_type=modal
+[ error ] [8]未定义数组索引: content[/www/wwwroot/manong.yaho.cc/runtime/temp/717421ac87f58efc60c87f8a6a5684e3.php:13]
+---------------------------------------------------------------
+[ 2019-01-03T16:19:15+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/announ/add.html?spm=m-32-61-62&open_type=modal
+[ error ] [8]未定义数组索引: content[/www/wwwroot/manong.yaho.cc/runtime/temp/717421ac87f58efc60c87f8a6a5684e3.php:13]
+---------------------------------------------------------------
+[ 2019-01-03T16:22:13+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/announ/add.html?spm=m-32-61-62&open_type=modal
+[ error ] [8]未定义数组索引: content[/www/wwwroot/manong.yaho.cc/runtime/temp/717421ac87f58efc60c87f8a6a5684e3.php:13]

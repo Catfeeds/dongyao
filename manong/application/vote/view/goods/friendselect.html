@@ -1,0 +1,100 @@
+{extend name='admin@public/content'}
+
+{block name="button"}
+
+<!--{if auth("$classuri/add")}-->
+<!-- <button data-open='{:url("$classuri/add")}' data-title="添加商品" class='layui-btn layui-btn-sm layui-btn-primary'>添加商品</button> -->
+<!--{/if}-->
+
+<!--{if auth("$classuri/forbid")}-->
+<!-- <button data-update data-field='status' data-value='0' data-action='{:url("$classuri/forbid")}' class='layui-btn layui-btn-sm layui-btn-primary'>批量下架</button> -->
+<!--{/if}-->
+
+<!--{if auth("$classuri/resume")}-->
+<!-- <button data-update data-field='status' data-value='1' data-action='{:url("$classuri/resume")}' class='layui-btn layui-btn-sm layui-btn-primary'>批量上架</button> -->
+<!--{/if}-->
+
+<!--{if auth("$classuri/del")}-->
+<!-- <button data-update data-field='delete' data-action='{:url("$classuri/del")}' class='layui-btn layui-btn-sm layui-btn-primary'>批量删除</button> -->
+<!--{/if}-->
+
+{/block}
+
+{block name="content"}
+<h3>好友投票列表</h3>
+<button data-open='{:url("$classuri/nolist")}' data-title="添加信息" class='layui-btn layui-btn-sm layui-btn-primary' style="float:right;margin-bottom:8px">返回列表</button>
+<hr/ style="border:0.5px solid gray">
+<!-- 表单搜索 开始 -->
+<form autocomplete="off" class="layui-form layui-form-pane form-search" action="{:request()->url()}" onsubmit="return false" method="get">
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">好友姓名</label>
+        <div class="layui-input-inline">
+            <input name="friendname" value="{$Think.get.friendname}" placeholder="请输入姓名" class="layui-input">
+        </div>
+    </div>
+
+  
+
+    <div class="layui-form-item layui-inline">
+        <label class="layui-form-label">发布时间</label>
+        <div class="layui-input-inline">
+            <input name="addtime" id="create_at" value="{$Think.get.addtime}" placeholder="请选择发布时间" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-inline">
+        <button class="layui-btn layui-btn-primary"><i class="layui-icon">&#xe615;</i> 搜 索</button>
+    </div>
+
+</form>
+<!-- 表单搜索 结束 -->
+
+<form onsubmit="return false;" data-auto="true" method="post">
+    {if empty($list)}
+    <p class="help-block text-center well">没 有 记 录 哦！</p>
+    {else}
+    <input type="hidden" value="resort" name="action">
+    <table class="layui-table notevent" lay-skin="line">
+        <thead>
+        <tr>
+            <th class='list-table-check-td think-checkbox'>
+                <input data-auto-none="none" data-check-target='.list-check-box' type='checkbox'>
+            </th>
+       
+            <th class='text-left nowrap'>好友姓名</th>
+            <th class='text-left nowrap'>好友头像</th>
+            <th class='text-left nowrap'>投票时间</th>
+           
+           
+        </tr>
+        </thead>
+     <tbody>
+     {foreach $list as $key=>$value}
+        <tr>
+            <td class='list-table-check-td think-checkbox'>
+                <input class="list-check-box" value='' type='checkbox'/>
+            </td>
+            <td class='text-left nowrap'>{$value.friendname}</td>
+            <td class='text-left nowrap'><img src="{$value.friendpic}" style="width:50px;height:50px"></td>
+            <td class='text-left nowrap'>{$value.addtime}</td>
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+    {if isset($page)}<p>{$page|raw}</p>{/if}
+    {/if}
+</form>
+<script>
+    (function () {
+        window.form.render();
+        window.laydate.render({range: true, elem: '#create_at'});
+    })();
+</script>
+ 
+
+
+
+
+{/block}

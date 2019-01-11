@@ -1,0 +1,93 @@
+---------------------------------------------------------------
+[ 2018-12-28T08:57:48+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/videoadd
+[ error ] [64]Cannot redeclare app\index\controller\Member::plugininsert()[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:470]
+---------------------------------------------------------------
+[ 2018-12-28T09:44:30+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/mindex?cateid=4
+[ error ] [0]语法解析错误: syntax error, unexpected '$data' (T_VARIABLE)[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:482]
+---------------------------------------------------------------
+[ 2018-12-28T13:51:04+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/tooladd
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2018-12-28T13:51:34+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/tooladd
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2018-12-28T13:52:01+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/tooladd
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2018-12-28T13:58:19+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/technologyadd
+[ error ] [8]未定义变量: brand[/www/wwwroot/manong.yaho.cc/runtime/temp/7ca6c3d01025c474bbbd68184bd8ac2d.php:37]
+---------------------------------------------------------------
+[ 2018-12-28T14:47:19+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/edit.html?id=43&spm=m-32-33-34
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2018-12-28T14:47:24+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/edit.html?id=43&spm=m-32-33-34
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2018-12-28T14:47:31+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/edit.html?id=43&spm=m-32-33-34
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2018-12-28T14:57:33+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/index.html?spm=m-32-33-34
+[ error ] [8]未定义数组索引: database_id[/www/wwwroot/manong.yaho.cc/runtime/temp/ae3991d47469f4a2facbc22dccc2d5e0.php:134]
+---------------------------------------------------------------
+[ 2018-12-28T14:57:39+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/index.html?spm=m-32-33-34
+[ error ] [8]未定义数组索引: database_id[/www/wwwroot/manong.yaho.cc/runtime/temp/ae3991d47469f4a2facbc22dccc2d5e0.php:134]
+---------------------------------------------------------------
+[ 2018-12-28T14:57:53+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/index.html?spm=m-32-33-34
+[ error ] [8]未定义数组索引: database_id[/www/wwwroot/manong.yaho.cc/runtime/temp/ae3991d47469f4a2facbc22dccc2d5e0.php:134]
+---------------------------------------------------------------
+[ 2018-12-28T14:58:05+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/index.html?spm=m-32-33-34
+[ error ] [8]未定义数组索引: database[/www/wwwroot/manong.yaho.cc/runtime/temp/ae3991d47469f4a2facbc22dccc2d5e0.php:134]
+---------------------------------------------------------------
+[ 2018-12-28T14:58:38+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/index.html?spm=m-32-33-34
+[ error ] [8]未定义数组索引: database[/www/wwwroot/manong.yaho.cc/runtime/temp/ae3991d47469f4a2facbc22dccc2d5e0.php:134]
+---------------------------------------------------------------
+[ 2018-12-28T15:00:29+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/index.html?spm=m-32-33-34
+[ error ] [8]未定义数组索引: brand_title[/www/wwwroot/manong.yaho.cc/runtime/temp/ae3991d47469f4a2facbc22dccc2d5e0.php:128]
+---------------------------------------------------------------
+[ 2018-12-28T15:00:34+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/index.html?spm=m-32-33-34
+[ error ] [8]未定义数组索引: brand_title[/www/wwwroot/manong.yaho.cc/runtime/temp/ae3991d47469f4a2facbc22dccc2d5e0.php:128]
+---------------------------------------------------------------
+[ 2018-12-28T15:00:39+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/index.html?spm=m-32-33-34
+[ error ] [8]未定义数组索引: brand_title[/www/wwwroot/manong.yaho.cc/runtime/temp/ae3991d47469f4a2facbc22dccc2d5e0.php:128]
+---------------------------------------------------------------
+[ 2018-12-28T15:00:53+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/goods/index.html?spm=m-32-33-34
+[ error ] [8]未定义数组索引: brand_title[/www/wwwroot/manong.yaho.cc/runtime/temp/ae3991d47469f4a2facbc22dccc2d5e0.php:128]
+---------------------------------------------------------------
+[ 2018-12-28T15:20:18+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sort' in 'order clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2018-12-28T15:22:54+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sort' in 'order clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2018-12-28T15:23:00+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sort' in 'order clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2018-12-28T15:23:14+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [8]未定义数组索引: goods_content[/www/wwwroot/manong.yaho.cc/application/store/service/GoodsService.php:70]
+---------------------------------------------------------------
+[ 2018-12-28T15:23:58+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [8]未定义变量: vo[/www/wwwroot/manong.yaho.cc/runtime/temp/6d3169c05f709939e87546af1b2f9a1a.php:86]
+---------------------------------------------------------------
+[ 2018-12-28T15:24:20+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [8]未定义变量: vo[/www/wwwroot/manong.yaho.cc/runtime/temp/6d3169c05f709939e87546af1b2f9a1a.php:141]
+---------------------------------------------------------------
+[ 2018-12-28T15:24:40+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [0]语法解析错误: syntax error, unexpected 'elseif' (T_ELSEIF)[/www/wwwroot/manong.yaho.cc/runtime/temp/6d3169c05f709939e87546af1b2f9a1a.php:142]
+---------------------------------------------------------------
+[ 2018-12-28T15:25:03+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [8]未定义变量: vo[/www/wwwroot/manong.yaho.cc/runtime/temp/6d3169c05f709939e87546af1b2f9a1a.php:140]
+---------------------------------------------------------------
+[ 2018-12-28T15:31:04+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [8]未定义变量: value[/www/wwwroot/manong.yaho.cc/runtime/temp/6d3169c05f709939e87546af1b2f9a1a.php:81]
+---------------------------------------------------------------
+[ 2018-12-28T15:31:10+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/user/index.html?spm=m-32-55-56
+[ error ] [8]未定义变量: value[/www/wwwroot/manong.yaho.cc/runtime/temp/6d3169c05f709939e87546af1b2f9a1a.php:81]
+---------------------------------------------------------------
+[ 2018-12-28T16:13:29+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=41
+[ error ] [8]未定义变量: consum[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:56]
+---------------------------------------------------------------
+[ 2018-12-28T16:13:41+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=41
+[ error ] [8]未定义变量: consum[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:56]
+---------------------------------------------------------------
+[ 2018-12-28T16:13:51+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=41
+[ error ] [8]未定义数组索引: type[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:56]

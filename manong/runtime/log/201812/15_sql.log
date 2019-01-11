@@ -1,0 +1,1139 @@
+---------------------------------------------------------------
+[ 2018-12-15T09:53:09+08:00 ] ::1 GET bd.manong.cc/home
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001508s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025101s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'home/index/index' LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.020449s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2018-12-15T09:53:38+08:00 ] ::1 GET bd.manong.cc/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001143s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.015466s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.017273s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.018204s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2018-12-15T09:53:39+08:00 ] ::1 GET bd.manong.cc/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005871s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.022273s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.005059s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.022616s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.002308s ]
+---------------------------------------------------------------
+[ 2018-12-15T09:53:42+08:00 ] ::1 GET bd.manong.cc/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000967s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.022435s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.018402s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000634s ]
+---------------------------------------------------------------
+[ 2018-12-15T09:53:46+08:00 ] ::1 POST bd.manong.cc/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000875s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.036653s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.035933s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 LIMIT 1 [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2018-12-15T09:53:50+08:00 ] ::1 POST bd.manong.cc/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000976s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.038096s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.001435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.026458s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 LIMIT 1 [ RunTime:0.003736s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.002040s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.035740s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.038228s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `action` , `content` , `username`) VALUES ('::1' , 'admin/login/index' , '系统管理' , '用户登录系统成功' , 'admin') [ RunTime:0.004204s ]
+---------------------------------------------------------------
+[ 2018-12-15T09:53:50+08:00 ] ::1 GET bd.manong.cc/admin/login/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001020s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.033414s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/admin' LIMIT 1 [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2018-12-15T09:53:51+08:00 ] ::1 GET bd.manong.cc/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001092s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.034452s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.032902s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002960s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.036232s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.004506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.035391s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.030352s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2018-12-15T09:53:52+08:00 ] ::1 GET bd.manong.cc/vote/goods/index?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001524s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/index' LIMIT 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.019389s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` WHERE  `status` = '1' LIMIT 1 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' ORDER BY `status` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.000724s ]
+---------------------------------------------------------------
+[ 2018-12-15T09:53:55+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000896s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020645s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.001617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.026294s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.020788s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.019852s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.003628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.023595s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.020454s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.020779s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:05:18+08:00 ] ::1 GET bd.manong.cc/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007211s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020523s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.017816s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.017423s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000728s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:05:19+08:00 ] ::1 GET bd.manong.cc/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001193s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020308s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.022914s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000684s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:05:21+08:00 ] ::1 GET bd.manong.cc/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001104s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.017506s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015643s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:05:25+08:00 ] ::1 POST bd.manong.cc/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001035s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.036813s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.002798s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.035883s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 LIMIT 1 [ RunTime:0.001031s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:05:29+08:00 ] ::1 POST bd.manong.cc/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008738s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.039760s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.038041s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 LIMIT 1 [ RunTime:0.004657s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.003280s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.034684s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.003303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.037374s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `action` , `content` , `username`) VALUES ('::1' , 'admin/login/index' , '系统管理' , '用户登录系统成功' , 'admin') [ RunTime:0.002768s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:05:30+08:00 ] ::1 GET bd.manong.cc/admin/login/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008368s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.034629s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/admin' LIMIT 1 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:05:31+08:00 ] ::1 GET bd.manong.cc/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002084s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.049580s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.036830s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.034549s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.003746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.049696s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.003163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.044268s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:05:31+08:00 ] ::1 GET bd.manong.cc/vote/goods/index?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001018s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.027999s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/index' LIMIT 1 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.022692s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` WHERE  `status` = '1' LIMIT 1 [ RunTime:0.002670s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' ORDER BY `status` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.000799s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:59:41+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004333s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020514s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.018218s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.017855s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.018686s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.017972s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.016246s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.017106s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:59:43+08:00 ] ::1 GET bd.manong.cc/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001803s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.028359s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.019777s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000535s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:59:46+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004541s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.024725s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.023061s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.299252s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.018894s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.017874s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.017106s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.018212s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:59:47+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001247s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.032216s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/index' LIMIT 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.024458s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.023662s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.019317s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000632s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:59:50+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000995s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031955s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.021981s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.002689s ]
+---------------------------------------------------------------
+[ 2018-12-15T14:59:55+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001250s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.026076s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.027624s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.021481s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.001376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.024266s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.022615s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.003453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.020457s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.021036s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:00:03+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008542s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.021937s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.022906s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.021439s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:13+08:00 ] ::1 GET bd.manong.cc/store/goods_spec/index.html?spm=m-32-33-35
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001469s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.034486s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_spec/index' LIMIT 1 [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.049922s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_spec` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000769s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:14+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001267s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031998s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/index' LIMIT 1 [ RunTime:0.003715s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.020674s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.021474s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.020822s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000594s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:16+08:00 ] ::1 GET bd.manong.cc/store/goods/add.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001432s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.022503s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/add' LIMIT 1 [ RunTime:0.002146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.030365s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.026139s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.020795s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.021755s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.021208s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000760s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:25+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001252s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031545s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.033082s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.028503s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.021455s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.020641s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.019581s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.018499s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:34+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001281s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030019s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.020214s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.005193s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:35+08:00 ] ::1 GET bd.manong.cc/wechat/config/index.html?spm=m-17-18-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014511s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030634s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/config/index' LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015719s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:35+08:00 ] ::1 GET bd.manong.cc/wechat/api.tools/oauth_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001314s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020414s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/oauth_qrc' LIMIT 1 [ RunTime:0.000694s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:36+08:00 ] ::1 GET bd.manong.cc/wechat/api.tools/jssdk_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001568s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.018024s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/jssdk_qrc' LIMIT 1 [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:38+08:00 ] ::1 GET bd.manong.cc/wx-demo-jsapiqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002492s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.015082s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000750s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:38+08:00 ] ::1 GET bd.manong.cc/wx-demo-scanoneqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034048s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.016102s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:39+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002119s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.018431s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.026155s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.025369s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.020832s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.025309s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.018635s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.018553s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:39+08:00 ] ::1 GET bd.manong.cc/wx-demo-scanqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.075529s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.022550s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000670s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:40+08:00 ] ::1 GET bd.manong.cc/wechat/config/index.html?spm=m-17-18-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005529s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.022849s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.020305s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.004857s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:40+08:00 ] ::1 GET bd.manong.cc/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001214s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030589s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.000800s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.024650s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:42+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001536s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.027285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.026657s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.019544s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.023811s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:44+08:00 ] ::1 GET bd.manong.cc/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003296s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025692s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.025758s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000641s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:45+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000975s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.024395s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.023274s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.020572s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.002521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.022671s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.019267s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.018323s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.002516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.020735s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:47+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007033s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.025396s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001199s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:03:50+08:00 ] ::1 GET bd.manong.cc/admin/menu/edit.html?id=43&spm=m-1-10-2&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002730s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035240s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.021828s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.002214s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000921s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:04:16+08:00 ] ::1 POST bd.manong.cc/admin/menu/edit.html?id=43&spm=m-1-10-2&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001401s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031989s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.032340s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.002398s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid` = 0 , `title` = '源码商城' , `url` = '#' , `params` = '' , `icon` = 'fa fa-barcode' , `id` = 43  WHERE  `id` = 43 [ RunTime:0.003342s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:04:20+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001748s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035931s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.033879s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.004078s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:04:21+08:00 ] ::1 GET bd.manong.cc/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001335s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.023198s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.024828s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.024094s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.021424s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.003348s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.022211s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000772s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:04:21+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018050s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035548s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.031300s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001082s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:04:22+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001242s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029314s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.020687s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.021120s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.001769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.021970s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.021129s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.020805s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.018212s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:46+08:00 ] ::1 GET bd.manong.cc/wechat/config/index.html?spm=m-17-18-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002683s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.023531s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/config/index' LIMIT 1 [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.017111s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000620s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:47+08:00 ] ::1 GET bd.manong.cc/wechat/api.tools/oauth_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001542s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031268s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/oauth_qrc' LIMIT 1 [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:48+08:00 ] ::1 GET bd.manong.cc/wechat/api.tools/jssdk_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001431s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.019611s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/jssdk_qrc' LIMIT 1 [ RunTime:0.000679s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:48+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002563s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.022149s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/index' LIMIT 1 [ RunTime:0.001523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.016519s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.016770s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.016038s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000907s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:48+08:00 ] ::1 GET bd.manong.cc/wx-demo-jsapiqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002066s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.036982s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000704s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:49+08:00 ] ::1 GET bd.manong.cc/wx-demo-scanoneqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002865s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.017457s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000978s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:49+08:00 ] ::1 GET bd.manong.cc/wx-demo-scanqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011315s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.017725s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000812s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:50+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001347s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029767s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.022756s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001131s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:53+08:00 ] ::1 GET bd.manong.cc/wechat/config/index.html?spm=m-17-18-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001410s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.019657s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:54+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001089s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.023193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.020663s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.015073s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.015191s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:55+08:00 ] ::1 GET bd.manong.cc/wechat/config/index.html?spm=m-17-18-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001273s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.028734s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:56+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001267s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.025769s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.020063s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.022036s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.002040s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:57+08:00 ] ::1 GET bd.manong.cc/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001397s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.019115s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.001484s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.034183s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000550s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:58+08:00 ] ::1 GET bd.manong.cc/wechat/config/index.html?spm=m-17-18-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008802s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.033376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.025007s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000750s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:28:59+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001262s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.028149s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001003s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:00+08:00 ] ::1 GET bd.manong.cc/admin/config/index.html?spm=m-1-10-3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001283s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.028547s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/config/index' LIMIT 1 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.019966s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:01+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006921s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031961s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.027660s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000906s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:04+08:00 ] ::1 GET bd.manong.cc/admin/menu/edit.html?id=44&spm=m-1-10-2&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003499s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.033542s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.025576s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.001759s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:25+08:00 ] ::1 POST bd.manong.cc/admin/menu/edit.html?id=44&spm=m-1-10-2&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004529s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.024722s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.006095s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid` = 43 , `title` = '分类管理' , `url` = '#' , `params` = '' , `icon` = 'fa fa-bookmark-o' , `id` = 44  WHERE  `id` = 44 [ RunTime:0.002419s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:28+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001504s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.021463s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.016411s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001031s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:28+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001295s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025389s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.021488s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.017843s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.020539s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.018113s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.022094s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.002896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.023973s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:30+08:00 ] ::1 GET bd.manong.cc/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001254s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.016681s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.017111s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.016897s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.016452s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.024869s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000694s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:31+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001315s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031623s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.030910s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.022139s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.025536s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.022996s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.029647s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.024146s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:34+08:00 ] ::1 GET bd.manong.cc/wechat/config/index.html?spm=m-17-18-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001286s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031098s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/config/index' LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.020722s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:35+08:00 ] ::1 GET bd.manong.cc/wx-demo-jsapiqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042584s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.039496s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000873s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:35+08:00 ] ::1 GET bd.manong.cc/wechat/api.tools/jssdk_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000962s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.018330s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/jssdk_qrc' LIMIT 1 [ RunTime:0.000847s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:35+08:00 ] ::1 GET bd.manong.cc/wechat/api.tools/oauth_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003150s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.267910s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/oauth_qrc' LIMIT 1 [ RunTime:0.000852s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:35+08:00 ] ::1 GET bd.manong.cc/wx-demo-scanoneqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001840s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.264727s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000825s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:35+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001160s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.018400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.023045s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000861s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:37+08:00 ] ::1 GET bd.manong.cc/wx-demo-scanqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001047s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.024529s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:38+08:00 ] ::1 GET bd.manong.cc/admin/menu/edit.html?id=49&spm=m-1-10-2&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002507s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.026702s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/edit' LIMIT 1 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.024975s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.003070s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.003085s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:46+08:00 ] ::1 POST bd.manong.cc/admin/menu/edit.html?id=49&spm=m-1-10-2&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001255s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.202677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.020096s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_menu` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000589s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `pid` = 44 , `title` = '添加分类' , `url` = '/vote/goods/add' , `params` = '' , `icon` = 'fa fa-arrows' , `id` = 49  WHERE  `id` = 49 [ RunTime:0.002720s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:49+08:00 ] ::1 GET bd.manong.cc/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001156s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.044450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.041397s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.003420s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:55+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005674s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.034188s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.025990s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.113058s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.017381s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.019497s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.019482s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.018753s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:56+08:00 ] ::1 GET bd.manong.cc/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001393s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.018511s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.016089s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.017109s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.017441s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.001623s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.020731s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:29:57+08:00 ] ::1 GET bd.manong.cc/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001134s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.015661s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.015206s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.015545s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.015859s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.024412s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.017629s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.018262s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:30:44+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001572s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020474s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/index' LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.015501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.015184s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.015397s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000803s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:30:48+08:00 ] ::1 GET bd.manong.cc/store/goods_spec/index.html?spm=m-32-33-35
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002624s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.028058s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_spec/index' LIMIT 1 [ RunTime:0.001156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.021266s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_spec` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:30:49+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001310s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025140s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.020698s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:30:51+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001279s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.037258s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/add' LIMIT 1 [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.026059s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:31:14+08:00 ] ::1 POST bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001293s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030964s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.019397s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.002915s ]
+[ sql ] [ SQL ] INSERT INTO `store_goods_cate` (`pid` , `cate_title` , `cate_desc`) VALUES (0 , '网站源码' , '网站源码') [ RunTime:0.002865s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:31:17+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001011s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.019461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.017853s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000813s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:31:21+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001301s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.032180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.034755s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:31:47+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005742s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025064s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/index' LIMIT 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.019786s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.019630s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.018430s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:31:48+08:00 ] ::1 GET bd.manong.cc/store/goods/add.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001018s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.015924s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/add' LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.014945s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.015333s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.015011s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.015559s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.015584s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:34:14+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001149s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.022829s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/index' LIMIT 1 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.018239s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.002795s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.019913s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.022667s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000852s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:36:06+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002646s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.021309s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.018476s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000618s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:36:52+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001304s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.032228s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/add' LIMIT 1 [ RunTime:0.004483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.030353s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000693s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:01+08:00 ] ::1 POST bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002438s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.027901s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.032364s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] INSERT INTO `store_goods_cate` (`pid` , `cate_title` , `cate_desc`) VALUES (0 , '游戏源码' , '游戏源码') [ RunTime:0.001838s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:05+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001021s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029511s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.017551s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:07+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001264s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.037918s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.031553s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:14+08:00 ] ::1 POST bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001318s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.024663s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.031287s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] INSERT INTO `store_goods_cate` (`pid` , `cate_title` , `cate_desc`) VALUES (0 , '插件模块' , '插件模块') [ RunTime:0.004035s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:17+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004896s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.024253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.020612s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000692s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:18+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001064s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.019913s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.015765s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:24+08:00 ] ::1 POST bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004254s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.026193s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/add' LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.026668s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] INSERT INTO `store_goods_cate` (`pid` , `cate_title` , `cate_desc`) VALUES (0 , '视频教程' , '视频教程') [ RunTime:0.004350s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:29+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001269s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.021926s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.019401s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000675s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:32+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003591s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.032550s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000893s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:40+08:00 ] ::1 POST bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001320s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.032357s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] INSERT INTO `store_goods_cate` (`pid` , `cate_title` , `cate_desc`) VALUES (0 , '精品工具' , '精品工具') [ RunTime:0.004152s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:44+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001286s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.028948s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.028758s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:45+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001170s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.017549s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:50+08:00 ] ::1 POST bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001299s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.028415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.027714s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] INSERT INTO `store_goods_cate` (`pid` , `cate_title` , `cate_desc`) VALUES (0 , '技术文章' , '技术文章') [ RunTime:0.002385s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:37:54+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001778s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.041112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.025190s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000829s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:38:05+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004185s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030355s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/add' LIMIT 1 [ RunTime:0.001248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.027842s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000993s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:38:17+08:00 ] ::1 POST bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001413s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.026181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.024522s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000967s ]
+[ sql ] [ SQL ] INSERT INTO `store_goods_cate` (`pid` , `cate_title` , `cate_desc`) VALUES (1 , '企业公司' , '企业公司') [ RunTime:0.002722s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:38:21+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001639s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035482s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.001238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.029245s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001073s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:38:24+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007198s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.023563s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000654s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:38:36+08:00 ] ::1 POST bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001510s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.034340s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/add' LIMIT 1 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.026385s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] INSERT INTO `store_goods_cate` (`pid` , `cate_title` , `cate_desc`) VALUES (1 , '新闻博客' , '新闻博客') [ RunTime:0.002014s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:38:39+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001291s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.022260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.021976s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000757s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:38:41+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001024s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.023294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.029424s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000750s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:38:53+08:00 ] ::1 POST bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001275s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.032401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.022463s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000784s ]
+[ sql ] [ SQL ] INSERT INTO `store_goods_cate` (`pid` , `cate_title` , `cate_desc`) VALUES (1 , '电子商务' , '电子商务') [ RunTime:0.002462s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:38:58+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001230s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.019167s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.015153s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:39:38+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001395s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.027568s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/add' LIMIT 1 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.037935s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.001804s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:40:34+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/add.html?spm=m-32-33-36&open_type=modal
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004920s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.033343s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/add' LIMIT 1 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.032630s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:41:10+08:00 ] ::1 GET bd.manong.cc/store/goods_brand/index.html?spm=m-32-33-37
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002824s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.024066s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_brand/index' LIMIT 1 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.021897s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_brand` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000618s ]
+---------------------------------------------------------------
+[ 2018-12-15T15:41:12+08:00 ] ::1 GET bd.manong.cc/store/goods_brand/add.html?spm=m-32-33-37
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005912s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.026953s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_brand/add' LIMIT 1 [ RunTime:0.004822s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.036305s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:12:31+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009907s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025680s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/index' LIMIT 1 [ RunTime:0.002280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.020197s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.020976s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.018619s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000783s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:12:43+08:00 ] ::1 GET bd.manong.cc/store/goods_brand/index.html?spm=m-32-33-37
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001342s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029700s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_brand/index' LIMIT 1 [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.021012s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_brand` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:12:46+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001927s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031826s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.024425s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001236s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:12:48+08:00 ] ::1 GET bd.manong.cc/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001402s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.014981s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.016786s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.014880s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000868s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:12:49+08:00 ] ::1 GET bd.manong.cc/store/goods/add.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003711s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.021138s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/add' LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.022659s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.019662s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.026948s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.026159s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.022180s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.000545s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:16:08+08:00 ] ::1 GET bd.manong.cc/index.php/admin/plugs/upfile.html?mode=mtl&uptype=&type=png,jpg&field=goods_image
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006148s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.034671s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/plugs/upfile' LIMIT 1 [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.031111s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000721s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:16:20+08:00 ] ::1 GET bd.manong.cc/store/goods_cate/index.html?spm=m-32-33-36
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001410s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.033311s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_cate/index' LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.025800s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.000804s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:16:35+08:00 ] ::1 GET bd.manong.cc/store/goods_brand/index.html?spm=m-32-33-37
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001409s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.023817s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_brand/index' LIMIT 1 [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.019022s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods_brand` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:16:38+08:00 ] ::1 GET bd.manong.cc/store/goods_brand/add.html?spm=m-32-33-37
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013324s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020026s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods_brand/add' LIMIT 1 [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.021436s ]
+---------------------------------------------------------------
+[ 2018-12-15T17:16:53+08:00 ] ::1 POST bd.manong.cc/store/goods_brand/add.html?spm=m-32-33-37
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001226s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029037s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.023861s ]

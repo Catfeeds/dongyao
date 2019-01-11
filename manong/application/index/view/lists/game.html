@@ -1,0 +1,58 @@
+﻿  {:widget("Last/header")}
+<div class="page-wb">
+    <div class="type-list">
+        <dl class="layui-clear">
+            <dt><i class="layui-icon layui-icon-spread-left">&#xe66b;</i> 栏目分类：<a class="on" href="/code/">不限</a></dt>
+            <dd>
+                {foreach $case as $value}
+                     <a class="" >{$value['cate_title']}</a>
+                {/foreach}
+            </dd>
+        </dl>
+       
+        <dl class="layui-clear">
+            <dt><i class="layui-icon layui-icon-spread-left">&#xe66b;</i> 开发语言：<a class="on" href="/code/">不限</a></dt>
+            <dd>  
+                {foreach $language as $value}            
+                    <a class="" href="/code/menu/yy-ASP">{$value['language']}</a>
+                {/foreach}              
+            </dd>
+        </dl>
+        <dl class="sort">
+            <a class="on" href="/code/">最新 <i class="layui-icon layui-icon-top">&#xe604;</i></a>
+            <a  href="/code/menu/order-hits">人气 <i class="layui-icon layui-icon-top">&#xe604;</i></a>
+            <a  href="/code/menu/order-comments">评论 <i class="layui-icon layui-icon-top">&#xe604;</i></a>
+            <a  href="/code/menu/order-ding">精华 <i class="layui-icon layui-icon-top">&#xe604;</i></a>
+        </dl>
+    </div>
+    <ul class="fly-case-list layui-main">
+        {foreach $gamesource as $value}     
+        <li>
+            <a class="fly-case-img" href="/index/lists/detail?id={$value['id']}" target="_blank">
+           <img src="{$value['goods_logo']}" alt="{$value['goods_title']}">
+           <i class="layui-icon layui-icon-search">&#xe615;</i></a>
+            <h2 class="layui-elip">
+            <a href="/index/lists/detail?id={$value['id']}" target="_blank">{$value['goods_title']}</a>
+            </h2>
+            <p class="fly-case-desc">{$value['goods_desc']}</p>
+            <div class="fly-case-info">
+                 <p class="layui-elip">
+                            <span style="color:#ff5722;font-weight:bold;">
+                                              
+                            <i class="layui-icon layui-icon-radio">&#xe643;</i> {$value['click']} &nbsp;
+                            <i class="layui-icon layui-icon-reply-fill">&#xe611;</i><span class="cy_cmt_count" >0</span>
+                            {if $value['recommend']==1}
+                            <i class="layui-icon">&#xe756;</i>精华</span>
+                            {else}
+                                {$value['addtime']}
+                            {/if}
+                            </p>
+            </div>
+        </li>
+        {/foreach}
+         
+           </ul>
+      {if isset($page)}<p>{$page|raw}</p>{/if}
+    
+</div>
+  {:widget("Last/footer")}

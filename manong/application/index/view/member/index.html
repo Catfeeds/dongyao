@@ -1,0 +1,125 @@
+﻿   {:widget("Last/header")}
+   {:widget("Last/left")}
+
+    
+<div class="site-tree-mobile layui-hide"><i class="layui-icon">&#xe602;</i></div>
+<div class="site-mobile-shade"></div>	<div class="fly-panel fly-panel-user" pad20>
+		<div class="layui-tab layui-tab-brief" lay-filter="user" id="LAY_uc">
+			<div class="fly-msg fly-text fly-mb20">hi~~<a class="fly-red"> {$users['username']} </a>，欢迎登陆{$config[1]['value']}会员中心！</div>
+			<div class="layui-row">
+				<div class="layui-col-md12">
+        			<div class="profile-sidebar">
+               			<div class="portlet light profile-sidebar-portlet ">
+                		<div class="profile-userpic">
+                    			<a href="https://www.codesceo.com/index.php?s=member&c=account&m=avatar">
+                                    {if $users['userpic']}
+                                     <img src="{$users['userpic']}" class="img-responsive"></a>
+                                    {else}
+                                     <img src="__STATIC__/index/Picture/avatar_90.png" class="img-responsive" ></a>
+                                    
+                                    {/if}
+                		</div>
+                		<div class="profile-usertitle">
+                    		<div class="profile-usertitle-name"> {$users['username']}  </div>
+                    		<div class="profile-usertitle-job"> </div>
+                		</div>
+                		<div class="profile-userbuttons">
+                    		<a class="layui-btn layui-btn-sm layui-btn-normal layui-btn-radius" href="/index/member/upgrade">升级VIP</a>
+                    		<a class="layui-btn layui-btn-sm layui-btn-danger layui-btn-radius" href="/index/member/topup?cateid=1">充值积分</a>
+                		</div>
+                		<div class="profile-usermenu" style="margin-top:23px;">
+                    		<ul class="nav">
+                        		<li class=""><a ><i class="layui-icon">&#xe612;</i> 会员组：
+                                {if condition="$users['members'] eq 1"}
+                                普通会员
+                                {elseif condition="$users['members'] eq 2"}
+                                钻石会员
+                                {/if}
+                                </a></li>
+                        		<li><a ><i class="layui-icon">&#xe63f;</i> 积分：{$users['price']}分</a></li>
+                                <li><a ><i class="layui-icon">&#xe65e;</i> RMB：{$users['money']}元</a></li>
+                                {if condition="$users['members'] eq 2"}
+
+                        		<li><a ><i class="layui-icon">&#xe770;</i> 会员到期：{:date('Y-m-d',$users['duetotime'])}</a></li>
+                                {/if}
+                    		</ul>
+                		</div>
+                		</div>
+                	</div>
+        			<div class="profile-content">
+               		<div class="layui-row">
+                   	<div class="layui-col-md12">
+                    <div class="portlet light">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <a href="https://www.codesceo.com/index.php?s=member&c=notice&m=go" class="caption-subject font-blue bold uppercase">通知提醒</a>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <ul class="feeds">
+                                {if $notice}
+
+                                {foreach $notice as $value}
+                            	<li>
+                                    <div class="col1">
+                                        <div class="cont">
+                                            <div class="cont-col2">
+                                                <div class="desc" style="padding:5px;">{$value['desc']}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col2">
+                                        <div class="date"> {$value['addtime']} </div>
+                                    </div>
+                                </li>
+                                {/foreach}     
+                                {else}
+                                <li>
+                                    <div class="col1">
+                                        <div class="cont">
+                                            <div class="cont-col2">
+                                                <div class="desc" style="padding:5px;">暂无消息</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col2">
+                                        <div class="date">  </div>
+                                    </div>
+                                </li>
+                                {/if}                  
+                            </ul>
+                        </div>
+                    </div>
+                	</div>
+            		</div>
+            		<div class="layui-row">
+                	<div class="layui-col-md12">
+                    <div class="portlet light  ">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <a href="https://www.codesceo.com/index.php?s=member&c=account&m=login" class="caption-subject font-blue bold uppercase"><i class="fa fa-calendar "></i> 登陆记录(显示最近10条)</a>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <ul class="feeds">
+                            {foreach $info as $value}
+                              	<li>
+                               		<div class="desc" style="padding:5px;">
+                                        <font color="red">{$value['addlogin']}</font>&nbsp;
+                                        &nbsp;&nbsp;
+                                 <a >{$users['username']}</a>
+                                       									</div>
+                                </li>
+                            {/foreach}
+                                                            </ul>
+                        </div>
+                    </div>
+                	</div>
+            		</div>
+        			</div>
+    			</div>
+			</div>
+		</div>
+	</div>
+</div>
+   {:widget("Last/mfooter")}

@@ -1,0 +1,8 @@
+---------------------------------------------------------------
+[ 2019-01-04T16:58:39+08:00 ] 123.232.66.89 GET manong.yaho.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.018832s] [吞吐率：53.10req/s] [内存消耗：1,602.24kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-01-04T16:58:39+08:00 ] 123.232.66.89 GET manong.yaho.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.018980s] [吞吐率：52.69req/s] [内存消耗：1,602.22kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php

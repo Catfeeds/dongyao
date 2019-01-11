@@ -1,0 +1,27 @@
+---------------------------------------------------------------
+[ 2018-12-18T09:42:04+08:00 ] ::1 GET bd.manong.cc/
+[ error ] [8]未定义变量: counts[C:\Users\Dongyao001\Desktop\manong\runtime\temp\d49fd0f2b7df4b888b25d8f5dd630eb8.php:258]
+---------------------------------------------------------------
+[ 2018-12-18T10:12:45+08:00 ] ::1 GET bd.manong.cc/index/member/index
+[ error ] [0]模板文件不存在:header.html[C:\Users\Dongyao001\Desktop\manong\thinkphp\library\think\Template.php:1243]
+---------------------------------------------------------------
+[ 2018-12-18T10:15:03+08:00 ] ::1 GET bd.manong.cc/index/member/index
+[ error ] [0]模板文件不存在:C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\headers.html[C:\Users\Dongyao001\Desktop\manong\thinkphp\library\think\view\driver\Think.php:86]
+---------------------------------------------------------------
+[ 2018-12-18T10:15:06+08:00 ] ::1 GET bd.manong.cc/index/member/index
+[ error ] [0]模板文件不存在:C:\Users\Dongyao001\Desktop\manong\application\index\view\cate\headers.html[C:\Users\Dongyao001\Desktop\manong\thinkphp\library\think\view\driver\Think.php:86]
+---------------------------------------------------------------
+[ 2018-12-18T19:13:37+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ error ] [8]未定义数组索引: cates_title[C:\Users\Dongyao001\Desktop\manong\runtime\temp\ce4d93ae7940d69ea98dbb42660bf70c.php:20]
+---------------------------------------------------------------
+[ 2018-12-18T19:21:45+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ error ] [8]未定义数组索引: id[C:\Users\Dongyao001\Desktop\manong\runtime\temp\ce4d93ae7940d69ea98dbb42660bf70c.php:33]
+---------------------------------------------------------------
+[ 2018-12-18T20:12:57+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ error ] [8]Use of undefined constant PUB - assumed 'PUB'[C:\Users\Dongyao001\Desktop\manong\runtime\temp\fb829fdd64a531e64a8d8ac3612b67b6.php:21]
+---------------------------------------------------------------
+[ 2018-12-18T20:13:09+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ error ] [8]Use of undefined constant PUB - assumed 'PUB'[C:\Users\Dongyao001\Desktop\manong\runtime\temp\ce4d93ae7940d69ea98dbb42660bf70c.php:4]
+---------------------------------------------------------------
+[ 2018-12-18T20:15:14+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ error ] [8]未定义变量: info[C:\Users\Dongyao001\Desktop\manong\runtime\temp\ce4d93ae7940d69ea98dbb42660bf70c.php:89]

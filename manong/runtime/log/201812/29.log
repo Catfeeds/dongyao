@@ -1,0 +1,364 @@
+---------------------------------------------------------------
+[ 2018-12-29T02:52:12+08:00 ] 58.246.221.142 GET manong.yaho.cc/
+[运行时间：2.611918s] [吞吐率：0.38req/s] [内存消耗：3,403.66kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'manong.yaho.cc',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/header.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/footer.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+---------------------------------------------------------------
+[ 2018-12-29T02:52:12+08:00 ] 61.129.8.250 GET manong.yaho.cc/?nsukey=FsaEOU11EexdWStYZxlRKLIWnMpu1BaubGQRQ7ufEb2BkfFn3FWxK8zPw2FkFpyMPfyqma8DA2BRvgE5FedD52BQLBjv2Bgno03EhWNOd5VP2LVVFI7K8658fzGgD2DynDo33JjPQx0qRNkIHAwgGhFMPb1VVRrOM3alA2WyDneqXSdlJkJ2FaMBz8cCnJEN37Kps2F1zydo5kKD57ghVI5TdkbZQ3D3D
+[运行时间：2.620263s] [吞吐率：0.38req/s] [内存消耗：3,406.12kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+  'host' => 'manong.yaho.cc',
+  'cookie' => 'lang=zh',
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'FsaEOU11EexdWStYZxlRKLIWnMpu1BaubGQRQ7ufEb2BkfFn3FWxK8zPw2FkFpyMPfyqma8DA2BRvgE5FedD52BQLBjv2Bgno03EhWNOd5VP2LVVFI7K8658fzGgD2DynDo33JjPQx0qRNkIHAwgGhFMPb1VVRrOM3alA2WyDneqXSdlJkJ2FaMBz8cCnJEN37Kps2F1zydo5kKD57ghVI5TdkbZQ3D3D',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/header.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/footer.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+---------------------------------------------------------------
+[ 2018-12-29T02:52:12+08:00 ] 183.192.201.97 GET manong.yaho.cc/
+[运行时间：2.550501s] [吞吐率：0.39req/s] [内存消耗：3,403.66kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'manong.yaho.cc',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/header.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/footer.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+---------------------------------------------------------------
+[ 2018-12-29T02:52:13+08:00 ] 61.151.178.169 GET manong.yaho.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.265151s] [吞吐率：3.77req/s] [内存消耗：1,599.88kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-29T02:52:13+08:00 ] 61.129.8.203 GET manong.yaho.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.200589s] [吞吐率：4.99req/s] [内存消耗：1,599.95kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-29T02:52:13+08:00 ] 101.226.225.84 GET manong.yaho.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.281100s] [吞吐率：3.56req/s] [内存消耗：1,599.95kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-29T02:52:14+08:00 ] 101.226.225.59 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111105970796428155154_1546023132606&_=1546023132607
+[运行时间：0.851861s] [吞吐率：1.17req/s] [内存消耗：3,411.15kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+  'referer' => 'http://manong.yaho.cc/?nsukey=FsaEOU11EexdWStYZxlRKLIWnMpu1BaubGQRQ7ufEb2BkfFn3FWxK8zPw2FkFpyMPfyqma8DA2BRvgE5FedD52BQLBjv2Bgno03EhWNOd5VP2LVVFI7K8658fzGgD2DynDo33JjPQx0qRNkIHAwgGhFMPb1VVRrOM3alA2WyDneqXSdlJkJ2FaMBz8cCnJEN37Kps2F1zydo5kKD57ghVI5TdkbZQ3D3D',
+  'host' => 'manong.yaho.cc',
+  'cookie' => 'sfdef4037=ofnqi08g500qhdq94kouvi4k3i',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'api',
+  'm' => 'html',
+  'name' => 'user',
+  'format' => 'jsonp',
+  'callback' => 'jQuery111105970796428155154_1546023132606',
+  '_' => '1546023132607',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/header.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/footer.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+---------------------------------------------------------------
+[ 2018-12-29T02:52:14+08:00 ] 183.36.112.205 GET manong.yaho.cc/?nsukey=n5pzmYW6v07f9HYc2BkLsQeYIW0kv2872Bdg0SoVHFYCz7lG8pKE5fiB2BH8gFnOoR1IsYl0iok42FwtsYvNa8Dn89MZnPAyqzFDBoSEoL3s8u9U3edMfjVcwPQnbAnyLVtg2u2FP4YJWqpgg6dt8ORdR4Wj2FtSzfvK24v5ZiV2S6ymIqgvuPv59z1zERavdIekGVydeLNIPgOt2UJNFKmGYIOA3D3D
+[运行时间：0.698226s] [吞吐率：1.43req/s] [内存消耗：3,406.12kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+  'host' => 'manong.yaho.cc',
+  'cookie' => 'lang=zh',
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'n5pzmYW6v07f9HYc2BkLsQeYIW0kv2872Bdg0SoVHFYCz7lG8pKE5fiB2BH8gFnOoR1IsYl0iok42FwtsYvNa8Dn89MZnPAyqzFDBoSEoL3s8u9U3edMfjVcwPQnbAnyLVtg2u2FP4YJWqpgg6dt8ORdR4Wj2FtSzfvK24v5ZiV2S6ymIqgvuPv59z1zERavdIekGVydeLNIPgOt2UJNFKmGYIOA3D3D',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/header.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/footer.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+---------------------------------------------------------------
+[ 2018-12-29T02:52:15+08:00 ] 183.3.255.35 GET manong.yaho.cc/static/index/Scripts/css/modules/layer/default/layer.css?v=3.1.0
+[运行时间：0.125492s] [吞吐率：7.97req/s] [内存消耗：1,599.95kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-29T02:52:15+08:00 ] 113.96.219.250 GET manong.yaho.cc/static/index/Scripts/css/modules/code.css
+[运行时间：0.190361s] [吞吐率：5.25req/s] [内存消耗：1,599.88kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-29T02:52:15+08:00 ] 14.116.133.169 GET manong.yaho.cc/static/index/Scripts/css/modules/laydate/default/laydate.css?v=5.0.9
+[运行时间：0.119139s] [吞吐率：8.39req/s] [内存消耗：1,599.95kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-29T02:52:15+08:00 ] 14.116.133.171 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111104365815839264542_1546023135129&_=1546023135130
+[运行时间：0.067172s] [吞吐率：14.89req/s] [内存消耗：3,411.15kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/manong.yaho.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/30.0.1599.12 Mobile/11A501 Safari/8536.25 MicroMessenger/6.1.0',
+  'referer' => 'http://manong.yaho.cc/?nsukey=n5pzmYW6v07f9HYc2BkLsQeYIW0kv2872Bdg0SoVHFYCz7lG8pKE5fiB2BH8gFnOoR1IsYl0iok42FwtsYvNa8Dn89MZnPAyqzFDBoSEoL3s8u9U3edMfjVcwPQnbAnyLVtg2u2FP4YJWqpgg6dt8ORdR4Wj2FtSzfvK24v5ZiV2S6ymIqgvuPv59z1zERavdIekGVydeLNIPgOt2UJNFKmGYIOA3D3D',
+  'host' => 'manong.yaho.cc',
+  'cookie' => 'sfdef4037=dlo34gthuidh58sm6634e7jjs8',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'api',
+  'm' => 'html',
+  'name' => 'user',
+  'format' => 'jsonp',
+  'callback' => 'jQuery111104365815839264542_1546023135129',
+  '_' => '1546023135130',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/header.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]
+[ info ] [ VIEW ] /www/wwwroot/manong.yaho.cc/application/index/view/cate/footer.html [ array (
+  0 => 'classuri',
+  1 => 'case',
+  2 => 'websource',
+  3 => 'gamesource',
+  4 => 'plugsource',
+  5 => 'videosource',
+  6 => 'toolsource',
+  7 => 'techsource',
+  8 => 'user',
+  9 => 'cate',
+) ]

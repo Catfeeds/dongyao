@@ -1,0 +1,177 @@
+---------------------------------------------------------------
+[ 2018-11-01T14:46:04+08:00 ] ::1 GET bd.toupiao.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.105006s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `votes` DESC [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` LIMIT 1 [ RunTime:0.014000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:08+08:00 ] ::1 GET bd.toupiao.com/admin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:10+08:00 ] ::1 GET bd.toupiao.com/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037002s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:12+08:00 ] ::1 GET bd.toupiao.com/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068004s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.056004s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.040003s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.023001s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:17+08:00 ] ::1 GET bd.toupiao.com/vote/goods/setupthe.html?spm=m-43-44-51
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/setupthe' LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_config` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_config` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:17+08:00 ] ::1 GET bd.toupiao.com/vote/goods/nolist.html?spm=m-43-44-46
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/nolist' LIMIT 1 [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:21+08:00 ] ::1 GET bd.toupiao.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:25+08:00 ] ::1 POST bd.toupiao.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.033001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:31+08:00 ] ::1 POST bd.toupiao.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.060004s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `action` , `content` , `username`) VALUES ('::1' , 'admin/login/index' , '系统管理' , '用户登录系统成功' , 'admin') [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:31+08:00 ] ::1 GET bd.toupiao.com/admin/login/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/admin' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:32+08:00 ] ::1 GET bd.toupiao.com/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:32+08:00 ] ::1 GET bd.toupiao.com/vote/goods/index?spm=m-43-44-45
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/index' LIMIT 1 [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` WHERE  `status` = '1' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '1' ORDER BY `status` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:36+08:00 ] ::1 GET bd.toupiao.com/vote/goods/nolist.html?spm=m-43-44-46
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.068004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_signup` WHERE  `status` = '2' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_signup` WHERE  `status` = '2' ORDER BY `status` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.005001s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:38+08:00 ] ::1 GET bd.toupiao.com/vote/user/index.html?spm=m-43-47-48
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/user/index' LIMIT 1 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_users` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:41+08:00 ] ::1 GET bd.toupiao.com/vote/goods/setupthe.html?spm=m-43-44-51
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/setupthe' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_config` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_config` [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-11-01T14:46:42+08:00 ] ::1 GET bd.toupiao.com/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.021001s ]
+---------------------------------------------------------------
+[ 2018-11-01T15:15:27+08:00 ] ::1 GET bd.toupiao.com/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043003s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-11-01T15:15:28+08:00 ] ::1 GET bd.toupiao.com/vote/goods/add.html?spm=m-43-44-49
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=127.0.0.1;port=3306;dbname=toupiao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'vote/goods/add' LIMIT 1 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_spec` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_spec` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_title` FROM `store_goods` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_list` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_spec`,`goods_stock`,`goods_sale` FROM `store_goods_list` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_signup` [ RunTime:0.027002s ]

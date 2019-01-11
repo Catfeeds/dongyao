@@ -1,0 +1,150 @@
+---------------------------------------------------------------
+[ 2019-01-08T08:47:28+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Member/videoinsert.html
+[ error ] [8]未定义变量: info[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:602]
+---------------------------------------------------------------
+[ 2019-01-08T08:57:58+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manong_yaho_cc.stroe_label' doesn't exist[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T08:58:19+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manong_yaho_cc.stroe_label' doesn't exist[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T08:58:34+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_deleted' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T08:59:09+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:112]
+---------------------------------------------------------------
+[ 2019-01-08T08:59:29+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:112]
+---------------------------------------------------------------
+[ 2019-01-08T08:59:29+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:112]
+---------------------------------------------------------------
+[ 2019-01-08T08:59:30+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:112]
+---------------------------------------------------------------
+[ 2019-01-08T08:59:30+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:112]
+---------------------------------------------------------------
+[ 2019-01-08T09:04:10+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/label
+[ error ] [8]未定义变量: list[/www/wwwroot/manong.yaho.cc/runtime/temp/17a75e97e37a5846afdf5e6132073902.php:46]
+---------------------------------------------------------------
+[ 2019-01-08T09:25:18+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/label?label=%E6%BA%90%E7%A0%81
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T09:39:46+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_deleted' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T09:40:21+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [2]Use of undefined constant desc - assumed 'desc' (this will throw an Error in a future version of PHP)[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:200]
+---------------------------------------------------------------
+[ 2019-01-08T09:42:26+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:311]
+---------------------------------------------------------------
+[ 2019-01-08T09:43:07+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:9]
+---------------------------------------------------------------
+[ 2019-01-08T09:43:51+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:9]
+---------------------------------------------------------------
+[ 2019-01-08T09:44:08+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:9]
+---------------------------------------------------------------
+[ 2019-01-08T09:44:58+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:9]
+---------------------------------------------------------------
+[ 2019-01-08T09:45:13+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail
+[ error ] [8]未定义数组索引: goods_title[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:9]
+---------------------------------------------------------------
+[ 2019-01-08T09:45:37+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail
+[ error ] [8]未定义数组索引: goods_title[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:9]
+---------------------------------------------------------------
+[ 2019-01-08T09:47:06+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail
+[ error ] [8]未定义数组索引: goods_title[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:9]
+---------------------------------------------------------------
+[ 2019-01-08T09:47:17+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:9]
+---------------------------------------------------------------
+[ 2019-01-08T09:52:21+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/search?page=2
+[ error ] [8]未定义变量: cloud[/www/wwwroot/manong.yaho.cc/runtime/temp/c4fdd658aa3d44d5f2ea7befedf07574.php:83]
+---------------------------------------------------------------
+[ 2019-01-08T10:12:29+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [0]语法解析错误: syntax error, unexpected ''store_goo' (T_ENCAPSED_AND_WHITESPACE)[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:236]
+---------------------------------------------------------------
+[ 2019-01-08T10:22:02+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/fourth?id=33
+[ error ] [8]未定义变量: cloud[/www/wwwroot/manong.yaho.cc/runtime/temp/b8aa1539de3f6d9a13f6b62a077ff788.php:58]
+---------------------------------------------------------------
+[ 2019-01-08T10:26:37+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all?id=30
+[ error ] [0]语法解析错误: syntax error, unexpected '='[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:42]
+---------------------------------------------------------------
+[ 2019-01-08T11:01:10+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Member/level.html
+[ error ] [8]未定义变量: time[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:203]
+---------------------------------------------------------------
+[ 2019-01-08T11:08:10+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Member/level.html
+[ error ] [8]未定义变量: date[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:209]
+---------------------------------------------------------------
+[ 2019-01-08T11:09:59+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/upgrade
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:706]
+---------------------------------------------------------------
+[ 2019-01-08T11:21:45+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Member/level.html
+[ error ] [8]未定义数组索引: member[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:198]
+---------------------------------------------------------------
+[ 2019-01-08T11:22:05+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Member/level.html
+[ error ] [8]未定义数组索引: opentime[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:204]
+---------------------------------------------------------------
+[ 2019-01-08T11:27:38+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Member/level.html
+[ error ] [8]A non well formed numeric value encountered[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:204]
+---------------------------------------------------------------
+[ 2019-01-08T11:28:08+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Member/level.html
+[ error ] [8]A non well formed numeric value encountered[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:204]
+---------------------------------------------------------------
+[ 2019-01-08T11:28:22+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Member/level.html
+[ error ] [8]A non well formed numeric value encountered[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:204]
+---------------------------------------------------------------
+[ 2019-01-08T11:28:35+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Member/level.html
+[ error ] [8]A non well formed numeric value encountered[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:204]
+---------------------------------------------------------------
+[ 2019-01-08T14:48:13+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/index
+[ error ] [8]未定义变量: userid[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:45]
+---------------------------------------------------------------
+[ 2019-01-08T14:48:30+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/index
+[ error ] [0]模板文件不存在:/www/wwwroot/manong.yaho.cc/application/index/view/member/notice.html[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+[ 2019-01-08T14:50:37+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/index
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc ) LIMIT 10' at line 1[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T16:45:45+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/topup?cateid=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:919]
+---------------------------------------------------------------
+[ 2019-01-08T16:45:47+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/topup?cateid=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN)[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:919]
+---------------------------------------------------------------
+[ 2019-01-08T17:54:22+08:00 ] 123.232.66.89 GET manong.yaho.cc/admin/menu/edit.html?id=66&spm=m-1-10-2&open_type=modal
+[ error ] [64]Cannot declare class app\store\controller\Audit, because the name is already in use[/www/wwwroot/manong.yaho.cc/application/store/controller/Toup.php:226]
+---------------------------------------------------------------
+[ 2019-01-08T17:54:28+08:00 ] 123.232.66.89 GET manong.yaho.cc/admin/menu/edit.html?id=66&spm=m-1-10-2&open_type=modal
+[ error ] [64]Cannot declare class app\store\controller\Audit, because the name is already in use[/www/wwwroot/manong.yaho.cc/application/store/controller/Toup.php:226]
+---------------------------------------------------------------
+[ 2019-01-08T17:54:43+08:00 ] 123.232.66.89 GET manong.yaho.cc/admin/menu/edit.html?id=66&spm=m-1-10-2&open_type=modal
+[ error ] [64]Cannot declare class app\store\controller\Audit, because the name is already in use[/www/wwwroot/manong.yaho.cc/application/store/controller/Toup.php:226]
+---------------------------------------------------------------
+[ 2019-01-08T17:58:07+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/toup/price.html?spm=m-32-65-66
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manong_yaho_cc.store_toup' doesn't exist[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T17:58:20+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/toup/price.html?spm=m-32-65-66
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manong_yaho_cc.dy_toup' doesn't exist[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T17:58:32+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/toup/price.html?spm=m-32-65-66
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T17:58:47+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/toup/price.html?spm=m-32-65-66
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sort' in 'order clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-08T17:58:55+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/toup/price.html?spm=m-32-65-66
+[ error ] [8]未定义数组索引: sort[/www/wwwroot/manong.yaho.cc/runtime/temp/e43705cdbdb72cbb1f07014f6f322534.php:82]
+---------------------------------------------------------------
+[ 2019-01-08T17:59:13+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/toup/price.html?spm=m-32-65-66
+[ error ] [8]未定义数组索引: sort[/www/wwwroot/manong.yaho.cc/runtime/temp/e43705cdbdb72cbb1f07014f6f322534.php:82]
+---------------------------------------------------------------
+[ 2019-01-08T17:59:30+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/toup/price.html?spm=m-32-65-66
+[ error ] [8]未定义数组索引: status[/www/wwwroot/manong.yaho.cc/runtime/temp/e43705cdbdb72cbb1f07014f6f322534.php:92]

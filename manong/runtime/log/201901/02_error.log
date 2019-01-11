@@ -1,0 +1,93 @@
+---------------------------------------------------------------
+[ 2019-01-02T11:03:48+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/search?keyword=%E6%BA%90%E7%A0%81
+[ error ] [8]未定义变量: pages[/www/wwwroot/manong.yaho.cc/runtime/temp/c4fdd658aa3d44d5f2ea7befedf07574.php:61]
+---------------------------------------------------------------
+[ 2019-01-02T13:37:33+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/index
+[ error ] [8]未定义变量: count[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:55]
+---------------------------------------------------------------
+[ 2019-01-02T13:55:22+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/tool
+[ error ] [8]未定义变量: videosource[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:132]
+---------------------------------------------------------------
+[ 2019-01-02T13:58:21+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]Indirect modification of overloaded element of think\paginator\driver\Bootstrap has no effect[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:46]
+---------------------------------------------------------------
+[ 2019-01-02T13:58:36+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]Indirect modification of overloaded element of think\paginator\driver\Bootstrap has no effect[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:47]
+---------------------------------------------------------------
+[ 2019-01-02T13:58:54+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]Indirect modification of overloaded element of think\paginator\driver\Bootstrap has no effect[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:46]
+---------------------------------------------------------------
+[ 2019-01-02T14:00:20+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/06fa2e49aaded389c522bf5b808ab9fb.php:27]
+---------------------------------------------------------------
+[ 2019-01-02T14:00:38+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/06fa2e49aaded389c522bf5b808ab9fb.php:27]
+---------------------------------------------------------------
+[ 2019-01-02T14:01:23+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]Indirect modification of overloaded element of think\paginator\driver\Bootstrap has no effect[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:46]
+---------------------------------------------------------------
+[ 2019-01-02T14:03:11+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]未定义数组索引: goods_title[/www/wwwroot/manong.yaho.cc/runtime/temp/06fa2e49aaded389c522bf5b808ab9fb.php:20]
+---------------------------------------------------------------
+[ 2019-01-02T14:03:46+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]未定义数组索引: goods_title[/www/wwwroot/manong.yaho.cc/runtime/temp/06fa2e49aaded389c522bf5b808ab9fb.php:20]
+---------------------------------------------------------------
+[ 2019-01-02T14:06:03+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]Indirect modification of overloaded element of think\paginator\driver\Bootstrap has no effect[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:46]
+---------------------------------------------------------------
+[ 2019-01-02T14:06:21+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]Indirect modification of overloaded element of think\paginator\driver\Bootstrap has no effect[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:46]
+---------------------------------------------------------------
+[ 2019-01-02T14:10:07+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]Indirect modification of overloaded element of think\paginator\driver\Bootstrap has no effect[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:46]
+---------------------------------------------------------------
+[ 2019-01-02T14:12:44+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:45]
+---------------------------------------------------------------
+[ 2019-01-02T14:14:09+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:45]
+---------------------------------------------------------------
+[ 2019-01-02T14:14:35+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:526]
+---------------------------------------------------------------
+[ 2019-01-02T14:16:19+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [0]致命错误: Call to undefined method stdClass::render()[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:51]
+---------------------------------------------------------------
+[ 2019-01-02T14:16:36+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [0]致命错误: Call to a member function render() on array[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:51]
+---------------------------------------------------------------
+[ 2019-01-02T14:18:14+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [0]语法解析错误: syntax error, unexpected '}'[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:49]
+---------------------------------------------------------------
+[ 2019-01-02T14:18:37+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/all
+[ error ] [8]未定义数组索引: label[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:46]
+---------------------------------------------------------------
+[ 2019-01-02T14:32:50+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/eighth?id=37
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/9a762aa46911faa7a547b17928f2af95.php:34]
+---------------------------------------------------------------
+[ 2019-01-02T14:33:33+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/seventh?id=36
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/baab20d3d5a016cf7e559ce7e5e55c05.php:34]
+---------------------------------------------------------------
+[ 2019-01-02T14:34:11+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/sixth?id=35
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/2f0d84c16b5accacafd3fde706032700.php:34]
+---------------------------------------------------------------
+[ 2019-01-02T14:34:40+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/fifth?id=34
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/9f85c38df13e26cdf28424dad3c31e42.php:34]
+---------------------------------------------------------------
+[ 2019-01-02T14:35:17+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/fourth?id=33
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/b8aa1539de3f6d9a13f6b62a077ff788.php:34]
+---------------------------------------------------------------
+[ 2019-01-02T14:35:43+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/third?id=32
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/1fb9cfc43d059a148796d07115b7efc8.php:34]
+---------------------------------------------------------------
+[ 2019-01-02T14:36:07+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/second?id=31
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/7b9eafd53777016a1c7ed6b2bb92b97b.php:34]
+---------------------------------------------------------------
+[ 2019-01-02T14:36:27+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/first?id=30
+[ error ] [8]未定义数组索引: labelss[/www/wwwroot/manong.yaho.cc/runtime/temp/596828a036b8c189cecd559e4dc1d237.php:34]
+---------------------------------------------------------------
+[ 2019-01-02T14:59:04+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail?id=26
+[ error ] [8]未定义变量: where[/www/wwwroot/manong.yaho.cc/application/index/controller/Technology.php:310]
+---------------------------------------------------------------
+[ 2019-01-02T15:01:18+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/technology/detail?id=26
+[ error ] [8]未定义变量: tui[/www/wwwroot/manong.yaho.cc/runtime/temp/159b5b6e3a48079929dd525b119ca3f7.php:101]

@@ -1,0 +1,172 @@
+---------------------------------------------------------------
+[ 2018-12-19T09:38:51+08:00 ] ::1 GET bd.manong.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002959s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.012884s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000958s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001399s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.009574s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000971s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:38:52+08:00 ] ::1 GET bd.manong.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery11110052533953548247414_1545183532210&_=1545183532211
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001228s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.008944s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000986s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:38:53+08:00 ] ::1 GET bd.manong.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111105836394253224138_1545183531195&_=1545183531196
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003144s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.027066s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000918s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:38:54+08:00 ] ::1 GET bd.manong.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001084s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013737s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.002632s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:39:03+08:00 ] ::1 GET bd.manong.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001035s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.015554s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.000623s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:39:05+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001242s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.015261s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.002875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.013773s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.011904s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.009694s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.014091s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:47:38+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001770s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.009587s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.008073s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.009434s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.010319s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.009616s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:47:53+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000990s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013324s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.009394s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.008595s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.009717s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.009290s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:01+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000957s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.147278s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.008292s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.009495s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.010034s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.008246s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:07+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002010s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.014646s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.009974s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.011087s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.012183s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.008962s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:17+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001414s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013163s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.009085s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.009336s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.012638s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.008963s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.002287s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:22+08:00 ] ::1 POST bd.manong.cc/Admin/Address/file_upload.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026432s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.008472s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/address/file_upload' LIMIT 1 [ RunTime:0.000792s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:29+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001049s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013034s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.010501s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.011202s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.010751s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.008331s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:45+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001161s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013708s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.009524s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.010049s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.009927s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.008577s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.000752s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:57+08:00 ] ::1 GET bd.manong.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000978s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013105s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.009496s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.010457s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.009784s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.009729s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2018-12-19T09:48:59+08:00 ] ::1 POST bd.manong.cc/Admin/Address/file_upload.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000912s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.061449s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/address/file_upload' LIMIT 1 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2018-12-19T10:04:52+08:00 ] ::1 GET bd.manong.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001668s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.008880s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.001167s ]
+---------------------------------------------------------------
+[ 2018-12-19T10:04:52+08:00 ] ::1 GET bd.manong.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111109285353873462336_1545185092224&_=1545185092225
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001397s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.009046s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000809s ]
+---------------------------------------------------------------
+[ 2018-12-19T11:24:49+08:00 ] ::1 GET bd.manong.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003224s ] mysql:host=127.0.0.1;port=3306;dbname=manong;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.011505s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.001144s ]

@@ -1,0 +1,114 @@
+---------------------------------------------------------------
+[ 2018-12-22T09:07:47+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/add
+[ error ] [2]Use of undefined constant PUB - assumed 'PUB' (this will throw an Error in a future version of PHP)[/www/wwwroot/manong.yaho.cc/runtime/temp/63cc142ba9fcbd032a73b97750a90c58.php:5]
+---------------------------------------------------------------
+[ 2018-12-22T16:34:29+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/res.html
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manong_yaho_cc.dy_user' doesn't exist[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2018-12-22T16:55:19+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [8]未定义变量: username[/www/wwwroot/manong.yaho.cc/application/index/controller/Login.php:48]
+---------------------------------------------------------------
+[ 2018-12-22T16:55:19+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [8]未定义变量: username[/www/wwwroot/manong.yaho.cc/application/index/controller/Login.php:48]
+---------------------------------------------------------------
+[ 2018-12-22T16:55:20+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [8]未定义变量: username[/www/wwwroot/manong.yaho.cc/application/index/controller/Login.php:48]
+---------------------------------------------------------------
+[ 2018-12-22T16:55:52+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [8]未定义变量: username[/www/wwwroot/manong.yaho.cc/application/index/controller/Login.php:48]
+---------------------------------------------------------------
+[ 2018-12-22T16:56:57+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [0]查询表达式错误:1[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Builder.php:443]
+---------------------------------------------------------------
+[ 2018-12-22T16:57:17+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [0]查询表达式错误:1[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Builder.php:443]
+---------------------------------------------------------------
+[ 2018-12-22T17:18:49+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [0]致命错误: Class 'app\Index\widget\session' not found[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:12]
+---------------------------------------------------------------
+[ 2018-12-22T17:19:06+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [0]致命错误: Class 'session' not found[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:19:17+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:19:36+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:19:57+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:20:28+08:00 ] 123.232.66.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111106537197580174283_1545470429430&_=1545470429431
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:21:48+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Login/login
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:21:55+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Login/login
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:22:02+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Login/login
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:26:47+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Login/login
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:26:56+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [8192]Non-static method think\Session::get() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/widget/Last.php:13]
+---------------------------------------------------------------
+[ 2018-12-22T17:27:37+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [0]致命错误: Class 'app\index\controller\Session' not found[/www/wwwroot/manong.yaho.cc/application/index/controller/Login.php:52]
+---------------------------------------------------------------
+[ 2018-12-22T17:36:21+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [0]致命错误: Class 'app\index\controller\Session' not found[/www/wwwroot/manong.yaho.cc/application/index/controller/Login.php:52]
+---------------------------------------------------------------
+[ 2018-12-22T17:36:24+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [0]致命错误: Class 'app\index\controller\Session' not found[/www/wwwroot/manong.yaho.cc/application/index/controller/Login.php:52]
+---------------------------------------------------------------
+[ 2018-12-22T17:36:25+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [0]致命错误: Class 'app\index\controller\Session' not found[/www/wwwroot/manong.yaho.cc/application/index/controller/Login.php:52]
+---------------------------------------------------------------
+[ 2018-12-22T17:37:10+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Login/logins.html
+[ error ] [8192]Non-static method think\Session::set() should not be called statically[/www/wwwroot/manong.yaho.cc/application/index/controller/Login.php:53]
+---------------------------------------------------------------
+[ 2018-12-22T17:45:54+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Index/index
+[ error ] [8]未定义数组索引: userpic[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T17:46:17+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Index/index
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF)[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:33]
+---------------------------------------------------------------
+[ 2018-12-22T17:46:28+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Index/index
+[ error ] [8]未定义数组索引: userpic[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T17:46:34+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Index/index
+[ error ] [8]未定义数组索引: userpic[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T18:05:57+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T18:06:06+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Index/index
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T18:06:07+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/login/login
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T18:06:08+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T18:06:10+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/login/login
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T18:06:11+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T18:06:45+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [0]语法解析错误: syntax error, unexpected 'else' (T_ELSE), expecting end of file[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:49]
+---------------------------------------------------------------
+[ 2018-12-22T18:06:52+08:00 ] 123.232.66.89 GET manong.yaho.cc/
+[ error ] [8]未定义数组索引: userpic[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T18:07:16+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Login/login
+[ error ] [8]未定义数组索引: userpic[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]
+---------------------------------------------------------------
+[ 2018-12-22T18:07:53+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/Login/login
+[ error ] [8]未定义数组下标: 0[/www/wwwroot/manong.yaho.cc/runtime/temp/57fec50ad5a38d5dfe64fadec5e891a5.php:37]

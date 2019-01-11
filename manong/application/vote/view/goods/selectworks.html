@@ -1,0 +1,39 @@
+{extend name='admin@public/content'}
+
+{block name="button"}
+
+<!--{if auth("$classuri/add")}-->
+<button data-modal='{:url("$classuri/add")}' data-title="添加快递" class='layui-btn layui-btn-sm layui-btn-primary'>添加快递</button>
+<!--{/if}-->
+
+<!--{if auth("$classuri/del")}-->
+<button data-update data-field='delete' data-action='{:url("$classuri/del")}' class='layui-btn layui-btn-sm layui-btn-primary'>删除快递</button>
+<!--{/if}-->
+
+{/block}
+
+{block name="content"}
+
+
+
+<script>
+    window.laydate.render({range: true, elem: '#range-date'});
+    window.form.render();
+</script>
+<!-- 表单搜索 结束 -->
+
+<form autocomplete="off" onsubmit="return false;" data-auto="true" method="post">
+    
+    <table class="layui-table" lay-skin="line" lay-size="sm">
+        <thead>
+        <tr>
+            
+         
+           <video src="{$video}" style="width:100%;height:400px" autoplay></video>
+        </tr>
+        </thead>
+
+    </table>
+  
+</form>
+{/block}

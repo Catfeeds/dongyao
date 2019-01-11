@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>{$config[1]['value']}</title>
+	<!-- <link rel="shortcut icon" href="https://www.codesceo.com/statics/skin/images/favicon.ico" type="image/x-icon" /> -->
+	<link rel="stylesheet" href="__STATIC__/index/Css/layui.css">
+	<link rel="stylesheet" href="__STATIC__/index/Css/layer.css">
+	<link rel="stylesheet" href="__STATIC__/index/Css/global.css">
+	<link rel="stylesheet" href="__STATIC__/index/Css/style.css">
+   <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+	 <script type="text/javascript">var memberpath = "/";</script>
+	 <script type="text/javascript" src="__STATIC__/index/Scripts/zh-cn.js"></script>
+	 <script type="text/javascript" src="__STATIC__/index/Scripts/jquery.min.js"></script>
+</head>
+<body>
+<div class="layui-layout">
+    <div class="layui-header">
+        <div class="page-wb page-header">
+            <div class="logo page-left"><a href=""><img src="{$config[4]['value']}"></a></div>
+            <ul class="layui-nav page-left">
+                              
+                                <li {if $_SERVER["REQUEST_URI"]=='/'} class="layui-nav-item layui-this" {else} class="layui-nav-item " {/if}><a href="/">首页</a></li>
+
+                                {foreach $cate as $value}
+                                <li {if $_SERVER["REQUEST_URI"]==$value['url']} class="layui-nav-item layui-this" {else} class="layui-nav-item " {/if}><a href="{$value['url']}">{$value['cate_title']}</a></li>
+                                {/foreach}
+                            </ul>
+                             <a href="/index/index/vip" style="padding: 0;"><img src="__STATIC__/index/Picture/vip.png" alt="VIP会员" height="23" style="margin:18px 6px;"></a>
+            <ul class="layui-nav page-right top-user">
+{if $user}
+     		 <li class="layui-nav-item">
+					<a class="top-avatar" href="/index/member/index">
+   <!--判断用户头像-->
+   {if $user['userpic']==""}
+          <img src="https://www.codesceo.com/statics/admin/images/avatar_45.png">
+   {else}
+          <img src="{$user['userpic']}">
+   {/if}
+        <cite class="layui-hide-xs">{$user['username']}</cite><span class="layui-nav-more" ></span></a>
+					<dl class="layui-nav-child layui-anim layui-anim-upbit">
+				        <dd><a href="/index/member/mindex"><i class="layui-icon"></i>发布资源</a></dd>
+				        <dd><a href="/index/member/topup"><i class="layui-icon"></i>充值积分</a></dd>
+				        <dd><a href="/index/member/account"><i class="layui-icon"></i>基本设置</a></dd>
+				        <!-- <dd><a href="/member/qiandao"><i class="layui-icon"></i>每日签到</a></dd> -->
+				        <hr style="margin: 5px 0;">
+				        <dd><a href="javascript:;" onclick="dr_loginout" style="text-align: center;" id="unset">退出</a></dd>
+					</dl>
+        </li>
+{else}
+                <div style="margin-top:16px;float:left;"><i class="layui-icon layui-icon-username" style="font-size:24px;">&#xe66f;</i></div>
+                <li class="layui-nav-item"><a class="login" href="/index/login/login">
+
+                登陆</a></li>
+                <li class="layui-nav-item"><a class="reg" href="/index/login/register">注册</a></li>
+{/if}
+      </ul>
+    </div>
+  </div>
+
+
+<script>
+$("#unset").click(function(){
+ $.ajax({
+                  url: "{:url('/index/Index/unset')}",
+                  type: "post",
+                  async : true,
+                  data: {},
+                  dataType:'json',
+                  success:function(data){
+                   if(data==1)
+                   { 
+                      layer.alert("退出成功", {icon: 6},function () {
+                             window.location.href='';
+                      });
+                   }else{
+                     layer.msg("退出失败",{icon:2,time:1000});
+                      }
+                 }
+            });
+}); 
+</script>
+
+

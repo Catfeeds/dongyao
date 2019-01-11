@@ -1,0 +1,1167 @@
+---------------------------------------------------------------
+[ 2018-12-23T21:14:01+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.229628s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.055167s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.072675s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:14:06+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111103703682892256428_1545570815790&_=1545570815791
+[ sql ] [ DB ] CONNECT:[ UseTime:0.586975s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.077756s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002361s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:14:51+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062388s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.060817s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.012895s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:14:53+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111106029316244393454_1545570865279&_=1545570865280
+[ sql ] [ DB ] CONNECT:[ UseTime:0.410521s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.078295s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.011375s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:14:59+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/Login/logins.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068698s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.041194s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.014920s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.004134s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo'  AND `password` = '3fd6ebe43dab8b6ce6d033a5da6e6ac5' [ RunTime:0.040435s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:15:04+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/Login/logins.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034472s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.032930s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.009503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002888s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo'  AND `password` = 'f5bb0c8de146c67b44babbf4e6584cc0' [ RunTime:0.000867s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:15:04+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003711s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000216s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:15:05+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111005989554847801726_1545570878285&_=1545570878286
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018542s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029023s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.003954s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:15:05+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004139s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003215s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.099243s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:21:31+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.070648s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031529s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.006124s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:21:31+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111102756970584357139_1545571265179&_=1545571265180
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003666s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:21:32+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000280s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003276s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.013710s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:21:36+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040496s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.033574s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.004902s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:21:37+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111106269033266806756_1545571269939&_=1545571269940
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057383s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.037262s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.006038s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:21:38+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003680s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.006628s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:21:40+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/logins
+[ sql ] [ DB ] CONNECT:[ UseTime:0.216921s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035857s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.016577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.003715s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` IS NULL  AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' [ RunTime:0.000952s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:22:46+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/logins
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047083s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.039671s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.008030s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002444s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` IS NULL  AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' [ RunTime:0.000178s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:22:47+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003944s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:22:48+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111105422141335351878_1545571341449&_=1545571341450
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003613s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:22:51+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003985s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000221s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:22:51+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111106682766511278735_1545571344954&_=1545571344955
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000312s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003887s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002905s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:22:55+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000281s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.006160s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:22:55+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111024379522783020757_1545571349156&_=1545571349157
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.007250s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:22:59+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037295s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.010862s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:00+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/logins
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000320s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.005483s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002063s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` IS NULL  AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' [ RunTime:0.008628s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:41+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041769s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.119360s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.019979s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:42+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery11110137281977238088_1545571394980&_=1545571394981
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060390s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.082293s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.051849s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:43+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027886s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.104284s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.134921s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:45+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.046227s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.222236s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:45+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020485s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031467s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.222077s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:46+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery11110009726695246803141_1545571399478&_=1545571399479
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069817s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.211848s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.010161s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:48+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135515s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.931076s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/undefined' LIMIT 1 [ RunTime:0.515474s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:51+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/Login/logins.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086178s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.099896s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.143301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.097804s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo'  AND `password` = 'f5bb0c8de146c67b44babbf4e6584cc0' [ RunTime:0.004567s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:51+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022493s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.038047s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.003807s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:52+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.102290s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.101025s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.007530s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:23:52+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111105217586350823655_1545571405337&_=1545571405338
+[ sql ] [ DB ] CONNECT:[ UseTime:0.102570s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.101217s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.007257s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:25:35+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036695s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.037484s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.006204s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:25:36+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004113s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:25:36+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111007587331743304637_1545571510364&_=1545571510365
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000322s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003607s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.001958s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:25:36+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004418s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004545s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/undefined' LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:25:39+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003690s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:25:40+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111108676510444821979_1545571513719&_=1545571513720
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003771s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002927s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:26:51+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049777s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.050620s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.007560s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:26:52+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111104053059310133218_1545571585200&_=1545571585201
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042522s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035856s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.004584s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:15+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023616s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031961s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.007127s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:17+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111016374875467126637_1545571669697&_=1545571669698
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.005222s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.001445s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:31+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.105540s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.103565s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.110949s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:33+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063263s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.042099s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.037913s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:34+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111106294270050784245_1545571687754&_=1545571687755
+[ sql ] [ DB ] CONNECT:[ UseTime:0.066066s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.154366s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.095135s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:35+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.165981s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.143241s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/undefined' LIMIT 1 [ RunTime:0.058406s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:37+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061527s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035901s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.020167s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:37+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111017540468879107451_1545571690887&_=1545571690888
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049155s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.036819s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.008906s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:41+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055077s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.058369s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.006534s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:43+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111107624693151741171_1545571695630&_=1545571695631
+[ sql ] [ DB ] CONNECT:[ UseTime:0.092165s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.063578s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.010738s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:46+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035320s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.038062s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.004915s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:50+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003693s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:50+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001756s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002085s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/undefined' LIMIT 1 [ RunTime:0.000183s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:28:50+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111107742303790359732_1545571703957&_=1545571703958
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001771s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003660s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002607s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:29:55+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038104s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.037094s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.006300s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:29:56+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111022800130431140553_1545571769704&_=1545571769705
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014747s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003647s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:30:23+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024275s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.024311s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.005810s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:30:23+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111037637441868824717_1545571796881&_=1545571796882
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000300s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003610s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:33:48+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055353s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.045858s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.013912s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:33:49+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111005132273308338653_1545572002133&_=1545572002134
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139134s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.044834s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.008415s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:33:53+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012503s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003780s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:33:54+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111105765999234051877_1545572007028&_=1545572007029
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003718s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:33:55+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003656s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.019982s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:34:00+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009067s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.007341s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:34:01+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111107750651743583203_1545572014109&_=1545572014110
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004285s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003758s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:34:03+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003812s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000208s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:35:35+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031186s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.037737s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.009480s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:35:36+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111102679161614219723_1545572109641&_=1545572109642
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004455s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003724s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:35:44+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003791s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:35:52+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025280s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.017010s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.001462s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:35:52+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111107542688452113571_1545572125985&_=1545572125986
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013554s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.001513s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:35:56+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000332s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003732s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:35:56+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000280s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003630s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000206s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:37:40+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041948s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.058748s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:37:41+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111009095900269385249_1545572234290&_=1545572234291
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001767s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003824s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002381s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:37:43+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000332s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003704s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:13+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011370s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003836s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:14+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111103596656552724271_1545572267302&_=1545572267303
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003965s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:16+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003846s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.001548s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:16+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111109369886413385122_1545572269959&_=1545572269960
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003878s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:44+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003907s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:45+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111049837873219420836_1545572298648&_=1545572298649
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000300s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003718s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000214s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:51+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/Login/logins.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000930s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.006051s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.001983s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002243s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo'  AND `password` = 'f5bb0c8de146c67b44babbf4e6584cc0' [ RunTime:0.023501s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:51+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002060s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003739s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:52+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111105047805748098693_1545572305054&_=1545572305055
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001871s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.005099s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.001301s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:52+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000311s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003616s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.001407s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:54+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000295s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003702s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000232s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:54+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002648s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003681s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:54+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002287s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:55+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000326s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003714s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.000233s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:38:56+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111108765430776300815_1545572309675&_=1545572309676
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000275s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003755s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:02+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/Login/logins.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005507s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.008940s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002728s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo'  AND `password` = 'f5bb0c8de146c67b44babbf4e6584cc0' [ RunTime:0.005453s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:02+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003712s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002986s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:02+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111104897741212768476_1545572316073&_=1545572316074
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000278s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003599s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.003089s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:03+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000319s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003648s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.058244s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:04+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003727s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:06+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006166s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002147s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:06+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006860s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003876s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.004707s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:06+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111105279806416856214_1545572319891&_=1545572319892
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000304s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003765s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:13+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003761s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000214s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:13+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000329s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003592s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000232s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:14+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111109121720760987233_1545572327423&_=1545572327424
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003819s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:15+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.012341s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:15+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000283s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003764s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.000224s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:15+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111103959987144509407_1545572329344&_=1545572329345
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000307s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003752s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:19+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/Login/logins.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004175s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.003434s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo'  AND `password` = 'f5bb0c8de146c67b44babbf4e6584cc0' [ RunTime:0.001673s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:19+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/Login/logins.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000266s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002817s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002190s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo'  AND `password` = 'f5bb0c8de146c67b44babbf4e6584cc0' [ RunTime:0.000203s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:19+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003046s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004356s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:20+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111019008262059304504_1545572333782&_=1545572333783
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001943s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003837s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002296s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:20+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000207s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002747s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.001407s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:23+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/index/unset.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000297s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003677s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/unset' LIMIT 1 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:24+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000287s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003645s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.000206s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:25+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111106035609459747022_1545572338312&_=1545572338313
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000258s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003600s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000208s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:33+08:00 ] 182.32.29.89 POST manong.yaho.cc/Index/Login/logins.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047344s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.044213s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/logins' LIMIT 1 [ RunTime:0.025825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.003859s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo'  AND `password` = 'f5bb0c8de146c67b44babbf4e6584cc0' [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:33+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029319s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035546s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.010032s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:34+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000361s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003797s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:34+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111013546355357195017_1545572347521&_=1545572347522
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003825s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:47+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039214s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003636s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:48+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000304s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003788s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:48+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111108976595842451027_1545572361277&_=1545572361278
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000277s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003804s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:52+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031192s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.036553s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.006323s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:53+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002795s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003670s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.008933s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:53+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000303s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003727s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000208s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:54+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003770s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.023634s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:54+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003806s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:55+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003736s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000221s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:55+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003771s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:56+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000298s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003839s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000210s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:56+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021395s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.043932s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.004839s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:58+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003739s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000224s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:58+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000315s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003813s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:59+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000307s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003648s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.020050s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:39:59+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003645s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.000210s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:40:00+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003796s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.010097s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:40:14+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049921s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.048608s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.006866s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:41:13+08:00 ] 124.88.64.208 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072367s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.034408s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.007832s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:43:07+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041789s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.214403s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.015307s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:43:31+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Login/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036080s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.060107s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/login/login' LIMIT 1 [ RunTime:0.011092s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:43:31+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034367s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.060106s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.012031s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:43:32+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111107961225501256379_1545572585395&_=1545572585396
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016012s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.029371s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002549s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:05+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041590s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.021045s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.012043s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:05+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111107751617615215167_1545572619047&_=1545572619048
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000473s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004238s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000214s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:35+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025059s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.005406s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.033239s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:35+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/Index/undefined
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000231s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025300s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/undefined' LIMIT 1 [ RunTime:0.004151s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:35+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery1111020543433713404036_1545572648956&_=1545572648957
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006378s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.026182s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.003930s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:37+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000334s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003724s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.012508s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:44+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003789s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:47+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000294s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003552s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:50+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003858s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:51+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/upgrade
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003642s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/upgrade' LIMIT 1 [ RunTime:0.002430s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:51+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/upgrade
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000327s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003563s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/upgrade' LIMIT 1 [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:51+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/Picture/b3b18eece5.png
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003882s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/picture' LIMIT 1 [ RunTime:0.000468s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:52+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/notice
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003774s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/notice' LIMIT 1 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:54+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/upgrade
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003775s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/upgrade' LIMIT 1 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:54+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003809s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000233s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:44:57+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000307s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003697s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.000221s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:11+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/verify
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049399s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.041343s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/verify' LIMIT 1 [ RunTime:0.013693s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:11+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/verify
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049081s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.040929s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/verify' LIMIT 1 [ RunTime:0.013633s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:13+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/buy
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.006294s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/buy' LIMIT 1 [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:13+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/Picture/b3b18eece5.png
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003783s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/picture' LIMIT 1 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:13+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/Scripts/layui.all.js
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000335s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003265s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/scripts' LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:14+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/favorite
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003715s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/favorite' LIMIT 1 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:15+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003659s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:17+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000313s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003642s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/add' LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.085240s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_cate` WHERE  `pid` = 1 [ RunTime:0.050882s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.034414s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods_brand` [ RunTime:0.004882s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_language` [ RunTime:0.003487s ]
+[ sql ] [ SQL ] SELECT * FROM `store_language` [ RunTime:0.014417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_database` [ RunTime:0.013625s ]
+[ sql ] [ SQL ] SELECT * FROM `store_database` [ RunTime:0.008964s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:24+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044703s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.041363s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.006978s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:45:32+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039060s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003912s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.000218s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:46:16+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034225s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.046790s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.009255s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:46:26+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027706s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.040369s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.003903s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:47:16+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039693s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.033065s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.006731s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:47:40+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043218s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.051629s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.009080s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:48:11+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037734s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.035334s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.007161s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:49:08+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010160s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.025114s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.014856s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:50:28+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042559s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.043262s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.007066s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:51:22+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029312s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.016336s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.014267s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:52:36+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032835s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.043994s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.006954s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:52:36+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035176s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.043836s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.006766s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:52:36+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034010s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.043931s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.007176s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:52:37+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111107321233783998988_1545573130084&_=1545573130085
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014468s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003791s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:52:53+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014282s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.011600s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002557s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:52:53+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111106697520654292435_1545573146843&_=1545573146844
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002925s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003651s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.000237s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:54:00+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008623s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004004s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.000249s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:54:15+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038121s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.016221s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:55:31+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007826s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003647s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:57:11+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.236367s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.017046s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.029515s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:58:28+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013411s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030744s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.003022s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:59:13+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036001s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030663s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.007853s ]
+---------------------------------------------------------------
+[ 2018-12-23T21:59:16+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003636s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:00:10+08:00 ] 182.32.29.89 GET manong.yaho.cc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038904s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.091068s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.040167s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:00:12+08:00 ] 182.32.29.89 GET manong.yaho.cc/index.php?c=api&m=html&name=user&format=jsonp&callback=jQuery111108390264808085723_1545573584623&_=1545573584624
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040789s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.026547s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.003874s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:00:13+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040216s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.031752s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.004293s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:00:16+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003779s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.013005s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:01:08+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/mindex
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008212s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.005486s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/mindex' LIMIT 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:01:11+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000321s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003688s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000208s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:01:11+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000287s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002723s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000210s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:01:26+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003908s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.011386s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:02:07+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000236s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002194s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:03:10+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020071s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004166s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:04:07+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009286s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013074s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.001777s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:05:22+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018406s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.046977s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.011313s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:05:30+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003416s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004046s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:05:39+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003704s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:05:49+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004995s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:06:12+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043429s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.030649s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.004927s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:06:21+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.248795s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.032164s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.004848s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:06:31+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034776s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013293s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:06:39+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003920s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:16:57+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007449s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.007853s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.011859s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:18:35+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029248s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.036244s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/index' LIMIT 1 [ RunTime:0.014332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.003933s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.003257s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:18:36+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004545s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002706s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:19:23+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.005860s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.004019s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002701s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:19:34+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004117s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002328s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.000193s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:19:37+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/password
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.005443s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/password' LIMIT 1 [ RunTime:0.028281s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:19:38+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004202s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002362s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.000174s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:21:09+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009288s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.006822s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.003270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.003440s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:26:38+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016008s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.013325s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.007243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.003669s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.000210s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:27:28+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015435s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.011923s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.007590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002781s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.000198s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:27:34+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004446s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002290s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:28:17+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009737s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.016140s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.008473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002785s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.001478s ]
+---------------------------------------------------------------
+[ 2018-12-23T22:28:30+08:00 ] 182.32.29.89 GET manong.yaho.cc/index/member/account
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=manong_yaho_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004378s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/member/account' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_users` [ RunTime:0.002342s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_users` WHERE  `username` = 'solo' LIMIT 1 [ RunTime:0.000195s ]

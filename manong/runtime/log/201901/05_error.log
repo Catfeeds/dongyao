@@ -1,0 +1,60 @@
+---------------------------------------------------------------
+[ 2019-01-05T11:27:23+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/buy?cateid=2
+[ error ] [8]未定义变量: userid[/www/wwwroot/manong.yaho.cc/application/index/controller/Member.php:740]
+---------------------------------------------------------------
+[ 2019-01-05T11:27:32+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/buy?cateid=2
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manong_yaho_cc.dy_orders' doesn't exist[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-05T11:43:14+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/buy?cateid=1
+[ error ] [8]未定义变量: list[/www/wwwroot/manong.yaho.cc/runtime/temp/6c9faf43f2a5b6eba00bdc1c020d2911.php:31]
+---------------------------------------------------------------
+[ 2019-01-05T14:22:47+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [8]未定义变量: userid[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:234]
+---------------------------------------------------------------
+[ 2019-01-05T14:22:48+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [8]未定义变量: userid[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:234]
+---------------------------------------------------------------
+[ 2019-01-05T14:22:55+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [8]未定义变量: userid[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:234]
+---------------------------------------------------------------
+[ 2019-01-05T15:10:01+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-05T15:10:07+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-05T15:11:52+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-05T16:06:04+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-05T16:53:32+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-05T16:53:37+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-05T16:54:22+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [8]未定义变量: userid[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:242]
+---------------------------------------------------------------
+[ 2019-01-05T16:54:42+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [8]未定义变量: goods_id[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:243]
+---------------------------------------------------------------
+[ 2019-01-05T16:54:59+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [0]数据表字段不存在:[comments][/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Builder.php:135]
+---------------------------------------------------------------
+[ 2019-01-05T17:04:45+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/comments.html
+[ error ] [0]致命错误: Unsupported operand types[/www/wwwroot/manong.yaho.cc/application/index/controller/Lists.php:229]
+---------------------------------------------------------------
+[ 2019-01-05T17:17:07+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/lists/detail?id=14
+[ error ] [2]Illegal string offset 'userpic'[/www/wwwroot/manong.yaho.cc/runtime/temp/3a68aab0983de2af69ce5a47c5270e64.php:138]
+---------------------------------------------------------------
+[ 2019-01-05T17:23:50+08:00 ] 123.232.66.89 GET manong.yaho.cc/store/audit/comments.html?spm=m-32-59-64
+[ error ] [8]未定义数组索引: conmments[/www/wwwroot/manong.yaho.cc/runtime/temp/849c7500e162943534eba850c03b7b29.php:91]
+---------------------------------------------------------------
+[ 2019-01-05T17:56:13+08:00 ] 123.232.66.89 GET manong.yaho.cc/index/member/favorite?cateid=1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'[/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Connection.php:685]
+---------------------------------------------------------------
+[ 2019-01-05T18:14:21+08:00 ] 123.232.66.89 POST manong.yaho.cc/Index/Lists/collection.html
+[ error ] [0]数据表字段不存在:[pid][/www/wwwroot/manong.yaho.cc/thinkphp/library/think/db/Builder.php:135]
